@@ -7,4 +7,5 @@ export type Piece = {
     type: PieceType,
     image: string
     description: string
+    data: number 
 }
