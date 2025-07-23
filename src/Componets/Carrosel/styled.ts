@@ -5,7 +5,10 @@ export const CarouselContainer = styled.div`
   width: 100%;
   height: 800px;
   overflow: hidden;
-  
+    @media (max-width: 768px) {
+
+        height: 400px;
+    }
 `
 
 export const FadeImage = styled.img<{ isActive: boolean }>`
@@ -18,4 +21,6 @@ export const FadeImage = styled.img<{ isActive: boolean }>`
   opacity: ${(props) => (props.isActive ? 1 : 0)};
   transition: opacity 1s ease-in-out;
   padding-top: 128px; /* espaço para elemento flutuante no topo */
+
+
 `
