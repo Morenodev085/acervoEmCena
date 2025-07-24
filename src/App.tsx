@@ -1,10 +1,14 @@
-import Buttons from "./Componets/Buttons"
-import FadeCarousel from "./Componets/Carrosel"
-import Footer from "./Componets/footer"
-import Header from "./Componets/Header"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+
 import { GlobralStyle } from "./styled"
+import Home from "./pages/Home"
 
-
+const rotas = createBrowserRouter([
+  {
+    path:'/',
+    element:<Home/>
+  },
+])
 
 function App() {
 
@@ -12,10 +16,7 @@ function App() {
   return (
     <>
       <GlobralStyle />
-      <Header />
-      <FadeCarousel/>
-      <Buttons/>
-      <Footer />
+    <RouterProvider router={rotas}/>
     </>
   )
 }
