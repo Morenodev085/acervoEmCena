@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { pieces } from '../../data/peices'
 import { CarouselContainer, FadeImage } from './styled'
-import { Container } from '../../styled'
+import { ContainerSite } from '../../styled'
 
 const FadeCarousel = () => {
     const filteredPieces = pieces.filter((piece) => piece.type === 'longa')
@@ -17,7 +17,7 @@ const FadeCarousel = () => {
     }, [filteredPieces.length])
 
     return (
-        <Container>
+        <ContainerSite>
             <CarouselContainer>
                 {filteredPieces.map((piece, index) => (
                     <FadeImage
@@ -28,7 +28,7 @@ const FadeCarousel = () => {
                     />
                 ))}
             </CarouselContainer>
-        </Container>
+        </ContainerSite>
     )
 }
 

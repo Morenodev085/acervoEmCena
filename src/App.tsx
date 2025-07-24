@@ -1,3 +1,4 @@
+import Buttons from "./Componets/Buttons"
 import FadeCarousel from "./Componets/Carrosel"
 import Footer from "./Componets/footer"
 import Header from "./Componets/Header"
@@ -13,6 +14,7 @@ function App() {
       <GlobralStyle />
       <Header />
       <FadeCarousel/>
+      <Buttons/>
       <Footer />
     </>
   )
