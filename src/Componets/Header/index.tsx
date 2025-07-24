@@ -3,6 +3,7 @@ import logo from '../../assets/bolacha 4.png'
 
 import {Logo} from './styled'
 import { ContainerSite } from '../../styled';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
             style={{ backgroundImage: `url(${trama})`, borderRadius: 12 }}>
             <div className="px-6 py-2 rounded-md shadow-md">
                 <span className="text-xl font-bold select-none">
-                    <Logo src={logo} alt="" />
+                    <Link to={"/"}><Logo src={logo} alt="" /></Link>
                 </span>
             </div>
         </ContainerSite>
