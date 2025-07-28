@@ -7,7 +7,7 @@ const Buttons = () => {
             <ButtonArea>
                 <Button ButtonColor={colors.green} >Mostra Peças</Button>
                 <Button ButtonColor={colors.pink} >Mostra Rua</Button>
-                <Button ButtonColor={colors.brown} >Mostra Cenas Curtas</Button>
+                <Button ButtonColor={colors.brown}  >Mostra Cenas Curtas</Button>
             </ButtonArea>
             <ButtonArea>
                 <Button ButtonColor={colors.yellow}>Mostra Estudantil</Button>
