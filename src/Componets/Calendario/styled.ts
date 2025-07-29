@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import { colors } from "../../styled";
 
+
+
 export const TextoEstilizado = styled.h2`
     font-size: 32px;
     color: ${colors.black}; /* Cor do texto */
 
-    padding: 10px;
+    /* padding: 10px; */
 
   /* Efeito de borda ao redor do texto usando text-shadow */
     text-shadow:
@@ -14,3 +16,9 @@ export const TextoEstilizado = styled.h2`
     -1px  1px 0 ${colors.cream},
     1px  1px 0 ${colors.cream};
 `;
+
+export const TextoDia = styled.h3`
+padding: 16px;
+font-size: 32px;
+`
+
