@@ -11,10 +11,10 @@ export const TextoEstilizado = styled.h2`
 
   /* Efeito de borda ao redor do texto usando text-shadow */
     text-shadow:
-    -1px -1px 0 ${colors.cream},
-    1px -1px 0 ${colors.cream},
-    -1px  1px 0 ${colors.cream},
-    1px  1px 0 ${colors.cream};
+    -1px -1px 0 ${colors.white},
+    1px -1px 0 ${colors.white},
+    -1px  1px 0 ${colors.white},
+    1px  1px 0 ${colors.white};
 `;
 
 export const TextoDia = styled.h3`
