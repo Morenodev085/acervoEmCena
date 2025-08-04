@@ -1,12 +1,17 @@
-import { styled } from "styled-components";
 
-interface CardProps {
-  borderColor?: string;
-}
+import styled from "styled-components";
+import { colorMap, type PieceType } from "../../data/types"; // ajuste o caminho
+
+type CardProps = {
+  type: PieceType;
+};
+type ButtonProps = {
+  type: PieceType;
+};
 
 export const CardCalendariBody = styled.div<CardProps>`
   background-color: #000;
-  border: 2px solid gray;
+  border: 3px solid ${({ type }) => colorMap[type]};
   border-radius: 8px;
   margin-top: 12px;
   padding: 16px;
@@ -35,8 +40,8 @@ export const Descricao = styled.p`
     display: none; /* ou font-size: 12px; se quiser manter */
   }
 `;
-export const SaibaMaisButton = styled.button`
-  background-color: white;
+export const SaibaMaisButton = styled.button<ButtonProps>`
+  background-color: ${({ type }) => colorMap[type]};
   color: black;
   padding: 6px 12px;
   border: none;

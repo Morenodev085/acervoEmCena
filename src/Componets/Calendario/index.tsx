@@ -2,7 +2,6 @@ import { ContainerSite } from "../../styled";
 import CardCalendario from "../CardCalendario";
 import { TextoDia, TextoEstilizado } from "./styled";
 import { pieces } from "../../data/peices";
-import { colorMap } from "../../data/types";
 import type { Piece } from "../../data/types";
 
 const diasCalendario = Array.from({ length: 13 }, (_, i) => 16 + i); // 16 a 28
@@ -30,7 +29,7 @@ const Calendario = () => {
                             key={piece.id}
                             title={piece.title}
                             description={piece.description}
-                            borderColor={colorMap[piece.type]}
+                            type={piece.type}
                         />
                     ))}
                 </div>

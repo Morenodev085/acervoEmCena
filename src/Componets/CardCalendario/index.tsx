@@ -1,19 +1,20 @@
+import type { PieceType } from "../../data/types";
 import { CardCalendariBody, Descricao, SaibaMaisButton } from "./styled";
 
 interface CardProps {
     title: string;
     description: string;
-    borderColor: string;
+    type: PieceType
 }
 
-const CardCalendario = ({ title, description, borderColor }: CardProps) => {
+const CardCalendario = ({ title, description, type }: CardProps) => {
     return (
-        <CardCalendariBody borderColor={borderColor}>
+        <CardCalendariBody type={type}>
             <div>
                 <h4>{title}</h4>
                 <Descricao>{description}</Descricao>
             </div>
-            <SaibaMaisButton>Saiba mais</SaibaMaisButton>
+            <SaibaMaisButton type={type}>Saiba mais</SaibaMaisButton>
         </CardCalendariBody>
     );
 };
