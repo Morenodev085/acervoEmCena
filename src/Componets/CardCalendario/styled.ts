@@ -34,6 +34,8 @@ export const CardCalendariBody = styled.div<CardProps>`
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    height: 42px;
+    font-size: 16px;
   }
 `;
 
