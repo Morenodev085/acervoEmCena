@@ -13,6 +13,7 @@ const CardCalendario = ({ title, description, type }: CardProps) => {
             <div>
                 <h4>{title}</h4>
                 <Descricao>{description}</Descricao>
+                <Descricao>Niterói -RJ</Descricao>
             </div>
             <SaibaMaisButton type={type}>Saiba mais</SaibaMaisButton>
         </CardCalendariBody>

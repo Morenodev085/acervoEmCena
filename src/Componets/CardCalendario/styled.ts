@@ -1,6 +1,7 @@
 
 import styled from "styled-components";
 import { colorMap, type PieceType } from "../../data/types"; // ajuste o caminho
+import { colors } from "../../styled";
 
 type CardProps = {
   type: PieceType;
@@ -11,7 +12,7 @@ type ButtonProps = {
 
 export const CardCalendariBody = styled.div<CardProps>`
   background-color: #000;
-  border: 3px solid ${({ type }) => colorMap[type]};
+  border: 1px solid ${({ type }) => colorMap[type]};
   border-radius: 8px;
   margin-top: 12px;
   padding: 16px;
@@ -21,7 +22,11 @@ export const CardCalendariBody = styled.div<CardProps>`
   justify-content: space-between;
   color: white;
   transition: all 0.3s ease;
-  max-width: 200px;
+  max-width: 412px;
+  height: 256px;
+  color:${({ type }) => colorMap[type]} ;
+  font-weight: bold;
+  font-size: 32px;
 
   @media (max-width: 600px) {
     min-height: 80px;
@@ -33,21 +38,23 @@ export const CardCalendariBody = styled.div<CardProps>`
 `;
 
 export const Descricao = styled.p`
-  font-size: 14px;
-  color: #ccc;
+  font-size: 16px;
+
 
   @media (max-width: 600px) {
     display: none; /* ou font-size: 12px; se quiser manter */
   }
 `;
 export const SaibaMaisButton = styled.button<ButtonProps>`
-  background-color: ${({ type }) => colorMap[type]};
-  color: black;
+  background-color: ${colors.black};
+  border: 1px solid ${({ type }) => colorMap[type]} ;
+  color: ${colors.white};
   padding: 6px 12px;
-  border: none;
+  
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
+  align-self: flex-end;
 
   @media (max-width: 600px) {
     font-size: 12px;
