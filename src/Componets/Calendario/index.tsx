@@ -18,7 +18,6 @@ const Calendario = () => {
 
     return (
         <ContainerSite>
-            <TextoEstilizado>Programação Completa</TextoEstilizado>
 
             {diasCalendario.map((dia) => (
                 <div key={dia}>
