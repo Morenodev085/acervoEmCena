@@ -17,9 +17,9 @@ export type Piece = {
 
 export const colorMap: Record<PieceType, string> = {
   longa: colors.green,
-  curta: colors.brown,
+  curta: colors.pink,
   rua: colors.pink,
   estudantil: colors.yellow,
   rodada: colors.cream,
-  atividade: colors.pink
+  atividade: colors.brown
 };
