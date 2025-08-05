@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { ContainerSite } from "../../styled"
 import { TiTuloSection, ContentWrapper, TextContent, ImageContent } from "./styled"
 
@@ -10,7 +11,9 @@ const SectionCalendar = () => {
                         <span className="top">Venha conhecer nossa</span>
                         <span className="bottom">PROGRAMAÇÃO</span>
                     </TiTuloSection>
-                    <button>Clicando aqui</button>
+                    <Link to="/programacao">
+                    <button >Programação Completa</button>
+                    </Link>
                 </TextContent>
 
                 <ImageContent>

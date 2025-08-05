@@ -2,19 +2,26 @@ import styled from "styled-components";
 import { colors } from "../../styled";
 
 export const FooterContainer = styled.div`
-  padding: 1.5rem 0 0 0; /* padding no topo apenas se necessário */
-  margin-top: 256px;
+  margin-top: 32px;
     display: flex;
   flex-direction: column;
   align-items: center; /* centraliza a imagem */
   column-gap: 32px;
+
   
   img {
-    width: 1228px;
-    max-width: 100%;
-    height: 236px;
-    object-fit: cover;
+    width: 100%;
+    max-width: 1228px;
+    aspect-ratio: 1228 / 236;     /* mantém proporção da imagem */
+    object-fit: cover;            /* preenche, mas pode cortar levemente */
+    object-position: center;
     display: block;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      max-height: 180px;       /* menor altura no mobile */
+    }
   }
   `;
 
