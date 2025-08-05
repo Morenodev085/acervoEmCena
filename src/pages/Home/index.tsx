@@ -11,6 +11,7 @@ const Home = () => {
             <FadeCarousel />
             <Buttons />
             <SectionCalendar/>
+            
             <Footer />
         </>
     )
