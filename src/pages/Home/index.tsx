@@ -10,8 +10,7 @@ const Home = () => {
             <Header />
             <FadeCarousel />
             <Buttons />
-            <SectionCalendar/>
-            
+            <SectionCalendar />
             <Footer />
         </>
     )
