@@ -1,6 +1,6 @@
 import { ContainerSite } from "../../styled";
 import CardCalendario from "../CardCalendario";
-import { TextoDia, TextoEstilizado } from "./styled";
+import { TextoDia } from "./styled";
 import { pieces } from "../../data/peices";
 import type { Piece } from "../../data/types";
 
