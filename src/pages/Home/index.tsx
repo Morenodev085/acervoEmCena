@@ -1,8 +1,8 @@
 import Buttons from "../../Componets/Botons"
-import Calendario from "../../Componets/Calendario"
 import FadeCarousel from "../../Componets/Carrosel"
 import Footer from "../../Componets/footer"
 import Header from "../../Componets/Header"
+import SectionCalendar from "../../Componets/SectionCalendar"
 
 const Home = () => {
     return (
@@ -10,6 +10,7 @@ const Home = () => {
             <Header />
             <FadeCarousel />
             <Buttons />
+            <SectionCalendar/>
             <Footer />
         </>
     )
