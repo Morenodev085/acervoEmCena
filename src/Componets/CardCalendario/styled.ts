@@ -1,6 +1,5 @@
-
 import styled from "styled-components";
-import { colorMap, type PieceType } from "../../data/types"; // ajuste o caminho
+import { colorMap, type PieceType } from "../../data/types";
 import { colors } from "../../styled";
 
 type CardProps = {
@@ -16,43 +15,72 @@ export const CardCalendariBody = styled.div<CardProps>`
   border-radius: 8px;
   margin-top: 12px;
   padding: 16px;
-  min-height: 150px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 412px;
+  height: 256px; // FIXO
   color: white;
-  transition: all 0.3s ease;
-  max-width: 412px;
-  height: 256px;
-  color:${({ type }) => colorMap[type]} ;
   font-weight: bold;
   font-size: 32px;
 
   @media (max-width: 600px) {
-    min-height: 80px;
+    height: 128px;
+    font-size: 16px;
     padding: 12px;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    height: 42px;
+  }
+`;
+
+export const ContentWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+`;
+
+export const TituloCard = styled.h4`
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media (max-width: 600px) {
     font-size: 16px;
   }
 `;
 
 export const Descricao = styled.p`
   font-size: 16px;
-
+  color: white;
+  margin: 4px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Mostra até 2 linhas */
+  -webkit-box-orient: vertical;
 
   @media (max-width: 600px) {
-    display: none; /* ou font-size: 12px; se quiser manter */
+    display: none;
   }
 `;
+
+export const Divider = styled.hr<{ type?: PieceType }>`
+  border: none;
+  border-top: 1px solid ${({ type }) => (type ? colorMap[type] : "#444")};
+  margin: 16px 0;
+
+  @media (max-width: 600px) {
+    margin: 8px 0;
+  }
+`;
+
 export const SaibaMaisButton = styled.button<ButtonProps>`
   background-color: ${colors.black};
-  border: 1px solid ${({ type }) => colorMap[type]} ;
+  border: 1px solid ${({ type }) => colorMap[type]};
   color: ${colors.white};
   padding: 6px 12px;
-  
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;

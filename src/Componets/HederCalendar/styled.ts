@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from "../../styled";
 
 
 export const DivHerderCalendario = styled.div`
@@ -9,4 +10,16 @@ export const DivHerderCalendario = styled.div`
 display: flex;
 justify-content: center; /* horizontal */
 align-items: center;     /* vertical */
+display: block;
+text-align: center;
     `
+
+export const TextoCalendario = styled.p`
+    font-weight: 100;
+    font-size: 16px;
+    color: ${colors.grey};
+`
+
+export const TituloCalendario = styled.h2`
+    
+`

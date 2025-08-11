@@ -1,6 +1,6 @@
 import { ContainerSite } from "../../styled";
 import CardCalendario from "../CardCalendario";
-import { TextoDia } from "./styled";
+import { CardRow, TextoDia } from "./styled";
 import { pieces } from "../../data/peices";
 import type { Piece } from "../../data/types";
 
@@ -22,6 +22,7 @@ const Calendario = () => {
             {diasCalendario.map((dia) => (
                 <div key={dia}>
                     <TextoDia>Dia {dia} de Setembro</TextoDia>
+<CardRow>
 
                     {(pecasPorDia[dia] || []).map((piece) => (
                         <CardCalendario
@@ -31,6 +32,7 @@ const Calendario = () => {
                             type={piece.type}
                         />
                     ))}
+</CardRow>
                 </div>
             ))}
         </ContainerSite>

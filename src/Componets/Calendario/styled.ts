@@ -22,3 +22,13 @@ padding: 16px;
 font-size: 32px;
 `
 
+export const CardRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+`;

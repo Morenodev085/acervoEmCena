@@ -1,5 +1,5 @@
 import { ContainerSite } from "../../styled"
-import { DivHerderCalendario } from "./styled"
+import { DivHerderCalendario, TextoCalendario, TituloCalendario } from "./styled"
 
 
 const HerderCalendar = () => {
@@ -7,7 +7,9 @@ const HerderCalendar = () => {
         <ContainerSite>
 
     <DivHerderCalendario>
-        <h2>Programação completa</h2>
+        <TituloCalendario>Programação completa</TituloCalendario>
+        <TextoCalendario>Venha conferir toda a nossa programação do Niterói em Cena 2025.
+            Todas as atrações são gratuitas!</TextoCalendario>
     </DivHerderCalendario>
         </ContainerSite>
 )}
