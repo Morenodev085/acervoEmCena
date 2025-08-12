@@ -13,13 +13,15 @@ export type Piece = {
     image4?: string
     description: string
     data: number 
+    Comeco: number
+    local: string
 }
 
 export const colorMap: Record<PieceType, string> = {
   longa: colors.green,
   curta: colors.pink,
-  rua: colors.pink,
-  estudantil: colors.yellow,
+  rua: colors.yellow,
+  estudantil: colors.purple,
   rodada: colors.cream,
   atividade: colors.brown
 };

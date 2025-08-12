@@ -30,6 +30,7 @@ const Calendario = () => {
                             title={piece.title}
                             description={piece.description}
                             type={piece.type}
+                            local={piece.local}
                         />
                     ))}
 </CardRow>
