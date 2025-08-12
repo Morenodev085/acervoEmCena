@@ -3,7 +3,7 @@ import type { Piece } from './types';
 export const pieces: Piece[] = [
   {
     id: 1,
-    title: 'Peça Longa muito muito muito muito muito muito',
+    title: 'Peça Longa muito muito  muito',
     type: 'longa',
     description: 'Peça mais densa...',
     image: 'https://images.pexels.com/photos/9774919/pexels-photo-9774919.jpeg?_gl=1*1iekv4c*_ga*MTk0OTU4ODQ2My4xNzUzMjcyMzIw*_ga_8JE65Q40S6*czE3NTMyNzIzMTkkbzEkZzEkdDE3NTMyNzM0NjYkajM4JGwwJGgw',
