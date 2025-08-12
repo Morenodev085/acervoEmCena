@@ -37,6 +37,10 @@ export const ContentWrapper = styled.div`
   gap: 2rem;
   flex-wrap: wrap; // torna responsivo
   margin-top: 24px;
+  
+    @media (max-width: 768px) {
+    flex-direction: column; /* empilha conteúdo e imagem em mobile */
+  }
   `
 
 export const TextContent = styled.div`
