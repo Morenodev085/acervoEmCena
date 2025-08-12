@@ -28,6 +28,28 @@ export const CardCalendariBody = styled.div<CardProps>`
     padding: 12px;
   }
 `;
+export const InfoBotaoWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+
+  .local {
+    font-size: 14px;
+    color: white;
+    flex: 1;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    .local {
+      width: 100%;
+    }
+  }
+`;
 
 export const ContentWrapper = styled.div`
   display: flex;
@@ -48,6 +70,9 @@ export const TituloCard = styled.h4`
 
   @media (max-width: 600px) {
     font-size: 16px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
   }
 `;
 

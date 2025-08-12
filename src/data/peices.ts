@@ -209,7 +209,7 @@ local: "Campo de São Bento"
     description: 'Em um programa de culinária ao vivo, dois cozinheiros ensinam uma receita cujos ingredientes principais são, nada mais e nada menos, que... CRIANÇAS. A ideia é preparar devidamente os pequenos para que não se tornem adultos intragáveis. O problema aparece quando os chefs não concordam quanto aos métodos de preparo. E agora? Quem será que vai acabar indo pra panela?',
     data: 26,
     Comeco: 17 ,
-    local: "praça João Saldanha, em Santa Barbara",
+    local: "Praça João Saldanha, Santa Barbara",
   },
   {
     id: 23,

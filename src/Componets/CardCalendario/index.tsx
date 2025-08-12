@@ -4,6 +4,7 @@ import {
     ContentWrapper,
     Descricao,
     Divider,
+    InfoBotaoWrapper,
     SaibaMaisButton,
     TituloCard
 } from "./styled";
@@ -33,13 +34,13 @@ const CardCalendario = ({ title, description, type, local }: CardProps) => {
                     <TituloCard>{title}</TituloCard>
                     <Descricao>{truncateDescription(description)}</Descricao>
                 </div>
-                <div>
                     <Divider type={type} />
+                <InfoBotaoWrapper>
                     <Descricao>{local} - RJ</Descricao>
                     {tiposComBotao.includes(type) && (
                         <SaibaMaisButton type={type}>Saiba mais</SaibaMaisButton>
                     )}                
-                </div>
+                </InfoBotaoWrapper>
             </ContentWrapper>
         </CardCalendariBody>
     );

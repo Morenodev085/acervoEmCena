@@ -20,6 +20,9 @@ export const TextoEstilizado = styled.h2`
 export const TextoDia = styled.h3`
 padding: 16px;
 font-size: 32px;
+@media (max-width: 768px) {
+  font-size: 24px;
+}
 `
 
 export const CardRow = styled.div`
