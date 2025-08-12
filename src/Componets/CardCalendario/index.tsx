@@ -16,6 +16,9 @@ interface CardProps {
     type: PieceType;
 }
 
+const tiposComBotao = ['longa', 'estudantil'];
+
+
 const MAX_DESCRIPTION_LENGTH = 120;
 
 const CardCalendario = ({ title, description, type }: CardProps) => {
@@ -35,8 +38,9 @@ const CardCalendario = ({ title, description, type }: CardProps) => {
                 </div>
                 <div>
                     <Divider type={type} />
-                    <SaibaMaisButton type={type}>Saiba mais</SaibaMaisButton>
-                </div>
+                    {tiposComBotao.includes(type) && (
+                        <SaibaMaisButton type={type}>Saiba mais</SaibaMaisButton>
+                    )}                </div>
             </ContentWrapper>
         </CardCalendariBody>
     );

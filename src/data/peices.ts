@@ -12,12 +12,12 @@ export const pieces: Piece[] = [
   {
     id: 2,
     title: 'Peça Longa2',
-    type: 'longa',
+    type: 'curta',
     description: 'Peça mais densa...',
     image: 'https://images.pexels.com/photos/1042436/pexels-photo-1042436.jpeg?_gl=1*12wn9vd*_ga*MTk0OTU4ODQ2My4xNzUzMjcyMzIw*_ga_8JE65Q40S6*czE3NTMyNzIzMTkkbzEkZzEkdDE3NTMyNzM0OTQkajEwJGwwJGgw',
     data: 18
   },
-    {
+  {
     id: 3,
     title: 'Peça Longa3',
     type: 'longa',
@@ -25,11 +25,25 @@ export const pieces: Piece[] = [
     image: 'https://images.pexels.com/photos/7055718/pexels-photo-7055718.jpeg?_gl=1*13xppyh*_ga*MTk0OTU4ODQ2My4xNzUzMjcyMzIw*_ga_8JE65Q40S6*czE3NTMyNzIzMTkkbzEkZzEkdDE3NTMyNzM1NzIkajQkbDAkaDA.',
     data: 18
   },
-      {
+  {
     id: 4,
     title: 'Peça Longa4',
     type: 'estudantil',
     description: 'Mostra Estudantil',
     data: 18
+  },
+  {
+    id: 5,
+    title: 'Rua',
+    type: 'rua',
+    description: 'Mostra Estudantil',
+    data: 19
+  },
+    {
+    id: 6,
+    title: 'Radad',
+    type: 'rodada',
+    description: 'Mostra Estudantil',
+    data: 20
   },
 ]
