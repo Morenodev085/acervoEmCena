@@ -11,7 +11,7 @@ type ButtonProps = {
 
 export const CardCalendariBody = styled.div<CardProps>`
   background-color: #000;
-  border: 1px solid ${({ type }) => colorMap[type]};
+  border: 3px solid ${({ type }) => colorMap[type]};
   border-radius: 8px;
   margin-top: 12px;
   padding: 16px;
@@ -23,7 +23,7 @@ export const CardCalendariBody = styled.div<CardProps>`
   font-size: 32px;
 
   @media (max-width: 600px) {
-    height: 128px;
+    height: 160px;
     font-size: 16px;
     padding: 12px;
   }
