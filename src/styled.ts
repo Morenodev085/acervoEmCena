@@ -10,7 +10,7 @@ export const colors = {
     green: "#969654",
     pink: "#CC6699",
     purple: "#953572",
-    white: "#FFFFFF",
+    white: "#F5E1BB",
     yellow: "#FCAC56",
     grey: "	#C0C0C0"
 }
@@ -32,22 +32,20 @@ export const ContainerSite = styled.div`
 `
 export const Button = styled.button<ButtonProps>`
   padding: 0.5rem 6.0rem;
+  color: #fff;
   margin: 12px;
   border-radius: 16px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  color: ${colors.white};
-  /* color: ${({ ButtonColor }) => ButtonColor || '#fff'}; */
   background-color: ${({ ButtonColor }) => ButtonColor || '#fff'};
-//   border: 2px solid ${({ ButtonColor }) => ButtonColor || '#fff' };
   
 text-shadow:
     -1px -1px 0 #000,
-     1px -1px 0 #000,
+    1px -1px 0 #000,
     -1px  1px 0 #000,
-     1px  1px 0 #000;
+    1px  1px 0 #000;
 
   &:hover {
     opacity: 0.85;

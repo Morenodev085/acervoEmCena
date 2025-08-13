@@ -52,7 +52,7 @@ export const TextContent = styled.div`
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     color: white;
-    border: 1px solid ${colors.green};
+    border: 3px solid ${colors.green};
     border-radius: 8px;
     cursor: pointer;
     width: 80%;

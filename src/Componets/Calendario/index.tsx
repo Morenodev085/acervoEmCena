@@ -22,18 +22,25 @@ const Calendario = () => {
             {diasCalendario.map((dia) => (
                 <div key={dia}>
                     <TextoDia>Dia {dia} de Setembro</TextoDia>
-<CardRow>
+                    <CardRow>
 
-                    {(pecasPorDia[dia] || []).map((piece) => (
-                        <CardCalendario
-                            key={piece.id}
-                            title={piece.title}
-                            description={piece.description}
-                            type={piece.type}
-                            local={piece.local}
-                        />
-                    ))}
-</CardRow>
+                        {(pecasPorDia[dia] || []).map((piece) => (
+                            <CardCalendario
+                                key={piece.id}
+                                title={piece.title}
+                                companyName={piece.companyName}
+                                city={piece.city}
+                                uf={piece.uf}
+                                description={piece.description}
+                                type={piece.type}
+                                local={piece.local}
+                                date={piece.date}
+                                time={piece.time}
+                                duration={piece.duration}
+
+                            />
+                        ))}
+                    </CardRow>
                 </div>
             ))}
         </ContainerSite>
