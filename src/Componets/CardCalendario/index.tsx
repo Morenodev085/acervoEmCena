@@ -26,12 +26,12 @@ interface CardProps {
 }
 
 // Manterei a sua função de truncar, mesmo sem uso no novo design.
-const MAX_DESCRIPTION_LENGTH = 120;
-const truncateDescription = (text: string): string => {
-    return text.length > MAX_DESCRIPTION_LENGTH
-        ? text.slice(0, MAX_DESCRIPTION_LENGTH).trim() + "..."
-        : text;
-};
+// const MAX_DESCRIPTION_LENGTH = 120;
+// const truncateDescription = (text: string): string => {
+//     return text.length > MAX_DESCRIPTION_LENGTH
+//         ? text.slice(0, MAX_DESCRIPTION_LENGTH).trim() + "..."
+//         : text;
+// };
 
 const CardCalendario = ({
     title,
