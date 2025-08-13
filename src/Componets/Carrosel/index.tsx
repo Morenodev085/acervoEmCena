@@ -4,7 +4,7 @@ import { CarouselContainer, FadeImage } from './styled'
 import { ContainerSite } from '../../styled'
 
 const FadeCarousel = () => {
-    const filteredPieces = pieces.filter((piece) => piece.type === 'longa')
+    const filteredPieces = pieces.filter((piece) => piece.type === 'Longa')
 
     const [current, setCurrent] = useState(0)
 
