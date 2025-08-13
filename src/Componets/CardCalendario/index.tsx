@@ -20,8 +20,8 @@ interface CardProps {
     description: string; // Mantido, mesmo não sendo usado no novo layout
     type: PieceType;
     local: string;
-    date: string;
-    time: string;
+    date: number;
+    time: number;
     duration: string;
 }
 
@@ -57,7 +57,7 @@ const CardCalendario = ({
                 <LocationInfoBlockCard type={type}>
                     <InfoRowCard type={type}>
                         <FaRegCalendarAlt />
-                        <span>{date} às {time}h</span>
+                        <span>{date} de setembro às {time}h</span>
                     </InfoRowCard>
                     <InfoRowCard type={type}>
                         <FaMapMarkerAlt />

@@ -28,17 +28,17 @@ const Calendario = () => {
                             <CardCalendario
                                 key={piece.id}
                                 title={piece.title}
-                                companyName={piece.companyName}
-                                city={piece.city}
+                                companyName={piece.companyName ?? ""}
+                                city={piece.city ?? ""}
                                 uf={piece.uf}
                                 description={piece.description}
                                 type={piece.type}
                                 local={piece.local}
-                                date={piece.date}
+                                date={piece.data}
                                 time={piece.time}
-                                duration={piece.duration}
-
+                                duration={piece.duration ?? ""}
                             />
+
                         ))}
                     </CardRow>
                 </div>
