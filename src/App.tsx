@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { GlobralStyle } from "./styled"
 import Home from "./pages/Home"
 import Calendar from "./pages/Calendar"
+import MostraPage from "./pages/Mostra"
 
 const rotas = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const rotas = createBrowserRouter([
   {
     path:'/Programacao',
     element:<Calendar/>
+  },
+  {
+    path:'/:type',
+    element: <MostraPage/>
   }
 ])
 
