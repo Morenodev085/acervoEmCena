@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { colorMap, type PieceType } from "../../data/types";
+import { colors } from "../../styled";
 
 interface CardContainerProps {
   pieceType: PieceType;
@@ -11,7 +12,7 @@ export const CardContainer = styled.div<CardContainerProps>`
   flex-direction: ${({ reversed }) => (reversed ? "row-reverse" : "row")};
   background-color: black;
   border-radius: 12px;
-  border: 2px solid ${({ pieceType }) => colorMap[pieceType]};
+  border: 3px solid ${({ pieceType }) => colorMap[pieceType]};
   padding: 1rem;
   margin-bottom: 2rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -32,11 +33,16 @@ export const CardImageWrapper = styled.div`
   max-width: 280px;
   margin: 0 1.5rem;
 
+  display: flex;              /* ativar flexbox */
+  justify-content: center;    /* centraliza horizontalmente */
+  align-items: center;        /* centraliza verticalmente */
+
   img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
+    display: block;          /* remove espaço extra abaixo da imagem */
   }
 
   @media (max-width: 768px) {
@@ -50,6 +56,7 @@ export const CardInfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  color: ${colors.cream};
 `;
 
 export const CardTitulo = styled.h3`
