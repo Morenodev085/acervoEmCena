@@ -11,4 +11,5 @@ font-weight: bold;
 `
 export const DivTitulo = styled.div`
 text-align: center;
+margin-bottom: 16px;
 `

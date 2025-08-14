@@ -15,6 +15,10 @@ export const colors = {
     grey: "	#C0C0C0"
 }
 
+export const theme={
+  colors,
+};
+
 export const GlobralStyle = createGlobalStyle`
     body {
         margin: 0;
