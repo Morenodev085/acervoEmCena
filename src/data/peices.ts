@@ -9,7 +9,7 @@ export const pieces: Piece[] = [
     image: 'https://images.pexels.com/photos/9774919/pexels-photo-9774919.jpeg?_gl=1*1iekv4c*_ga*MTk0OTU4ODQ2My4xNzUzMjcyMzIw*_ga_8JE65Q40S6*czE3NTMyNzIzMTkkbzEkZzEkdDE3NTMyNzM0NjYkajM4JGwwJGgw',
     data: 16,
     time: 15,
-    local: "Sala Nelson Pereiora dos Santos",
+    local: "Teatro Popular Oscar Niemeyer",
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "2NÓS",

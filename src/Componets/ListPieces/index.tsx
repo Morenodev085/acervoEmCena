@@ -43,7 +43,7 @@ const MostraPage = () => {
         <DivTitulo>
           <TituloMostraPage>{tituloMostra}</TituloMostraPage>
           <p>
-            A lista de eventos destinada à {tituloMostra}. Todas as sessões são gratuitas e de livre acesso. Consulte a classificação etária.
+            nonononononono {tituloMostra}. nonononononononononnonoo
           </p>
         </DivTitulo>
 
