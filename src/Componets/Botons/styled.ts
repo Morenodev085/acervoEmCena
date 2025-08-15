@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import { styled } from "styled-components";
 
 export const ButtonArea = styled.div`
   display: flex;
@@ -9,11 +9,17 @@ export const ButtonArea = styled.div`
   width: 100%;
   padding: 1rem 0;
 
+  /* ✅ Ajuste para manter botões lado a lado no desktop */
+  button {
+    width: 350px;             /* Tamanho fixo no desktop */
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
 
   @media (max-width: 600px) {
     button {
-      white-space: nowrap;     /* Evita quebra de linha no texto do botão */
-      font-size: 12px;         /* Diminui o tamanho da fonte nos botões */
+      white-space: nowrap;
+      font-size: 12px;
       padding: 12px 64px;
       width: 256px;
     }
