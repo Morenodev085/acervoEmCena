@@ -16,8 +16,6 @@ const Buttons = () => {
                 
                 
                 
-                
-                
             </ButtonArea>
         </ContainerSite>
     );

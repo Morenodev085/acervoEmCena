@@ -1,0 +1,49 @@
+import styled from "styled-components"
+import { colors } from "../../styled"
+
+export const ContainerDescricaoInverted = styled.div`
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row-reverse; /* INVERTE a posição dos elementos */
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap;
+
+  @media (max-width: 768px) {
+    flex-direction: column; /* Empilha no mobile */
+  }
+`
+
+export const TextSimples = styled.div`
+  flex: 1;
+  text-align: center;
+
+  p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: ${colors.cream};
+    line-height: 1.6;
+  }
+`
+
+export const TituloSimples = styled.h2`
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: ${colors.green};
+
+  @media (max-width: 768px) {
+    font-size: 1.68rem;
+  }
+`
+
+export const ImageDescricao = styled.div`
+  flex: 1;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+`
