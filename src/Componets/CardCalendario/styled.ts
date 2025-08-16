@@ -24,7 +24,7 @@ export const CardCalendariBody = styled.div<CardProps>`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   @media (max-width: 600px) {
-    height: 256px;
+    height: 280px;
     font-size: 16px;
     padding: 12px;
   }
