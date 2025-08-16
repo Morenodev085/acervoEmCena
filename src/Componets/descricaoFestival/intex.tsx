@@ -1,6 +1,8 @@
 import { ContainerSite } from "../../styled"
 import { ContainerDescricaoInverted, ImageDescricao, TextSimples, TituloSimples } from "./styled"
 
+import chacco from '../../assets/chaccoNariz.jpg'
+
 const DescricaoSimplesComImagem = () => {
     return (
         <ContainerSite>
@@ -12,7 +14,7 @@ const DescricaoSimplesComImagem = () => {
                     </p>
                 </TextSimples>
                 <ImageDescricao>
-                    <img src="https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg?_gl=1*fn1g8e*_ga*MTk0OTU4ODQ2My4xNzUzMjcyMzIw*_ga_8JE65Q40S6*czE3NTUyMTk3MjMkbzckZzEkdDE3NTUyMTk3MzgkajQ1JGwwJGgw" alt="Imagem sobre o festival" />
+                    <img src={chacco} alt="Imagem sobre o festival" />
                 </ImageDescricao>
 
             </ContainerDescricaoInverted>

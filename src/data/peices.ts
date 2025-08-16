@@ -13,6 +13,7 @@ export const pieces: Piece[] = [
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "2NÓS",
+    showInCarousel: true,
   },
   {
     id: 2,
@@ -39,6 +40,7 @@ export const pieces: Piece[] = [
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "Lua Branca Produções",
+    showInCarousel: true
   },
   {
     id: 4,
@@ -49,8 +51,8 @@ export const pieces: Piece[] = [
     time: 20,
     local: "Teatro Popular Oscar Niemeyer",
     city: "São Paulo",
-    uf: "SP",
     companyName: "Clayton Nascimento",
+    uf: 'SP'
   },
   {
     id: 5,
@@ -62,6 +64,7 @@ export const pieces: Piece[] = [
     local: "Teatro Popular Oscar Niemeyer",
     city: "Rio de Janeiro & São Paulo",
     uf: "RJ & SP",
+    showInCarousel: true,
 
   },
   {

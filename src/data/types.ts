@@ -19,7 +19,7 @@ export type Piece = {
     city?: string
     uf: string
     duration?: string
-
+    showInCarousel?: boolean
 }
 
 export const colorMap: Record<PieceType, string> = {
