@@ -30,7 +30,7 @@ export const TextSimples = styled.div`
 export const TituloSimples = styled.h2`
   font-size: 2.8rem;
   font-weight: bold;
-  color: ${colors.green};
+  color: ${colors.yellow};
 
   @media (max-width: 768px) {
     font-size: 1.68rem;
