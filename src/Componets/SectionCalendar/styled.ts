@@ -62,6 +62,7 @@ export const TextContent = styled.div`
 export const ImageContent = styled.div`
   flex: 1;
   text-align: center;
+  border: 8px;
 
   img {
     max-width: 100%;

@@ -40,6 +40,8 @@ export const TituloSimples = styled.h2`
 export const ImageDescricao = styled.div`
   flex: 1;
   text-align: center;
+  border: 8px;
+
 
   img {
     max-width: 100%;
