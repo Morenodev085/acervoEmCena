@@ -1,7 +1,7 @@
 import { ContainerSite } from "../../styled"
 import { ContainerDescricaoInverted, ImageDescricao, TextSimples, TituloSimples } from "./styled"
 
-import chacco from '../../assets/chaccoNariz.jpg'
+import Kao from '../../assets/kaHome.jpg'
 
 const DescricaoSimplesComImagem = () => {
     return (
@@ -14,7 +14,7 @@ const DescricaoSimplesComImagem = () => {
                     </p>
                 </TextSimples>
                 <ImageDescricao>
-                    <img src={chacco} alt="Imagem sobre o festival" />
+                    <img src={Kao} alt="Imagem sobre o festival" />
                 </ImageDescricao>
 
             </ContainerDescricaoInverted>

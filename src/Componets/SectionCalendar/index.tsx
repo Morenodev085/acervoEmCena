@@ -2,6 +2,9 @@ import { Link } from "react-router-dom"
 import { ContainerSite } from "../../styled"
 import { TiTuloSection, ContentWrapper, TextContent, ImageContent } from "./styled"
 
+import chacco from '../../assets/chaccoNariz.jpg'
+
+
 const SectionCalendar = () => {
     return (
         <ContainerSite>
@@ -17,7 +20,7 @@ const SectionCalendar = () => {
                 </TextContent>
 
                 <ImageContent>
-                    <img src="https://images.pexels.com/photos/9774914/pexels-photo-9774914.jpeg?_gl=1*jt5p6u*_ga*MTk0OTU4ODQ2My4xNzUzMjcyMzIw*_ga_8JE65Q40S6*czE3NTQ0MTYzMDQkbzQkZzEkdDE3NTQ0MTY1NTUkajU5JGwwJGgw" alt="Imagem ilustrativa da programação" />
+                    <img src={chacco} alt="Imagem ilustrativa da programação" />
                 </ImageContent>
             </ContentWrapper>
         </ContainerSite>
