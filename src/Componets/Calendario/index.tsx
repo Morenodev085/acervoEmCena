@@ -4,47 +4,60 @@ import { CardRow, TextoDia } from "./styled";
 import { pieces } from "../../data/peices";
 import type { Piece } from "../../data/types";
 
-const diasCalendario = Array.from({ length: 13 }, (_, i) => 16 + i); // 16 a 28
+const diasCalendario = Array.from({ length: 13 }, (_, i) => 16 + i); // Dias 16 a 28
 
 const Calendario = () => {
-    const pecasPorDia: Record<number, Piece[]> = {};
+  // Todas as peças
+  const todasPecas = [...pieces];
 
-    pieces.forEach((piece) => {
-        if (!pecasPorDia[piece.data]) {
-            pecasPorDia[piece.data] = [];
-        }
-        pecasPorDia[piece.data].push(piece);
-    });
+  // Peças estudantis com showInList === true
+  const estudantisShowTrue = pieces.filter(
+    (p) => p.type.toLowerCase() === "estudantil" && p.showInList === true
+  );
 
-    return (
-        <ContainerSite>
+  // Map para evitar duplicatas
+  const mapaPecas = new Map<number, Piece>();
+  todasPecas.forEach(p => mapaPecas.set(p.id, p));
+  estudantisShowTrue.forEach(p => mapaPecas.set(p.id, p));
 
-            {diasCalendario.map((dia) => (
-                <div key={dia}>
-                    <TextoDia>Dia {dia} de Setembro</TextoDia>
-                    <CardRow>
+  const pecasFiltradas = Array.from(mapaPecas.values());
 
-                        {(pecasPorDia[dia] || []).map((piece) => (
-                            <CardCalendario
-                                key={piece.id}
-                                title={piece.title}
-                                companyName={piece.companyName ?? ""}
-                                city={piece.city ?? ""}
-                                uf={piece.uf}
-                                description={piece.description}
-                                type={piece.type}
-                                local={piece.local}
-                                date={piece.data}
-                                time={piece.time}
-                                duration={piece.duration ?? ""}
-                            />
+  // Organizar por dia
+  const pecasPorDia: Record<number, Piece[]> = {};
 
-                        ))}
-                    </CardRow>
-                </div>
+  pecasFiltradas.forEach((piece) => {
+    if (!pecasPorDia[piece.data]) {
+      pecasPorDia[piece.data] = [];
+    }
+    pecasPorDia[piece.data].push(piece);
+  });
+
+  return (
+    <ContainerSite>
+      {diasCalendario.map((dia) => (
+        <div key={dia}>
+          <TextoDia>Dia {dia} de Setembro</TextoDia>
+          <CardRow>
+            {(pecasPorDia[dia] || []).map((piece) => (
+              <CardCalendario
+                key={piece.id}
+                title={piece.title}
+                companyName={piece.companyName ?? ""}
+                city={piece.city ?? ""}
+                uf={piece.uf ?? "RJ"}
+                description={piece.description}
+                type={piece.type}
+                local={piece.local}
+                date={piece.data}
+                time={piece.time}
+                duration={piece.duration ?? ""}
+              />
             ))}
-        </ContainerSite>
-    );
+          </CardRow>
+        </div>
+      ))}
+    </ContainerSite>
+  );
 };
 
 export default Calendario;

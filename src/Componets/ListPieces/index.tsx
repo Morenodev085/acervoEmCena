@@ -2,9 +2,14 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { pieces } from "../../data/peices";
 import { ContainerSite } from "../../styled";
-import { DivListtaMostra, DivTitulo, TituloMostraPage } from "./styled";
-import CardPecaLista from "../../Componets/CardPeca"; // Confirma nome/caminho
+import {
+  DivListtaMostra,
+  DivTitulo,
+  TituloMostraPage
+} from "./styled";
+import CardPecaLista from "../../Componets/CardPeca"; // Confirma caminho/nome
 
+// Títulos correspondentes a cada tipo (rota)
 const titulosPorTipo: Record<string, string> = {
   estudantil: "Mostra Estudantil",
   longa: "Mostrar Peças",
@@ -17,13 +22,16 @@ const titulosPorTipo: Record<string, string> = {
 const MostraPage = () => {
   const { type } = useParams();
   const [paginaAtual, setPaginaAtual] = useState(1);
-  const itensPorPagina = 5;
+  const itensPorPagina = 6;
 
   const tipoNormalizado = type?.toLowerCase() || "";
   const tituloMostra = titulosPorTipo[tipoNormalizado] || "Tipo não encontrado";
 
+  // Aqui filtra todas as peças do tipo, exceto as que tem showInList === true
   const pecasFiltradas = pieces.filter(
-    (peca) => peca.type.toLowerCase() === tipoNormalizado
+    (peca) =>
+      peca.type.toLowerCase() === tipoNormalizado &&
+      peca.showInList !== true
   );
 
   const totalPaginas = Math.ceil(pecasFiltradas.length / itensPorPagina);
@@ -42,21 +50,15 @@ const MostraPage = () => {
       <DivListtaMostra>
         <DivTitulo>
           <TituloMostraPage>{tituloMostra}</TituloMostraPage>
-          <p>
-            nonononononono {tituloMostra}. nonononononononononnonoo
-          </p>
+          <p>Texto introdutório sobre a {tituloMostra}. Substitua por conteúdo real.</p>
         </DivTitulo>
 
         {pecasPaginaAtual.length > 0 ? (
           pecasPaginaAtual.map((peca, index) => (
             <CardPecaLista
               key={peca.id}
-              peca={{
-                ...peca,
-                img: peca.image || "", // Aqui a mágica que ajusta o campo
-              }}
+              peca={{ ...peca, img: peca.image || "" }}
               reversed={index % 2 === 1}
-              
             />
           ))
         ) : (

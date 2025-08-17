@@ -17,9 +17,10 @@ export type Piece = {
     local: string
     companyName?: string
     city?: string
-    uf: string
+    uf?: string
     duration?: string
     showInCarousel?: boolean
+    showInList?: boolean
 }
 
 export const colorMap: Record<PieceType, string> = {

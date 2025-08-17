@@ -205,7 +205,7 @@ export const pieces: Piece[] = [
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
-  city:"Nova Iguaçu",
+    city:"Nova Iguaçu",
     uf: "RJ",
     companyName:"Renca Coletivo de Teatro",
   },
@@ -217,7 +217,7 @@ export const pieces: Piece[] = [
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
-  city:"Cabo Frio",
+    city:"Cabo Frio",
     uf: "RJ",
     companyName:"Cia Vapor",
   },
@@ -229,7 +229,7 @@ export const pieces: Piece[] = [
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
-  city: "Rio de Janeiro",
+    city: "Rio de Janeiro",
     uf: "RJ",
     companyName:"Grupo Imaginário",
   },
@@ -241,8 +241,8 @@ export const pieces: Piece[] = [
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
-  city:"Rio de Janeiro / Recife",
-    uf:"RJ / PE",
+    city:"Rio de Janeiro - RJ / Recife",
+    uf:"PE ",
   },
   {
     id: 21,
@@ -263,7 +263,7 @@ export const pieces: Piece[] = [
     data: 21,
     time: 11,
     local: "Macquinho",
-  city:"lima",
+    city:"lima",
     uf: "Peru",
     companyName:"Atawallpa Coello"
   },
@@ -290,4 +290,14 @@ export const pieces: Piece[] = [
     uf:"Chile",
     companyName:"Cia Duna",
   },
+  {
+    id:24,
+    title: 'Mostra Estudantil',
+    description: 'Mostra formadas por grupos do ensino medio',
+    type: 'Estudantil',
+    data: 17,
+    time: 10,
+    local: 'Sala Nelson Pereira dos Santos',
+    showInList: true
+  }
 ]
