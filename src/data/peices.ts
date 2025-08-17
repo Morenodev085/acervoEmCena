@@ -65,8 +65,20 @@ export const pieces: Piece[] = [
     city: "Rio de Janeiro & São Paulo",
     uf: "RJ & SP",
     showInCarousel: true,
-
   },
+  {
+    id: 32,
+    title: 'Meu Caro Amigo',
+    description: 'Norma é professora de História e viveu as grandes transformações do país de forma intensa e apaixonada: a infância e adolescência em plena ditadura militar, a luta pela redemocratização com os colegas de Faculdade e uma inesquecível história de amor no desbunde dos anos 80 com as Diretas Já. E mesmo nos momentos mais difíceis, com uma relação familiar conturbada após o falecimento de sua mãe, Norma nunca se sentiu completamente sozinha: era como se Chico Buarque de Hollanda adivinhasse todos os seus sentimentos e criasse as músicas pensando nela. E então decide realizar um sonho acalentado desde menina: um show onde declara seu amor ao ídolo e canta as músicas que embalaram a trilha sonora de sua vida.',
+    type: 'Longa',
+    data: 23,
+    time: 20,
+    local: 'Macquinho',
+    city: 'Rio de Janeiro',
+    uf: 'RJ'
+  },
+
+  //MOSTRA CURTA
   {
     id: 6,
     title: 'O Último Ato',
@@ -205,9 +217,9 @@ export const pieces: Piece[] = [
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
-    city:"Nova Iguaçu",
+    city: "Nova Iguaçu",
     uf: "RJ",
-    companyName:"Renca Coletivo de Teatro",
+    companyName: "Renca Coletivo de Teatro",
   },
   {
     id: 18,
@@ -217,9 +229,9 @@ export const pieces: Piece[] = [
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
-    city:"Cabo Frio",
+    city: "Cabo Frio",
     uf: "RJ",
-    companyName:"Cia Vapor",
+    companyName: "Cia Vapor",
   },
   {
     id: 19,
@@ -231,7 +243,7 @@ export const pieces: Piece[] = [
     local: "Theatro Municipal de Niterói",
     city: "Rio de Janeiro",
     uf: "RJ",
-    companyName:"Grupo Imaginário",
+    companyName: "Grupo Imaginário",
   },
   {
     id: 20,
@@ -241,9 +253,10 @@ export const pieces: Piece[] = [
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
-    city:"Rio de Janeiro - RJ / Recife",
-    uf:"PE ",
+    city: "Rio de Janeiro - RJ / Recife",
+    uf: "PE ",
   },
+  //MOSTRA RUA
   {
     id: 21,
     title: 'Cuidado! Um palhaço mau pode arruinar sua vida',
@@ -252,8 +265,8 @@ export const pieces: Piece[] = [
     data: 20,
     time: 11,
     local: "Campo de São Bento",
-    uf:"Argentina",
-    companyName:"O Palhaço Chacovachi",
+    uf: "Argentina",
+    companyName: "O Palhaço Chacovachi",
   },
   {
     id: 22,
@@ -263,9 +276,9 @@ export const pieces: Piece[] = [
     data: 21,
     time: 11,
     local: "Macquinho",
-    city:"lima",
+    city: "lima",
     uf: "Peru",
-    companyName:"Atawallpa Coello"
+    companyName: "Atawallpa Coello"
   },
   {
     id: 22,
@@ -275,9 +288,9 @@ export const pieces: Piece[] = [
     data: 26,
     time: 17,
     local: "Praça João Saldanha, Santa Barbara",
-    city:"Juiz de Fora",
-    uf:"MG",
-    companyName:"Banda Trupicada",
+    city: "Juiz de Fora",
+    uf: "MG",
+    companyName: "Banda Trupicada",
   },
   {
     id: 23,
@@ -287,11 +300,14 @@ export const pieces: Piece[] = [
     data: 28,
     time: 11,
     local: "Espaço Eco Cultural",
-    uf:"Chile",
-    companyName:"Cia Duna",
+    uf: "Chile",
+    companyName: "Cia Duna",
   },
+
+
+  // inf dos cards do calendario 
   {
-    id:24,
+    id: 24,
     title: 'Mostra Estudantil',
     description: 'Mostra formadas por grupos do ensino medio',
     type: 'Estudantil',
@@ -300,8 +316,8 @@ export const pieces: Piece[] = [
     local: 'Sala Nelson Pereira dos Santos',
     showInList: true
   },
-    {
-    id:25,
+  {
+    id: 25,
     title: 'Mostra Estudantil',
     description: 'Mostra formadas por grupos do ensino medio',
     type: 'Estudantil',
@@ -309,5 +325,85 @@ export const pieces: Piece[] = [
     time: 14,
     local: 'Sala Nelson Pereira dos Santos',
     showInList: true
-  }
+  },
+  {
+    id: 26,
+    title: 'Mostra Estudantil',
+    description: 'Mostra formadas por grupos do ensino medio',
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: 'Sala Nelson Pereira dos Santos',
+    showInList: true
+  },
+  {
+    id: 27,
+    title: 'Mostra Estudantil',
+    description: 'Mostra formadas por grupos do ensino medio',
+    type: 'Estudantil',
+    data: 18,
+    time: 14,
+    local: 'Sala Nelson Pereira dos Santos',
+    showInList: true
+  },
+  {
+    id: 28,
+    title: 'Mostra Estudantil',
+    description: 'Mostra formadas por grupos do ensino medio',
+    type: 'Estudantil',
+    data: 18,
+    time: 10,
+    local: 'Sala Nelson Pereira dos Santos',
+    showInList: true
+  },
+  //Atividades formativas
+  {
+    id: 29,
+    title: 'OFICINA DE TEATRO GESTUAL',
+    description: 'A metodologia segue a linha da autonomia criativa e tem como base o trabalho desenvolvido em 15 anos de oficinas ministradas pela Dobra, cuja principal fonte de inspiração é o trabalho desenvolvido na LISPA (London International School of Performing Arts - Escola Internacional de Artes Performáticas de Londres), além de conceitos de Jacques Lecoq, Dario Fo, Ariane Mnouchkine, Juliana Carneiro da Cunha, John Mowat, Julio Adrião e Eve Doe Bruce. Serão utilizados princípios de estudo do espaço cênico, gestos, estados de emoção, ritmo, percepção corporal individual e do coro. ',
+    type: 'Atividade',
+    data: 19,
+    time: 14,
+    local: 'Macquinho',
+  },
+  {
+    id: 30,
+    title: 'MANUAL E GUIA DO PALHAÇO DE RUA',
+    description: ' A oficina é direcionada aos artistas ou futuros artistas que queiram descobrir os segredos do palhaço de rua para aplicá-los nessa disciplina ou em qualquer outra. Direcionado ao trabalho individual em lugares não-convencionais esta oficina se compõe em três partes: treinamento, teoria e filosofia, postura corporal. ',
+    type: 'Atividade',
+    data: 20,
+    time: 14,
+    local: 'Macquinho',
+  },
+  {
+    id: 31,
+    title: 'Pensamento e Jogo, com Marcos Henrique Rego',
+    description: 'O palco que pode tudo, que não tem limites expressivos, precisa, em primeiro lugar, ser o palco do ator. Isto é, precisa confiar plenamente no ator para a exploração das suas infinitas possibilidades”. A partir da afirmação do saudoso mestre Aderbal Freire-Filho de que era necessário reconhecer Bertolt Brecht como fundamental para o teatro contemporâneo, abordaremos uma breve linha temporal acerca do trabalho do ator, realizaremos experimentos de sensibilização e exercícios com trechos de obras brechtianas',
+    type: 'Atividade',
+    data: 21,
+    time: 14,
+    local: 'Macquinho',
+  },
+    {
+    id: 35,
+    title: 'O Corpo e as Epistemologias Exusíacas nas Artes da Cena, com Cátia Costa',
+    description: 'Vivência teórico-prática a respeito de conhecimentos ligados ao Orixá Exú (Obá Oritá Metá). E sobretudo, algumas considerações sobre questões artísticas, espirituais e políticas que podem ser analisadas sobre a visão exusíaca. Como o teatro ou as artes da cena podem ser atravessados por um conhecimento ancestral negro-africano?',
+    type: 'Atividade',
+    data: 28,
+    time: 10,
+    local: 'Macquinho',
+  },
+
+
+  //Rodada
+    {
+    id: 34,
+    title: 'Rodada de Negócios',
+    description: '',
+    type: 'Rodada',
+    data: 27,
+    time: 11,
+    local: 'Auditório Cúpula (Caminho Niemeyer)',
+  },
+  
 ]
