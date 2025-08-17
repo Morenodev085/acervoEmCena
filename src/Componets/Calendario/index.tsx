@@ -1,63 +1,64 @@
-import { ContainerSite } from "../../styled";
-import CardCalendario from "../CardCalendario";
-import { CardRow, TextoDia } from "./styled";
 import { pieces } from "../../data/peices";
-import type { Piece } from "../../data/types";
+import CardCalendario from "../CardCalendario";
+import { ContainerSite } from "../../styled";
+import { CardRow, TextoDia } from "./styled";
 
-const diasCalendario = Array.from({ length: 13 }, (_, i) => 16 + i); // Dias 16 a 28
+const diasCalendario = Array.from({ length: 13 }, (_, i) => 16 + i);
+
+const titulosPorTipo: Record<string, string> = {
+    estudantil: "Mostra Estudantil",
+    longa: "Mostrar Peças",
+    curta: "Mostra Cenas Curtas",
+    rodada: "Rodada de Negócios",
+    formativa: "Atividades Formativas",
+    rua: "Mostra Rua",
+};
 
 const Calendario = () => {
-  // Todas as peças
-  const todasPecas = [...pieces];
+    const pecasPorDia: Record<number, typeof pieces> = {};
 
-  // Peças estudantis com showInList === true
-  const estudantisShowTrue = pieces.filter(
-    (p) => p.type.toLowerCase() === "estudantil" && p.showInList === true
-  );
+    pieces.forEach((piece) => {
+        if (
+            !pecasPorDia[piece.data]
+        ) {
+            pecasPorDia[piece.data] = [];
+        }
+        pecasPorDia[piece.data].push(piece);
+    });
 
-  // Map para evitar duplicatas
-  const mapaPecas = new Map<number, Piece>();
-  todasPecas.forEach(p => mapaPecas.set(p.id, p));
-  estudantisShowTrue.forEach(p => mapaPecas.set(p.id, p));
+    return (
+        <ContainerSite>
+            {diasCalendario.map((dia) => (
+                <div key={dia}>
+                    <TextoDia>Dia {dia} de Setembro</TextoDia>
+                    <CardRow>
+                        {(pecasPorDia[dia] || []).map((piece) => (
+                            <CardCalendario
+                                key={piece.id}
+                                title={piece.title}
+                                companyName={piece.companyName ?? ""}
+                                city={piece.city ?? ""}
+                                uf={piece.uf ?? ""}
+                                description={piece.description}
+                                type={piece.type}
+                                local={piece.local}
+                                date={piece.data}
+                                time={piece.time}
+                                duration={piece.duration ?? ""}
+                                // Aqui passamos o título amigável do tipo
+                                tipoTitulo={
+                                    typeof piece.type === "string"
+                                        ? titulosPorTipo[piece.type.toLowerCase()] || piece.type
+                                        : piece.type
+                                }
 
-  const pecasFiltradas = Array.from(mapaPecas.values());
-
-  // Organizar por dia
-  const pecasPorDia: Record<number, Piece[]> = {};
-
-  pecasFiltradas.forEach((piece) => {
-    if (!pecasPorDia[piece.data]) {
-      pecasPorDia[piece.data] = [];
-    }
-    pecasPorDia[piece.data].push(piece);
-  });
-
-  return (
-    <ContainerSite>
-      {diasCalendario.map((dia) => (
-        <div key={dia}>
-          <TextoDia>Dia {dia} de Setembro</TextoDia>
-          <CardRow>
-            {(pecasPorDia[dia] || []).map((piece) => (
-              <CardCalendario
-                key={piece.id}
-                title={piece.title}
-                companyName={piece.companyName ?? ""}
-                city={piece.city ?? ""}
-                uf={piece.uf ?? "RJ"}
-                description={piece.description}
-                type={piece.type}
-                local={piece.local}
-                date={piece.data}
-                time={piece.time}
-                duration={piece.duration ?? ""}
-              />
+                            />
+                        ))}
+                    </CardRow>
+                </div>
             ))}
-          </CardRow>
-        </div>
-      ))}
-    </ContainerSite>
-  );
+        </ContainerSite>
+    );
 };
 
 export default Calendario;

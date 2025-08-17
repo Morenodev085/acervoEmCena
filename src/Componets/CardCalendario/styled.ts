@@ -17,23 +17,27 @@ export const CardCalendariBody = styled.div<CardProps>`
   background-color: #000;
   border: 3px solid ${({ type }) => colorMap[type]};
   border-radius: 8px;
-  padding: 24px; // Aumentei o padding para ficar mais parecido com a imagem
+  padding: 24px;
   width: 412px;
   color: white;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
+  display: flex;              /* MUDANÇAS AQUI */
+  flex-direction: column;     /* MUDANÇAS AQUI */
+  min-height: 320px;          /* MUDANÇAS AQUI */
+
   @media (max-width: 600px) {
-    height: 280px;
-    font-size: 16px;
     padding: 12px;
+    width: 100%;
+    min-height: auto;
   }
 `;
 
 export const TituloCard = styled.h4<CardProps>`
   font-size: 24px;
   margin-bottom: 8px;
-  color: ${({ type }) => colorMap[type]}; // Cor dinâmica do tipo
+  color: ${({ type }) => colorMap[type]};
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
@@ -48,7 +52,6 @@ export const TituloCard = styled.h4<CardProps>`
 `;
 
 export const Description = styled.p`
-  // Este elemento não aparece na imagem, mas o mantemos
   font-size: 16px;
   color: white;
   margin: 4px 0;
@@ -69,7 +72,6 @@ export const InfoBotaoWrapper = styled.div`
   align-items: center;
   margin-top: 16px;
 
-  // Manterei os estilos originais para caso você ainda os utilize
   .local {
     font-size: 14px;
     color: white;
@@ -90,16 +92,14 @@ export const InfoBotaoWrapper = styled.div`
 export const SaibaMaisButton = styled.button<ButtonProps>`
   background-color: ${({ type }) => colorMap[type]};
   border: none;
-  color: ${colors.black}; // Mudei a cor do texto para preto
-  padding: 8px 16px; // Aumentei o padding
+  color: ${colors.black};
+  padding: 8px 16px;
   border-radius: 4px;
 
   font-size: 14px;
   font-weight: bold;
   align-self: flex-end;
   transition: background-color 0.3s;
-
-
 
   @media (max-width: 600px) {
     font-size: 12px;
@@ -122,13 +122,15 @@ export const Divider = styled.hr<CardProps>`
 // =================================================================
 
 export const ContentWrapperCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  display: flex;              /* MUDANÇAS AQUI */
+  flex-direction: column;     /* MUDANÇAS AQUI */
+  justify-content: space-between; /* MUDANÇAS AQUI */
+  flex-grow: 1;               /* MUDANÇAS AQUI */
   width: 100%;
   overflow: hidden;
+  padding-bottom: 12px;       /* MUDANÇAS AQUI */
 `;
+
 
 export const SubtitleCard = styled.h2<CardProps>`
   font-size: 16px;

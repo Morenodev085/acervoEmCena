@@ -1,6 +1,4 @@
-// src/components/CardCalendario/CardCalendario.js
 import { FaRegCalendarAlt, FaMapMarkerAlt, FaRegClock } from 'react-icons/fa';
-import type { PieceType } from "../../data/types";
 import {
     CardCalendariBody,
     TituloCard,
@@ -10,28 +8,23 @@ import {
     FooterCard,
     DurationTextCard,
     SaibaMaisButton,
+    ContentWrapperCard, // <-- IMPORTAR AQUI
 } from "./styled";
+import type { PieceType } from '../../data/types';
 
 interface CardProps {
     title: string;
-    companyName: string; // Adicionando essa prop para o novo design
-    city: string; // Adicionando essa prop
-    uf: string; // Adicionando essa prop
-    description: string; // Mantido, mesmo não sendo usado no novo layout
+    companyName: string;
+    city: string;
+    uf: string;
+    description: string;
     type: PieceType;
     local: string;
     date: number;
     time: number;
     duration: string;
+    tipoTitulo?: string;
 }
-
-// Manterei a sua função de truncar, mesmo sem uso no novo design.
-// const MAX_DESCRIPTION_LENGTH = 120;
-// const truncateDescription = (text: string): string => {
-//     return text.length > MAX_DESCRIPTION_LENGTH
-//         ? text.slice(0, MAX_DESCRIPTION_LENGTH).trim() + "..."
-//         : text;
-// };
 
 const CardCalendario = ({
     title,
@@ -43,11 +36,11 @@ const CardCalendario = ({
     date,
     time,
     duration,
-
+    tipoTitulo,
 }: CardProps) => {
     return (
         <CardCalendariBody type={type}>
-            <div> {/* Onde ficava o ContentWrapper, mas simplificado */}
+            <ContentWrapperCard> {/* <-- envolver aqui */}
                 <div>
                     <TituloCard type={type}>{title}</TituloCard>
                     {companyName && <SubtitleCard type={type}>{companyName}</SubtitleCard>}
@@ -64,15 +57,15 @@ const CardCalendario = ({
                         <span>{local}</span>
                     </InfoRowCard>
                 </LocationInfoBlockCard>
+            </ContentWrapperCard> {/* <-- fechar aqui */}
 
-                <FooterCard>
-                    <DurationTextCard type={type}>
-                        <FaRegClock />
-                        <span>{duration}</span>
-                    </DurationTextCard>
-                    <SaibaMaisButton type={type} >{type}</SaibaMaisButton>
-                </FooterCard>
-            </div>
+            <FooterCard>
+                <DurationTextCard type={type}>
+                    <FaRegClock />
+                    <span>{duration}</span>
+                </DurationTextCard>
+                <SaibaMaisButton type={type}>{tipoTitulo || type}</SaibaMaisButton>
+            </FooterCard>
         </CardCalendariBody>
     );
 };

@@ -299,5 +299,15 @@ export const pieces: Piece[] = [
     time: 10,
     local: 'Sala Nelson Pereira dos Santos',
     showInList: true
+  },
+    {
+    id:25,
+    title: 'Mostra Estudantil',
+    description: 'Mostra formadas por grupos do ensino medio',
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: 'Sala Nelson Pereira dos Santos',
+    showInList: true
   }
 ]
