@@ -33,16 +33,16 @@ export const CardImageWrapper = styled.div`
   max-width: 512px;
   margin: 0 1.5rem;
 
-  display: flex;              /* ativar flexbox */
-  justify-content: center;    /* centraliza horizontalmente */
-  align-items: center;        /* centraliza verticalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
-    display: block;          /* remove espaço extra abaixo da imagem */
+    display: block;
   }
 
   @media (max-width: 768px) {
@@ -71,9 +71,41 @@ export const CardDescricao = styled.p`
 
 export const CardFooter = styled.div`
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   font-size: 0.95rem;
+  margin-top: 1rem;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+`;
 
+export const InfoGroup = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+`;
+
+interface BotaoInscricaoProps {
+  pieceType: PieceType;
+}
+
+export const BotaoInscricao = styled.button<BotaoInscricaoProps>`
+  background-color: transparent;
+  color: ${({ pieceType }) => colorMap[pieceType]};
+  border: 2px solid ${({ pieceType }) => colorMap[pieceType]};
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: ${({ pieceType }) => colorMap[pieceType]};
+    color: black;
+  }
 `;

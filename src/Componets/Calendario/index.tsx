@@ -7,7 +7,7 @@ const diasCalendario = Array.from({ length: 13 }, (_, i) => 16 + i);
 
 const titulosPorTipo: Record<string, string> = {
     estudantil: "Mostra Estudantil",
-    longa: "Mostrar Peças",
+    longa: "Mostra Peças",
     curta: "Mostra Cenas Curtas",
     rodada: "Rodada de Negócios",
     formativa: "Atividades Formativas",

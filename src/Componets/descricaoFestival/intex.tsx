@@ -8,9 +8,11 @@ const DescricaoSimplesComImagem = () => {
         <ContainerSite>
             <ContainerDescricaoInverted>
                 <TextSimples>
-                    <TituloSimples>Niterói em Cena é!</TituloSimples>
+                    <TituloSimples>Maioridade Artística <br />18 anos de existência</TituloSimples>
                     <p>
-                        O festival nasceu com o objetivo de democratizar o acesso à cultura e incentivar novos talentos das artes cênicas. A cada edição, mais artistas, coletivos e espectadores se envolvem nesse grande movimento teatral.
+                        Em 2025, completamos dezoito edições consecutivas. Ao longo desse período, o Niterói em Cena trouxe para a cidade grandes nomes do teatro nacional e diversas atrações internacionais.
+                        Nesta edição, temos a honra de receber artistas de mais de seis estados brasileiros (Alagoas, Bahia, Minas Gerais, Pernambuco, Rio de Janeiro e São Paulo), além de representantes de três países da América Latina (Argentina, Chile e Peru).
+                        Vamos oferecer quatro Atividades Formativas e uma Rodada de Negócios, que conectará artistas e produtores a gestores culturais.
                     </p>
                 </TextSimples>
                 <ImageDescricao>

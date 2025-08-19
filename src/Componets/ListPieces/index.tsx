@@ -12,7 +12,7 @@ import CardPecaLista from "../../Componets/CardPeca"; // Confirma caminho/nome
 // Títulos correspondentes a cada tipo (rota)
 const titulosPorTipo: Record<string, string> = {
   estudantil: "Mostra Estudantil",
-  longa: "Mostrar Peças",
+  longa: "Mostra Peças",
   curta: "Mostra Cenas Curtas",
   rodada: "Rodada de Negócios",
   atividade: "Atividades Formativas",
@@ -50,7 +50,8 @@ const MostraPage = () => {
       <DivListtaMostra>
         <DivTitulo>
           <TituloMostraPage>{tituloMostra}</TituloMostraPage>
-          <p>Texto introdutório sobre a {tituloMostra}. Substitua por conteúdo real.</p>
+          <p>Espetáculos Teatrais GRATUITOS no Teatro Popular Oscar Niemeyer.
+Os ingresso serão distribuídos  com duas horas de antecedência.</p>
         </DivTitulo>
 
         {pecasPaginaAtual.length > 0 ? (
