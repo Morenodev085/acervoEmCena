@@ -4,7 +4,7 @@ import kaow from '../assets/fotosPecas/KAWo.jpeg'
 import terapia from '../assets/fotosPecas/terapiaInfernal.jpeg'
 import poli from '../assets/fotosPecas/POLICARPO.jpg'
 import PQ from '../assets/fotosPecas/PQnao.jpeg'
-import macacos from '../assets/macacos.jpeg'
+import macacos from '../assets/fotosPecas/macacos.jpeg'
 
 //curtas
 import OUltimo from '../assets/fotosCurtas/CENAS - O Último Ato (1).jpg'
@@ -27,6 +27,13 @@ import palhaco from '../assets/fotosPecas/cuidadoPalhaco.jpeg'
 import inka from '../assets/fotosPecas/Inkaclow.jpeg'
 import cozinhar from '../assets/fotosPecas/CozinharCrianca.jpeg'
 import girafa from '../assets/fotosPecas/girafa.jpeg'
+
+//atividade
+import atividadeT from'../assets/atividadefoto/Foto Helena Marques.jpeg'
+import atividadeP from'../assets/atividadefoto/palhaco.jpg'
+import atividadeJ from'../assets/atividadefoto/jogos.jpg'
+import atividadec from'../assets/atividadefoto/OCorpoEAs.jpg'
+
 
 
 
@@ -107,7 +114,7 @@ export const pieces: Piece[] = [
     type: 'Longa',
     data: 23,
     time: 20,
-    local: 'Macquinho',
+    local: 'Teatro Popular Oscar Niemeyer',
     city: 'Rio de Janeiro',
     uf: 'RJ',
     showInCarousel: true
@@ -418,37 +425,45 @@ export const pieces: Piece[] = [
     id: 29,
     title: 'OFICINA DE TEATRO GESTUAL',
     description: 'A metodologia segue a linha da autonomia criativa e tem como base o trabalho desenvolvido em 15 anos de oficinas ministradas pela Dobra, cuja principal fonte de inspiração é o trabalho desenvolvido na LISPA (London International School of Performing Arts - Escola Internacional de Artes Performáticas de Londres), além de conceitos de Jacques Lecoq, Dario Fo, Ariane Mnouchkine, Juliana Carneiro da Cunha, John Mowat, Julio Adrião e Eve Doe Bruce. Serão utilizados princípios de estudo do espaço cênico, gestos, estados de emoção, ritmo, percepção corporal individual e do coro. ',
+    image: atividadeT,
     type: 'Atividade',
     data: 19,
     time: 14,
     local: 'Macquinho',
+    e: "https://docs.google.com/forms/d/e/1FAIpQLSc1eb5jHIydUPpemfig5sH8bWyaRwPOasrxy78UK_5NzV3Qxg/viewform?usp=dialog"
   },
   {
     id: 30,
     title: 'MANUAL E GUIA DO PALHAÇO DE RUA',
     description: ' A oficina é direcionada aos artistas ou futuros artistas que queiram descobrir os segredos do palhaço de rua para aplicá-los nessa disciplina ou em qualquer outra. Direcionado ao trabalho individual em lugares não-convencionais esta oficina se compõe em três partes: treinamento, teoria e filosofia, postura corporal. ',
+    image:atividadeP ,
     type: 'Atividade',
     data: 20,
     time: 14,
     local: 'Macquinho',
+    e: 'https://docs.google.com/forms/d/e/1FAIpQLSecuvg-U-60403ANz573ivKugqPZZU-3bJA2iwz90mCmAwocg/viewform?usp=dialog'
   },
   {
     id: 31,
     title: 'Pensamento e Jogo, com Marcos Henrique Rego',
     description: 'O palco que pode tudo, que não tem limites expressivos, precisa, em primeiro lugar, ser o palco do ator. Isto é, precisa confiar plenamente no ator para a exploração das suas infinitas possibilidades”. A partir da afirmação do saudoso mestre Aderbal Freire-Filho de que era necessário reconhecer Bertolt Brecht como fundamental para o teatro contemporâneo, abordaremos uma breve linha temporal acerca do trabalho do ator, realizaremos experimentos de sensibilização e exercícios com trechos de obras brechtianas',
+    image:atividadeJ ,
     type: 'Atividade',
     data: 21,
     time: 14,
     local: 'Macquinho',
+    e:'https://docs.google.com/forms/d/e/1FAIpQLSdkSvA9SfLlmg-TsxJ8AG2Jwf8V6LRRblOLp0Ofk1g99Pibvw/viewform?usp=dialog'
   },
     {
     id: 35,
     title: 'O Corpo e as Epistemologias Exusíacas nas Artes da Cena, com Cátia Costa',
     description: 'Vivência teórico-prática a respeito de conhecimentos ligados ao Orixá Exú (Obá Oritá Metá). E sobretudo, algumas considerações sobre questões artísticas, espirituais e políticas que podem ser analisadas sobre a visão exusíaca. Como o teatro ou as artes da cena podem ser atravessados por um conhecimento ancestral negro-africano?',
+    image:atividadec,
     type: 'Atividade',
     data: 28,
     time: 10,
     local: 'Macquinho',
+    e:'https://docs.google.com/forms/d/e/1FAIpQLScMf-LRG22JX0ieH_lDZ91xlsUNup0jx5jwP6-QAVQvxNV_eQ/viewform?usp=dialog'
   },
 
 

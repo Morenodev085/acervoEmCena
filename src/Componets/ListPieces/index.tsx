@@ -50,8 +50,7 @@ const MostraPage = () => {
       <DivListtaMostra>
         <DivTitulo>
           <TituloMostraPage>{tituloMostra}</TituloMostraPage>
-          <p>Espetáculos Teatrais GRATUITOS no Teatro Popular Oscar Niemeyer.
-Os ingresso serão distribuídos  com duas horas de antecedência.</p>
+          
         </DivTitulo>
 
         {pecasPaginaAtual.length > 0 ? (

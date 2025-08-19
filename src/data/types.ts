@@ -21,6 +21,7 @@ export type Piece = {
     duration?: string
     showInCarousel?: boolean
     showInList?: boolean
+    e?: string
 }
 
 export const colorMap: Record<PieceType, string> = {

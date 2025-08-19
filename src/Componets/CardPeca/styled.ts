@@ -95,7 +95,7 @@ interface BotaoInscricaoProps {
 
 export const BotaoInscricao = styled.button<BotaoInscricaoProps>`
   background-color: transparent;
-  color: ${({ pieceType }) => colorMap[pieceType]};
+  color: ${colors.cream};
   border: 2px solid ${({ pieceType }) => colorMap[pieceType]};
   padding: 8px 16px;
   border-radius: 6px;
