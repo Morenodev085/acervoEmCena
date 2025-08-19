@@ -5,6 +5,7 @@ import terapia from '../assets/fotosPecas/terapia.jpg'
 import poli from '../assets/fotosPecas/POLICARPO.jpg'
 import PQ from '../assets/fotosPecas/pq1.jpg'
 import macacos from '../assets/fotosPecas/macacosBM.jpg'
+import meucaro from '../assets/fotosPecas/meucaroamigo.jpg'
 
 //curtas
 import OUltimo from '../assets/fotosCurtas/CENAS - O Último Ato (1).jpg'
@@ -84,6 +85,7 @@ export const pieces: Piece[] = [
     id: 32,
     title: 'Meu Caro Amigo',
     description: 'Norma é professora de História e viveu as grandes transformações do país de forma intensa e apaixonada: a infância e adolescência em plena ditadura militar, a luta pela redemocratização com os colegas de Faculdade e uma inesquecível história de amor no desbunde dos anos 80 com as Diretas Já. E mesmo nos momentos mais difíceis, com uma relação familiar conturbada após o falecimento de sua mãe, Norma nunca se sentiu completamente sozinha: era como se Chico Buarque de Hollanda adivinhasse todos os seus sentimentos e criasse as músicas pensando nela. E então decide realizar um sonho acalentado desde menina: um show onde declara seu amor ao ídolo e canta as músicas que embalaram a trilha sonora de sua vida.',
+    image: meucaro,
     type: 'Longa',
     data: 23,
     time: 20,

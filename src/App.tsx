@@ -17,7 +17,7 @@ const rotas = createBrowserRouter([
   {
     path:'/:type',
     element: <MostraPage/>
-  }
+  },
 ])
 
 function App() {

@@ -1,6 +1,6 @@
 import { FooterContainer, InfoFooter } from "./styled";
 import { CiInstagram } from "react-icons/ci";
-import barra from "../../assets/barraDeLogo.png";
+import barra from "../../assets/barraDelogo.jpg";
 
 const Footer = () => {
     return (

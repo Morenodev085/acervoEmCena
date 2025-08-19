@@ -7,13 +7,14 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   align-items: center;
 
-  img {
+ img {
     width: 100%;
     max-width: 1228px;
-    height: 290px;
-    object-fit: cover; /* preenche a caixa, mas pode cortar */
+    height: auto;               /* Mantém a proporção da imagem */
+    object-fit: contain;        /* Garante que a imagem inteira seja visível */
     object-position: center;
     display: block;
+    padding: 0 1rem;            /* Pequeno espaço lateral (opcional) */
   }
 
   @media (max-width: 768px) {
