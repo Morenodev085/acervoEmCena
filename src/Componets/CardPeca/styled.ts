@@ -30,7 +30,7 @@ export const CardContainer = styled.div<CardContainerProps>`
 
 export const CardImageWrapper = styled.div`
   flex: 1.5;
-  max-width: 280px;
+  max-width: 512px;
   margin: 0 1.5rem;
 
   display: flex;              /* ativar flexbox */
