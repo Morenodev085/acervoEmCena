@@ -1,4 +1,4 @@
-import { FaRegCalendarAlt, FaMapMarkerAlt, FaRegClock } from 'react-icons/fa';
+import { FaRegCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 import {
     CardCalendariBody,
     TituloCard,

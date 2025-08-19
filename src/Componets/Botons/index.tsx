@@ -14,7 +14,7 @@ const Buttons = () => {
                 <ButtonArea>
                 <Link to='/estudantil'><Button ButtonColor={colors.yellow}>MOSTRA ESTUDANTIL</Button></Link>
                 <Link to='/atividade'><Button ButtonColor={colors.brown} >ATIVIDADE FORMATIVAS</Button></Link>
-                <Link to='/rodada'><Button ButtonColor={colors.cream} >RODADA DE NEGÓCIOS</Button></Link>
+                <Link to='/rodadaDeNegocios'><Button ButtonColor={colors.cream} >RODADA DE NEGÓCIOS</Button></Link>
                 
                 
                 

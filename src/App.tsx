@@ -4,6 +4,7 @@ import { GlobralStyle } from "./styled"
 import Home from "./pages/Home"
 import Calendar from "./pages/Calendar"
 import MostraPage from "./pages/Mostra"
+import PaginaRodada from "./pages/Perfil"
 
 const rotas = createBrowserRouter([
   {
@@ -17,8 +18,12 @@ const rotas = createBrowserRouter([
   {
     path:'/:type',
     element: <MostraPage/>
+  },  {
+    path:'/rodadaDeNegocios',
+    element: <PaginaRodada/>
   },
 ])
+
 
 function App() {
 
