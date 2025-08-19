@@ -30,5 +30,5 @@ export const colorMap: Record<PieceType, string> = {
   Rua: colors.yellow,
   Estudantil: colors.purple,
   Rodada: colors.cream,
-  Atividade: colors.brown
+  Atividade: colors.cream
 };

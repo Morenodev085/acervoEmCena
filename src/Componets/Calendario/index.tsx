@@ -10,7 +10,7 @@ const titulosPorTipo: Record<string, string> = {
     longa: "Mostra Peças",
     curta: "Mostra Cenas Curtas",
     rodada: "Rodada de Negócios",
-    formativa: "Atividades Formativas",
+    Atividade: "Atividades Formativas",
     rua: "Mostra Rua",
 };
 

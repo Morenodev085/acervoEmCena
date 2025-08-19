@@ -11,11 +11,11 @@ const SectionCalendar = () => {
             <ContentWrapper>
                 <TextContent>
                     <TiTuloSection>
-                        <span className="top">Venha conhecer nossa</span>
-                        <span className="bottom">PROGRAMAÇÃO</span>
+                        <span className="top">PROGRAMAÇÃO</span>
+                        <span className="bottom">COMPLETA</span>
                     </TiTuloSection>
                     <Link to="/programacao">
-                    <button >Programação Completa</button>
+                    <button >AGENDA</button>
                     </Link>
                 </TextContent>
 

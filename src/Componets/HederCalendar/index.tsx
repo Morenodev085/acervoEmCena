@@ -7,8 +7,8 @@ const HerderCalendar = () => {
         <ContainerSite>
 
     <DivHerderCalendario>
-        <TituloCalendario>Programação completa</TituloCalendario>
-        <TextoCalendario>Venha conferir toda a nossa programação do Niterói em Cena 2025.
+        <TituloCalendario>Programação Completa</TituloCalendario>
+        <TextoCalendario>Venha conferir toda a programação do Niterói em Cena – Festival Internacional de Teatro 2025.
             Todas as atrações são gratuitas!</TextoCalendario>
     </DivHerderCalendario>
         </ContainerSite>
