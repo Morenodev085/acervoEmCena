@@ -4,6 +4,8 @@ import kaow from '../assets/fotosPecas/KAWo.jpeg'
 import terapia from '../assets/fotosPecas/terapiaInfernal.jpeg'
 import poli from '../assets/fotosPecas/POLICARPO.jpg'
 import PQ from '../assets/fotosPecas/PQnao.jpeg'
+import macacos from '../assets/macacos.jpeg'
+
 //curtas
 import OUltimo from '../assets/fotosCurtas/CENAS - O Último Ato (1).jpg'
 import Claro from '../assets/fotosCurtas/CENAS - Claro! (1).png'
@@ -75,6 +77,7 @@ export const pieces: Piece[] = [
     id: 4,
     title: 'Espetáculo Macacos',
     type: 'Longa',
+    image: macacos,
     description: 'MACACOS é um espetáculo sobre como o racismo está enraizado na história do Brasil. A peça é uma reflexão sobre o adjetivo MACACO, usado contra pessoas negras em todo o mundo. Além disso, a colonização é abordada para justificar a estrutura social e cotidiana do Brasil de 1500 até os dias de hoje.',
     data: 26,
     time: 20,
