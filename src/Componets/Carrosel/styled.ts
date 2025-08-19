@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const CarouselContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 800px;
+  height: 900px;
   overflow: hidden;
     @media (max-width: 768px) {
 
