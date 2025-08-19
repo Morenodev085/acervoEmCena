@@ -1,10 +1,10 @@
 import type { Piece } from './types';
 //longas
-import kaow from '../assets/fotosPecas/KAWo.jpeg'
-import terapia from '../assets/fotosPecas/terapiaInfernal.jpeg'
+import kaow from '../assets/fotosPecas/KAWÓ2.jpg'
+import terapia from '../assets/fotosPecas/terapia.jpg'
 import poli from '../assets/fotosPecas/POLICARPO.jpg'
-import PQ from '../assets/fotosPecas/PQnao.jpeg'
-import macacos from '../assets/fotosPecas/macacos.jpeg'
+import PQ from '../assets/fotosPecas/pq2.jpg'
+import macacos from '../assets/fotosPecas/macacosBM.jpg'
 
 //curtas
 import OUltimo from '../assets/fotosCurtas/CENAS - O Último Ato (1).jpg'
@@ -23,10 +23,10 @@ import guine from '../assets/fotosCurtas/CENASGuinnaroudosguinnes.jpg'
 import cura from '../assets/fotosCurtas/CENASCura.jpg'
 import entre from '../assets/fotosCurtas/CENASEntretempo.jpg'
 //rua
-import palhaco from '../assets/fotosPecas/cuidadoPalhaco.jpeg'
-import inka from '../assets/fotosPecas/Inkaclow.jpeg'
-import cozinhar from '../assets/fotosPecas/CozinharCrianca.jpeg'
-import girafa from '../assets/fotosPecas/girafa.jpeg'
+import palhaco from '../assets/fotosPecas/cuidadobm.jpg'
+import inka from '../assets/fotosPecas/INKACLOWSHOWbm.jpg'
+import cozinhar from '../assets/fotosPecas/CozinharCrianca.jpg'
+import girafa from '../assets/fotosPecas/girafa.jpg'
 
 //atividade
 import atividadeT from'../assets/atividadefoto/Foto Helena Marques.jpeg'
@@ -81,6 +81,18 @@ export const pieces: Piece[] = [
     showInCarousel: true
   },
   {
+    id: 32,
+    title: 'Meu Caro Amigo',
+    description: 'Norma é professora de História e viveu as grandes transformações do país de forma intensa e apaixonada: a infância e adolescência em plena ditadura militar, a luta pela redemocratização com os colegas de Faculdade e uma inesquecível história de amor no desbunde dos anos 80 com as Diretas Já. E mesmo nos momentos mais difíceis, com uma relação familiar conturbada após o falecimento de sua mãe, Norma nunca se sentiu completamente sozinha: era como se Chico Buarque de Hollanda adivinhasse todos os seus sentimentos e criasse as músicas pensando nela. E então decide realizar um sonho acalentado desde menina: um show onde declara seu amor ao ídolo e canta as músicas que embalaram a trilha sonora de sua vida.',
+    type: 'Longa',
+    data: 23,
+    time: 20,
+    local: 'Teatro Popular Oscar Niemeyer',
+    city: 'Rio de Janeiro',
+    uf: 'RJ',
+    showInCarousel: true
+  },
+  {
     id: 4,
     title: 'Espetáculo Macacos',
     type: 'Longa',
@@ -106,18 +118,6 @@ export const pieces: Piece[] = [
     city: "Rio de Janeiro - RJ  São Paulo",
     uf: "SP",
     showInCarousel: true,
-  },
-  {
-    id: 32,
-    title: 'Meu Caro Amigo',
-    description: 'Norma é professora de História e viveu as grandes transformações do país de forma intensa e apaixonada: a infância e adolescência em plena ditadura militar, a luta pela redemocratização com os colegas de Faculdade e uma inesquecível história de amor no desbunde dos anos 80 com as Diretas Já. E mesmo nos momentos mais difíceis, com uma relação familiar conturbada após o falecimento de sua mãe, Norma nunca se sentiu completamente sozinha: era como se Chico Buarque de Hollanda adivinhasse todos os seus sentimentos e criasse as músicas pensando nela. E então decide realizar um sonho acalentado desde menina: um show onde declara seu amor ao ídolo e canta as músicas que embalaram a trilha sonora de sua vida.',
-    type: 'Longa',
-    data: 23,
-    time: 20,
-    local: 'Teatro Popular Oscar Niemeyer',
-    city: 'Rio de Janeiro',
-    uf: 'RJ',
-    showInCarousel: true
   },
 
   //MOSTRA CURTA
