@@ -35,7 +35,6 @@ const CardCalendario = ({
     local,
     date,
     time,
-    duration,
     tipoTitulo,
 }: CardProps) => {
     return (
@@ -46,7 +45,6 @@ const CardCalendario = ({
                     {companyName && <SubtitleCard type={type}>{companyName}</SubtitleCard>}
                     {city && uf && <SubtitleCard type={type}>{city} - {uf}</SubtitleCard>}
                 </div>
-
                 <LocationInfoBlockCard type={type}>
                     <InfoRowCard type={type}>
                         <FaRegCalendarAlt />
@@ -58,11 +56,8 @@ const CardCalendario = ({
                     </InfoRowCard>
                 </LocationInfoBlockCard>
             </ContentWrapperCard> {/* <-- fechar aqui */}
-
             <FooterCard>
                 <DurationTextCard type={type}>
-                    <FaRegClock />
-                    <span>{duration}</span>
                 </DurationTextCard>
                 <SaibaMaisButton type={type}>{tipoTitulo || type}</SaibaMaisButton>
             </FooterCard>

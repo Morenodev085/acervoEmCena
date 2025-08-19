@@ -5,7 +5,7 @@ import terapia from '../assets/fotosPecas/terapia.jpg'
 import poli from '../assets/fotosPecas/POLICARPO.jpg'
 import PQ from '../assets/fotosPecas/pq1.jpg'
 import macacos from '../assets/fotosPecas/macacosBM.jpg'
-import meucaro from '../assets/fotosPecas/meucaroamigo.jpg'
+import meucaro from '../assets/fotosPecas/meucaroamigo.jpeg'
 
 //curtas
 import OUltimo from '../assets/fotosCurtas/CENAS - O Último Ato (1).jpg'
@@ -479,5 +479,13 @@ export const pieces: Piece[] = [
     time: 11,
     local: 'Auditório Cúpula (Caminho Niemeyer)',
   },
-  
+  {
+    id:35,
+    title:"Caruru com Samba",
+    description: "Encerramento do festival ",
+    type: 'Encerramento',
+    data: 28,
+    time: 13,
+    local:'Teatro Popular Oscar Niemeyer'
+  },
 ]

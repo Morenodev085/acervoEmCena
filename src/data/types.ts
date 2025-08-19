@@ -1,6 +1,6 @@
 import { colors } from "../styled";
 
-export type PieceType= 'Longa' | 'Curta' | 'Rua' | 'Estudantil'|'Rodada' | 'Atividade';
+export type PieceType= 'Longa' | 'Curta' | 'Rua' | 'Estudantil'|'Rodada' | 'Atividade' | 'Encerramento';
 
 
 export type Piece = {
@@ -29,6 +29,7 @@ export const colorMap: Record<PieceType, string> = {
   Curta: colors.pink,
   Rua: colors.yellow,
   Estudantil: colors.purple,
-  Rodada: colors.cream,
-  Atividade: colors.cream
+  Rodada: colors.brown,
+  Atividade: colors.cream,
+  Encerramento: colors.cream
 };
