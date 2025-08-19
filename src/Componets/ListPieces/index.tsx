@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { pieces } from "../../data/peices";
 import { ContainerSite } from "../../styled";
 import {
+  Desculpas,
   DivListtaMostra,
   DivTitulo,
   TituloMostraPage
@@ -62,7 +63,7 @@ const MostraPage = () => {
             />
           ))
         ) : (
-          <p>Nenhum evento encontrado para esse tipo.</p>
+          <Desculpas>Ops, nenhum evento encontrado no momento. Mas não se preocupe novos eventos serão atualizados em breve!</Desculpas>
         )}
 
         <div className="mt-6 flex flex-col items-center gap-2">

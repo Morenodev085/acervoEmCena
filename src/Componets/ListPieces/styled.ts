@@ -13,3 +13,8 @@ export const DivTitulo = styled.div`
 text-align: center;
 margin-bottom: 16px;
 `
+
+export const Desculpas = styled.p`
+font-size: 32px;
+font-weight: bold;
+`

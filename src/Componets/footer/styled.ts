@@ -9,7 +9,7 @@ export const FooterContainer = styled.div`
 
  img {
     width: 100%;
-    max-width: 1228px;
+    max-width: 1528px;
     height: auto;               /* Mantém a proporção da imagem */
     object-fit: contain;        /* Garante que a imagem inteira seja visível */
     object-position: center;
