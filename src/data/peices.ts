@@ -3,7 +3,7 @@ import type { Piece } from './types';
 import kaow from '../assets/fotosPecas/KAWÓ2.jpg'
 import terapia from '../assets/fotosPecas/terapia.jpg'
 import poli from '../assets/fotosPecas/POLICARPO.jpg'
-import PQ from '../assets/fotosPecas/pq2.jpg'
+import PQ from '../assets/fotosPecas/pq1.jpg'
 import macacos from '../assets/fotosPecas/macacosBM.jpg'
 
 //curtas

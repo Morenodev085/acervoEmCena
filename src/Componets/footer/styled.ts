@@ -3,39 +3,36 @@ import { colors } from "../../styled";
 
 export const FooterContainer = styled.div`
   margin-top: 32px;
-    display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; /* centraliza a imagem */
-  column-gap: 32px;
+  align-items: center;
 
-  
   img {
     width: 100%;
     max-width: 1228px;
-    aspect-ratio: 1228 / 236;     /* mantém proporção da imagem */
-    object-fit: cover;            /* preenche, mas pode cortar levemente */
+    height: 290px;
+    object-fit: cover; /* preenche a caixa, mas pode cortar */
     object-position: center;
     display: block;
   }
 
   @media (max-width: 768px) {
     img {
-      max-height: 180px;       /* menor altura no mobile */
+      height: auto;              /* altura automática para manter proporção */
+      max-height: none;          /* remove o limite anterior */
+      object-fit: contain;       /* mostra a imagem inteira, sem cortes */
+      padding: 0 1rem;           /* adiciona um pequeno respiro lateral se quiser */
     }
   }
-  `;
-
-
+`;
 export const InfoFooter = styled.div`
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: ${colors.grey};
-
-  width: 100%; /* ocupa toda a largura da tela */
-  padding: 1rem 6rem; /* espaço interno nas laterais */
+  width: 100%;
+  padding: 1rem 6rem;
 
   a {
     display: flex;
@@ -43,14 +40,13 @@ export const InfoFooter = styled.div`
     gap: 6px;
     text-decoration: none;
     font-size: 1rem;
-    color: inherit; /* herda a cor definida acima */
+    color: inherit;
   }
 
   p {
     font-size: 1rem;
   }
 
-  /* Responsivo para telas pequenas */
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
@@ -59,24 +55,6 @@ export const InfoFooter = styled.div`
 
     p {
       font-size: 0.75rem;
-    }
-
-    a {
-      justify-content: center;
-    }
-  }
-
-
-
-  /* Responsivo para telas pequenas */
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center; /* Centraliza os filhos horizontalmente */
-    gap: 12px;
-
-    p {
-      font-size: 0.75rem;
-      text-align: center;
     }
 
     a {
