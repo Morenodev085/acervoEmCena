@@ -19,7 +19,7 @@ export interface Peca {
   type: PieceType;
   data: number;
   local: string;
-  time: number;
+  time: string | number;
   img: string;
   e?: string; // link de inscrição (opcional)
 }

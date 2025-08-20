@@ -23,7 +23,7 @@ const titulosPorTipo: Record<string, string> = {
 const MostraPage = () => {
   const { type } = useParams();
   const [paginaAtual, setPaginaAtual] = useState(1);
-  const itensPorPagina = 6;
+  const itensPorPagina = 15;
 
   const tipoNormalizado = type?.toLowerCase() || "";
   const tituloMostra = titulosPorTipo[tipoNormalizado] || "Tipo não encontrado";

@@ -21,7 +21,7 @@ interface CardProps {
     type: PieceType;
     local: string;
     date: number;
-    time: number;
+time: string | number;
     duration: string;
     tipoTitulo?: string;
 }
