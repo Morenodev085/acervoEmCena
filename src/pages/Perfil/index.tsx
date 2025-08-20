@@ -6,7 +6,7 @@ const PaginaRodada = () => {
     return(
         <>
         <Header/>
-        <RodadaBody></RodadaBody>
+        <RodadaBody/>
         <Footer/>
         </>
     )

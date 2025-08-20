@@ -68,9 +68,9 @@ export const pieces: Piece[] = [
   },
   {
     id: 2,
-    title: 'O Triste Fim de Policarpo Quaresma',
+    title: 'Policarpo Quaresma - O Musical',
     type: 'Longa',
-    description: "Espetáculo inspirado em “Triste Fim de Policarpo Quaresma” celebra o teatro de revista e nossa literatura com dança, música e emoção para novos públicos.",
+    description: "O Espetáculo inspirado em “Triste Fim de Policarpo Quaresma” celebra o teatro de revista e nossa literatura com dança, música e emoção para novos públicos.",
     image: poli,
     data: 24,
     time: 20,
@@ -98,7 +98,7 @@ export const pieces: Piece[] = [
   },
   {
     id: 4,
-    title: 'Espetáculo Macacos',
+    title: 'Macacos',
     type: 'Longa',
     description: 'Espetáculo sobre como o racismo está enraizado na história do Brasil. Uma reflexão sobre o adjetivo MACACO, usado contra pessoas negras em todo o mundo. Além disso, a colonização é abordada para justificar a estrutura social e cotidiana do Brasil de 1500 até os dias de hoje.',
     image: macacos,

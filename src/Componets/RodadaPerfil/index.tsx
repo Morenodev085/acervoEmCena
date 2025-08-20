@@ -5,7 +5,7 @@ const RodadaBody = () => {
     return(
         <ContainerSite>
             <ContainerRodada>
-                <TituloRodada>Rodada de Negocios</TituloRodada>
+                <TituloRodada>Rodada de Negócio</TituloRodada>
                 <TextRodada>ainda nao temos nada aqui </TextRodada>
             </ContainerRodada>
         </ContainerSite>
