@@ -23,7 +23,7 @@ export interface Peca {
   time: string | number;
   img: string;
   e?: string; // link de inscrição (opcional)
-  classif: string
+  classif: string;
 }
 
 // Props do componente
@@ -33,8 +33,9 @@ interface CardPecaListaProps {
 }
 
 const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
-  // Lógica para exibir o "h" apenas quando time for do tipo number
-  const horarioFormatado = `${peca.time}${typeof peca.time === 'number' ? '' : 'h'}`;
+  // Corrigido: adiciona 'h' apenas se time for número
+  const horarioFormatado = `${peca.time}${typeof peca.time === 'number' ? ' h' : ''}`;
+  const classificacao = peca.classif?.trim() ? peca.classif : "Livre";
 
   return (
     <CardContainer reversed={reversed} pieceType={peca.type}>
@@ -47,7 +48,7 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
       </CardImageWrapper>
 
       <CardInfoWrapper>
-        <CardTitulo>{peca.title} </CardTitulo>
+        <CardTitulo>{peca.title}</CardTitulo>
         <CardDescricao>{peca.description}</CardDescricao>
 
         <CardFooter>
@@ -63,8 +64,7 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <span>
-                <p>Classificação etária: {peca.classif || "Livre"}</p>              </span>
+              <span>Classificação etária: {classificacao}</span>
             </div>
           </InfoGroup>
 
