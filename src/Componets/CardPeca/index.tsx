@@ -12,6 +12,7 @@ import {
 import { FaMapMarkerAlt, FaRegCalendarAlt } from "react-icons/fa";
 import type { PieceType } from "../../data/types";
 
+// Interface da peça
 export interface Peca {
   id: number;
   title: string;
@@ -24,12 +25,16 @@ export interface Peca {
   e?: string; // link de inscrição (opcional)
 }
 
+// Props do componente
 interface CardPecaListaProps {
   peca: Peca;
   reversed?: boolean;
 }
 
 const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
+  // Lógica para exibir o "h" apenas quando time for do tipo number
+  const horarioFormatado = `${peca.time}${typeof peca.time === 'number' ? '' : 'h'}`;
+
   return (
     <CardContainer reversed={reversed} pieceType={peca.type}>
       <CardImageWrapper>
@@ -53,7 +58,7 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
             <div className="flex items-center gap-2">
               <FaRegCalendarAlt />
               <span>
-                {peca.data} de setembro, às {peca.time}h
+                {peca.data} de setembro, às {horarioFormatado}
               </span>
             </div>
           </InfoGroup>

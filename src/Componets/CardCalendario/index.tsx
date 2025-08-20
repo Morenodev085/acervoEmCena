@@ -8,7 +8,7 @@ import {
     FooterCard,
     DurationTextCard,
     SaibaMaisButton,
-    ContentWrapperCard, // <-- IMPORTAR AQUI
+    ContentWrapperCard,
 } from "./styled";
 import type { PieceType } from '../../data/types';
 
@@ -21,7 +21,7 @@ interface CardProps {
     type: PieceType;
     local: string;
     date: number;
-time: string | number;
+    time: string | number;
     duration: string;
     tipoTitulo?: string;
 }
@@ -37,9 +37,12 @@ const CardCalendario = ({
     time,
     tipoTitulo,
 }: CardProps) => {
+    // Aqui formatamos o horário para adicionar 'h' somente se for número
+    const horarioFormatado = `${time}${typeof time === 'number' ? 'h' : ''}`;
+
     return (
         <CardCalendariBody type={type}>
-            <ContentWrapperCard> {/* <-- envolver aqui */}
+            <ContentWrapperCard>
                 <div>
                     <TituloCard type={type}>{title}</TituloCard>
                     {companyName && <SubtitleCard type={type}>{companyName}</SubtitleCard>}
@@ -48,16 +51,17 @@ const CardCalendario = ({
                 <LocationInfoBlockCard type={type}>
                     <InfoRowCard type={type}>
                         <FaRegCalendarAlt />
-                        <span>{date} de setembro às {time}h</span>
+                        <span>{date} de setembro às {horarioFormatado}</span>
                     </InfoRowCard>
                     <InfoRowCard type={type}>
                         <FaMapMarkerAlt />
                         <span>{local}</span>
                     </InfoRowCard>
                 </LocationInfoBlockCard>
-            </ContentWrapperCard> {/* <-- fechar aqui */}
+            </ContentWrapperCard>
             <FooterCard>
                 <DurationTextCard type={type}>
+                    {/* você pode colocar duration aqui, se quiser */}
                 </DurationTextCard>
                 <SaibaMaisButton type={type}>{tipoTitulo || type}</SaibaMaisButton>
             </FooterCard>
