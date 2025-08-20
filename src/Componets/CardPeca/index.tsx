@@ -23,6 +23,7 @@ export interface Peca {
   time: string | number;
   img: string;
   e?: string; // link de inscrição (opcional)
+  classif: string
 }
 
 // Props do componente
@@ -46,7 +47,7 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
       </CardImageWrapper>
 
       <CardInfoWrapper>
-        <CardTitulo>{peca.title}</CardTitulo>
+        <CardTitulo>{peca.title} </CardTitulo>
         <CardDescricao>{peca.description}</CardDescricao>
 
         <CardFooter>
@@ -60,6 +61,10 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
               <span>
                 {peca.data} de setembro, às {horarioFormatado}
               </span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span>
+                <p>Classificação etária: {peca.classif || "Livre"}</p>              </span>
             </div>
           </InfoGroup>
 

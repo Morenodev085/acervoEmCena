@@ -8,7 +8,7 @@ import {
   DivTitulo,
   TituloMostraPage
 } from "./styled";
-import CardPecaLista from "../../Componets/CardPeca"; // Confirma caminho/nome
+import CardPecaLista from "../../Componets/CardPeca";
 
 // Títulos correspondentes a cada tipo (rota)
 const titulosPorTipo: Record<string, string> = {
@@ -23,12 +23,14 @@ const titulosPorTipo: Record<string, string> = {
 const MostraPage = () => {
   const { type } = useParams();
   const [paginaAtual, setPaginaAtual] = useState(1);
-  const itensPorPagina = 15;
 
   const tipoNormalizado = type?.toLowerCase() || "";
   const tituloMostra = titulosPorTipo[tipoNormalizado] || "Tipo não encontrado";
 
-  // Aqui filtra todas as peças do tipo, exceto as que tem showInList === true
+  // ✅ Define quantos itens por página com base no tipo
+  const itensPorPagina = tipoNormalizado === "curta" ? 5 : 6;
+
+  // Filtra as peças do tipo, excluindo as que não devem aparecer
   const pecasFiltradas = pieces.filter(
     (peca) =>
       peca.type.toLowerCase() === tipoNormalizado &&
@@ -51,25 +53,27 @@ const MostraPage = () => {
       <DivListtaMostra>
         <DivTitulo>
           <TituloMostraPage>{tituloMostra}</TituloMostraPage>
-          
         </DivTitulo>
 
         {pecasPaginaAtual.length > 0 ? (
           pecasPaginaAtual.map((peca, index) => (
             <CardPecaLista
               key={peca.id}
-              peca={{ ...peca, img: peca.image || "" }}
+              peca={{ ...peca, img: peca.image || "" , classif: peca.classif || "Livre", }} 
               reversed={index % 2 === 1}
             />
           ))
         ) : (
-          <Desculpas>Ops, nenhum evento encontrado no momento. Mas não se preocupe novos eventos serão atualizados em breve!</Desculpas>
+          <Desculpas>
+            Ops, nenhum evento encontrado no momento. Mas não se preocupe — novos eventos serão atualizados em breve!
+          </Desculpas>
         )}
 
+        {/* Paginação */}
         <div className="mt-6 flex flex-col items-center gap-2">
           <div className="flex justify-center items-center gap-4">
             <button
-              className="px-4 py-2 bg-black border border-gray-400 text-white rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-800 transition-colors"
+              className="px-4 py-2 bg-black border border-amber-100 text-amber-100 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-800 transition-colors"
               onClick={() => handleMudarPagina(paginaAtual - 1)}
               disabled={paginaAtual === 1}
             >
@@ -77,7 +81,7 @@ const MostraPage = () => {
             </button>
 
             <button
-              className="px-4 py-2 bg-black border border-gray-400 text-white rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-800 transition-colors"
+              className="px-4 py-2 bg-black border border-amber-100 text-white rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-800 transition-colors"
               onClick={() => handleMudarPagina(paginaAtual + 1)}
               disabled={paginaAtual === totalPaginas}
             >
@@ -85,7 +89,7 @@ const MostraPage = () => {
             </button>
           </div>
 
-          <span className="text-gray-700">
+          <span className="text-amber-100">
             Página <strong>{paginaAtual}</strong> de <strong>{totalPaginas}</strong>
           </span>
         </div>
