@@ -13,7 +13,7 @@ export type Piece = {
     image4?: string
     description: string
     data: number 
-    time: number
+    time: string | number 
     local: string
     companyName?: string
     city?: string
@@ -29,7 +29,7 @@ export const colorMap: Record<PieceType, string> = {
   Curta: colors.pink,
   Rua: colors.yellow,
   Estudantil: colors.purple,
-  Rodada: colors.brown,
+  Rodada: colors.cream,
   Atividade: colors.cream,
   Encerramento: colors.cream
 };
