@@ -25,7 +25,7 @@ import cura from '../assets/fotosCurtas/CENASCura.jpg'
 import entre from '../assets/fotosCurtas/CENASEntretempo.jpg'
 //rua
 import palhaco from '../assets/fotosPecas/cuidadobm.jpg'
-import inka from '../assets/fotosPecas/INKACLOWSHOWbm.jpg'
+import inka from '../assets/fotosPecas/INKACLOWSHOWbm.jpeg'
 import cozinhar from '../assets/fotosPecas/CozinharCrianca.jpg'
 import girafa from '../assets/fotosPecas/girafa.jpg'
 
