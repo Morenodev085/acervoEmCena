@@ -48,7 +48,7 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
       </CardImageWrapper>
 
       <CardInfoWrapper>
-        <CardTitulo>{peca.title}</CardTitulo>
+        <CardTitulo>{peca.title}2</CardTitulo>
         <CardDescricao>{peca.description}</CardDescricao>
 
         <CardFooter>
