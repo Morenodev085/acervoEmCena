@@ -34,7 +34,7 @@ interface CardPecaListaProps {
 
 const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
   // Corrigido: adiciona 'h' apenas se time for número
-  const horarioFormatado = `${peca.time}${typeof peca.time === 'number' ? ' h' : ''}`;
+  const horarioFormatado = `${peca.time}${typeof peca.time === 'number' ? 'h' : ''}`;
   const classificacao = peca.classif?.trim() ? peca.classif : "Livre";
 
   return (
