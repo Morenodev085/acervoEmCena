@@ -1,5 +1,5 @@
 import { ContainerSite } from "../../styled"
-import { ContainerEco, , TextSimples, TituloSimples } from "./styled"
+import { ContainerEco, TextSimples, TituloSimples } from "./styled"
 
 const SectionEco = () => {
     return (
