@@ -13,7 +13,7 @@ export const TextSimples = styled.div`
   }
 `
 export const ImageEco = styled.div`
-  flex: 1;
+  flex: 0.5;
   text-align: center;
   border: 8px;
 
