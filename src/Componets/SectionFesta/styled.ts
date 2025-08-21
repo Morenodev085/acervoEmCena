@@ -36,9 +36,11 @@ export const TituloEncerramentos = styled.h2`
   font-size: 2.8rem;
   font-weight: bold;
   color: ${colors.pink};
+  margin-bottom: 64px;
 
   @media (max-width: 768px) {
     font-size: 1.68rem;
+    margin-bottom: 12px;
   }
 `
 export const TextSimplesEncerramento = styled.div`
