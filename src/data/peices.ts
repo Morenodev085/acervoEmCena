@@ -131,7 +131,7 @@ export const pieces: Piece[] = [
     type: 'Longa',
     description: "O Caruru, comida ancestral de origem africana, será oferecido ao público na festa de encerramento do festival como um símbolo de prosperidade, saúde e alegria. A celebração será embalada pelo Samba das Yabás, tradicional roda de samba da cidade, garantindo uma noite repleta de música e cultura. Um momento gratuito, especial e imperdível para todos os presentes.",
     data: 28,
-    time: 10,
+    time: 13,
     local: "Teatro Popular Oscar Niemeyer",
     city: "Salvador ",
     uf: "BA",
