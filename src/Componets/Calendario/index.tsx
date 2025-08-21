@@ -51,7 +51,7 @@ const Calendario = () => {
                                         ? titulosPorTipo[piece.type.toLowerCase()] || piece.type
                                         : piece.type
                                 }
-
+                                classif={piece.classif ?? "livre"}
                             />
                         ))}
                     </CardRow>

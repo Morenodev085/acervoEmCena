@@ -24,6 +24,7 @@ interface CardProps {
     time: string | number;
     duration: string;
     tipoTitulo?: string;
+    classif: string
 }
 
 const CardCalendario = ({
@@ -36,6 +37,7 @@ const CardCalendario = ({
     date,
     time,
     tipoTitulo,
+    classif,
 }: CardProps) => {
     // Aqui formatamos o horário para adicionar 'h' somente se for número
     const horarioFormatado = `${time}${typeof time === 'number' ? 'h' : ''}`;
@@ -61,7 +63,7 @@ const CardCalendario = ({
             </ContentWrapperCard>
             <FooterCard>
                 <DurationTextCard type={type}>
-                    {/* você pode colocar duration aqui, se quiser */}
+                    <TipoTexto type={type}>Classificação : {classif}</TipoTexto>
                 </DurationTextCard>
                 <TipoTexto type={type}>{tipoTitulo || type}</TipoTexto>
             </FooterCard>

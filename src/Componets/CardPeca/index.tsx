@@ -64,7 +64,7 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <span>Classificação etária: {classificacao}</span>
+              <span>Classificação Indicativa: {classificacao}</span>
             </div>
           </InfoGroup>
 
