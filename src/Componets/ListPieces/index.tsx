@@ -28,7 +28,7 @@ const MostraPage = () => {
   const tituloMostra = titulosPorTipo[tipoNormalizado] || "Tipo não encontrado";
 
   // ✅ Define quantos itens por página com base no tipo
-  const itensPorPagina = tipoNormalizado === "curta" ? 5 : 6;
+  const itensPorPagina = tipoNormalizado === "curta" ? 5 : 7;
 
   // Filtra as peças do tipo, excluindo as que não devem aparecer
   const pecasFiltradas = pieces.filter(

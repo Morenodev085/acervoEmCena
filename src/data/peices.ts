@@ -6,7 +6,7 @@ import poli from '../assets/fotosPecas/POLICARPO.jpg'
 import PQ from '../assets/fotosPecas/pq1.jpg'
 import macacos from '../assets/fotosPecas/macacosBM.jpg'
 import meucaro from '../assets/fotosPecas/meucaroamigo.jpeg'
-
+import caruru from '../assets/encerramentoFestival.jpeg'
 //curtas
 import OUltimo from '../assets/fotosCurtas/CENAS - O Último Ato (1).jpg'
 import Claro from '../assets/fotosCurtas/CENAS - Claro! (1).png'
@@ -124,7 +124,21 @@ export const pieces: Piece[] = [
     uf: "SP",
     showInCarousel: true,
     classif:"14+"
+  },  {
+    id: 35,
+    title: 'Caruru e Samba das Yabás.',
+    image: caruru,
+    type: 'Longa',
+    description: "O Caruru, comida ancestral de origem africana, será oferecido ao público na festa de encerramento do festival como um símbolo de prosperidade, saúde e alegria. A celebração será embalada pelo Samba das Yabás, tradicional roda de samba da cidade, garantindo uma noite repleta de música e cultura. Um momento gratuito, especial e imperdível para todos os presentes.",
+    data: 28,
+    time: 10,
+    local: "Teatro Popular Oscar Niemeyer",
+    city: "Salvador ",
+    uf: "BA",
+    showInCarousel: false,
+
   },
+
 
   //MOSTRA CURTA
   {
@@ -499,13 +513,5 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     time: 11,
     local: 'Auditório Cúpula do Caminho Niemeyer',
   },
-  {
-    id: 35,
-    title: "Caruru com Samba",
-    description: "Encerramento do festival ",
-    type: 'Encerramento',
-    data: 28,
-    time: 13,
-    local: 'Teatro Popular Oscar Niemeyer'
-  },
+
 ]
