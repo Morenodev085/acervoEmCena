@@ -4,6 +4,7 @@ import DescrcaoFestival from "../../Componets/descricaoFestival/intex"
 import Footer from "../../Componets/footer"
 import Header from "../../Componets/Header"
 import SectionCalendar from "../../Componets/SectionCalendar"
+import SectionEco from "../../Componets/SectionEco"
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Buttons />
             <DescrcaoFestival/>
             <SectionCalendar />
+            <SectionEco/>
             <Footer />
         </>
     )
