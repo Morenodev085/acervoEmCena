@@ -11,7 +11,7 @@ const SectionFestaYaba = () => {
                 </ImageEncerramento>
                 <TextSimplesEncerramento>
                     <TituloEncerramentos>Festa de encerramento</TituloEncerramentos>
-                    <p>nononononononononononononononononononononononononononononono</p>
+                    <p>O Caruru, comida ancestral de origem africana, será oferecido ao público do festival como símbolo de saúde, alegria e prosperidade, marcando a grande celebração de encerramento do evento. A música fica por conta do Samba das Yabás, tradicional roda de samba da cidade, em uma noite gratuita e imperdível.</p>
                 </TextSimplesEncerramento>
             </ContainerEncerramento>
         </ContainerSite>

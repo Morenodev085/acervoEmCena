@@ -9,6 +9,10 @@ gap: 2rem;
 flex-wrap: wrap;
 margin-top: 24px;
 
+  @media (max-width: 768px) {
+    flex-direction: column-reverse; /* Empilha no mobile */
+  }
+
 img{
         max-width: 100%;
     height: auto;
