@@ -15,7 +15,7 @@ const SectionCalendar = () => {
                         <span className="bottom">COMPLETA</span>
                     </TiTuloSection>
                     <Link to="/programacao">
-                    <button >AGENDA</button>
+                    <button >AGENDA </button>
                     </Link>
                 </TextContent>
 
