@@ -57,7 +57,7 @@ export const RodadaImage = styled.img`
 
 
 export const TextRodada = styled.p`
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
   margin: 0; /* Remove espaçamento extra */
   line-height: 1.6;
