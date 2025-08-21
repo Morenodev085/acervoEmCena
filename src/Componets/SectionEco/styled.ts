@@ -44,5 +44,5 @@ export const ContainerEco = styled.div`
   flex-wrap: nowrap;
 
   @media (max-width: 768px) {
-    flex-direction: column; /* Empilha no mobile */
+    flex-direction: column-reverse; /* Empilha no mobile */
   }`
