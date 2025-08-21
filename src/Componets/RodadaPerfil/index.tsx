@@ -12,6 +12,7 @@ import {
 
 import rodada1 from "../../assets/atividadefoto/rodada1.jpg";
 import rodada2 from "../../assets/atividadefoto/rodada2.jpg";
+import { Link } from "react-router-dom";
 
 const RodadaBody = () => {
   return (
@@ -63,7 +64,7 @@ const RodadaBody = () => {
         </TextRodada>
         <CenteredContainer>
 
-          <FullWidthButton>Inscreva-se</FullWidthButton>
+          <FullWidthButton ><Link to={"https://docs.google.com/forms/d/e/1FAIpQLSfOfLQ36ZBnfuhAhvYJdhj5DEyznJzws96sMCZFcPiEJdi-Zw/viewform?usp=dialog"}>Inscreva-se</Link></FullWidthButton>
         </CenteredContainer>
       </ContainerRodada>
     </ContainerSite>
