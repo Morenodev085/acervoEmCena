@@ -7,7 +7,7 @@ import {
     InfoRowCard,
     FooterCard,
     DurationTextCard,
-    SaibaMaisButton,
+    TipoTexto,
     ContentWrapperCard,
 } from "./styled";
 import type { PieceType } from '../../data/types';
@@ -63,7 +63,7 @@ const CardCalendario = ({
                 <DurationTextCard type={type}>
                     {/* você pode colocar duration aqui, se quiser */}
                 </DurationTextCard>
-                <SaibaMaisButton type={type}>{tipoTitulo || type}</SaibaMaisButton>
+                <TipoTexto type={type}>{tipoTitulo || type}</TipoTexto>
             </FooterCard>
         </CardCalendariBody>
     );

@@ -1,7 +1,6 @@
 // src/components/CardCalendario/styled.js
 import styled from "styled-components";
 import { colorMap, type PieceType } from "../../data/types";
-import { colors } from "../../styled";
 
 type CardProps = {
   type: PieceType;
@@ -89,21 +88,13 @@ export const InfoBotaoWrapper = styled.div`
   }
 `;
 
-export const SaibaMaisButton = styled.button<ButtonProps>`
-  background-color: ${({ type }) => colorMap[type]};
-  border: none;
-  color: ${colors.black};
-  padding: 8px 16px;
-  border-radius: 4px;
-
+export const TipoTexto = styled.span<ButtonProps>`
+  color: ${({ type }) => colorMap[type]};
   font-size: 14px;
   font-weight: bold;
-  align-self: flex-end;
-  transition: background-color 0.3s;
 
   @media (max-width: 600px) {
     font-size: 12px;
-    padding: 4px 8px;
   }
 `;
 
