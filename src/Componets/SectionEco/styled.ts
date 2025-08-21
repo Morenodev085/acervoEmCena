@@ -35,7 +35,7 @@ export const TituloSimples = styled.h2`
   }
 `
 export const ContainerEco = styled.div`
-  margin-top: 32px;
+  margin-top: 48px;
   display: flex;
   flex-direction: row; /* INVERTE a posição dos elementos */
   align-items: center;
