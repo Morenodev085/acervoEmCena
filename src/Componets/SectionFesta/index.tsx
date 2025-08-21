@@ -1,6 +1,6 @@
 import { ContainerSite } from "../../styled"
 import encerramento from "../../assets/encerramentoFestival.jpeg"
-import { ContainerEncerramento, ImageEncerramento } from "./styled"
+import { ContainerEncerramento, ImageEncerramento, TextSimplesEncerramento, TituloEncerramentos } from "./styled"
 
 const SectionFestaYaba = () => {
     return (
@@ -9,10 +9,10 @@ const SectionFestaYaba = () => {
                 <ImageEncerramento>
                     <img src={encerramento} alt="" />
                 </ImageEncerramento>
-                <div>
-                    <h4>festa de encerramento</h4>
+                <TextSimplesEncerramento>
+                    <TituloEncerramentos>Festa de encerramento</TituloEncerramentos>
                     <p>nononononononononononononononononononononononononononononono</p>
-                </div>
+                </TextSimplesEncerramento>
             </ContainerEncerramento>
         </ContainerSite>
     )
