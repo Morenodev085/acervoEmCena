@@ -39,6 +39,7 @@ export const RodadaTextWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: justify;
 `;
 
 export const RodadaImage = styled.img`
