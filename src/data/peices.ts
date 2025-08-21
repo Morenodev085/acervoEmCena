@@ -457,7 +457,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
   //Atividades formativas
   {
     id: 29,
-    title: 'OFICINA DE TEATRO GESTUAL',
+    title: 'OFICINA DE TEATRO GESTUAL, Helena Marques',
     description: 'A metodologia segue a linha da autonomia criativa e tem como base o trabalho desenvolvido em 15 anos de oficinas ministradas pela Dobra, cuja principal fonte de inspiração é o trabalho desenvolvido na LISPA (London International School of Performing Arts - Escola Internacional de Artes Performáticas de Londres), além de conceitos de Jacques Lecoq, Dario Fo, Ariane Mnouchkine, Juliana Carneiro da Cunha, John Mowat, Julio Adrião e Eve Doe Bruce. Serão utilizados princípios de estudo do espaço cênico, gestos, estados de emoção, ritmo, percepção corporal individual e do coro. ',
     image: atividadeT,
     type: 'Atividade',
@@ -468,7 +468,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
   },
   {
     id: 30,
-    title: 'MANUAL E GUIA DO PALHAÇO DE RUA',
+    title: 'MANUAL E GUIA DO PALHAÇO DE RUA, Chacovachi ',
     description: ' A oficina é direcionada aos artistas ou futuros artistas que queiram descobrir os segredos do palhaço de rua para aplicá-los nessa disciplina ou em qualquer outra. Direcionado ao trabalho individual em lugares não-convencionais esta oficina se compõe em três partes: treinamento, teoria e filosofia, postura corporal. ',
     image: atividadeP,
     type: 'Atividade',
@@ -480,7 +480,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
   },
   {
     id: 31,
-    title: 'BRECHT AGORA - PENSAMENTOS E JOGO',
+    title: 'BRECHT AGORA - PENSAMENTOS E JOGO, Marcos Henrique Rego',
     description: 'O palco que pode tudo, que não tem limites expressivos, precisa, em primeiro lugar, ser o palco do ator. Isto é, precisa confiar plenamente no ator para a exploração das suas infinitas possibilidades”. A partir da afirmação do saudoso mestre Aderbal Freire-Filho de que era necessário reconhecer Bertolt Brecht como fundamental para o teatro contemporâneo, abordaremos uma breve linha temporal acerca do trabalho do ator, realizaremos experimentos de sensibilização e exercícios com trechos de obras brechtianas',
     image: atividadeJ,
     type: 'Atividade',

@@ -38,15 +38,9 @@ export const TituloCard = styled.h4<CardProps>`
   margin-bottom: 8px;
   color: ${({ type }) => colorMap[type]};
   font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 
   @media (max-width: 600px) {
     font-size: 16px;
-    white-space: normal;
-    overflow: visible;
-    text-overflow: unset;
   }
 `;
 
