@@ -51,14 +51,14 @@ const RodadaBody = () => {
 
               - Diretores de equipamentos culturais, públicos ou privados, que se inscreverem na Rodada de Negócios do 18º Niterói em Cena, por meio do formulário que estará disponível no site do festival, até o dia 20/09/2025;<br />
 
-              - Gestores culturais do setor público ou privado que se inscreverem na Rodada de Negócios do 18º Niterói em Cena, por meio do formulário que estará disponível no site do festival, até o dia 20/09/2025;<br />
+              - Gestores culturais do setor público ou privado que se inscreverem na Rodada de Negócios do 18º Niterói em Cena, por meio do formulário que estará disponível no site do festival, até o dia 20/09/2025.<br />
             </TextRodada>
           </RodadaTextWrapper>
           <RodadaImage src={rodada2} alt="Rodada 2" />
         </RodadaItem>
         <TextRodada>
 
-          Todo artista de Teatro, Dança ou Circo pode participar da Rodada de Negócios, mesmo aqueles que não integrarão a programação da 18ª edição do Niterói em Cena. Não há limitação territorial para a inscrição, no entanto, a Rodada de Negócios é presencial e não haverá possibilidade de participação online.
+          <br/>Todo artista de Teatro, Dança ou Circo pode participar da Rodada de Negócios, mesmo aqueles que não integrarão a programação da 18ª edição do Niterói em Cena. Não há limitação territorial para a inscrição, no entanto, a Rodada de Negócios é presencial e não haverá possibilidade de participação online.
           A Rodada de Negócios foi pensada para ser um espaço eficiente e dinâmico, promovendo o encontro direto entre quem faz a arte e quem investe ou potencializa seu alcance no mercado cultural.
         </TextRodada>
         <CenteredContainer>
