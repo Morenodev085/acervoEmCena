@@ -65,7 +65,8 @@ const MostraPage = () => {
           ))
         ) : (
           <Desculpas>
-            Ops, nenhum evento encontrado no momento. Mas não se preocupe — novos eventos serão atualizados em breve!
+            Programação da Mostra Estudantil será divulgada em breve.
+            {/* Ops, nenhum evento encontrado no momento. Mas não se preocupe — novos eventos serão atualizados em breve! */}
           </Desculpas>
         )}
 
