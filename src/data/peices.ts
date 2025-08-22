@@ -493,7 +493,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
   },
   {
     id: 35,
-    title: 'O Corpo e as Epistemologias Exusíacas nas Artes da Cena, com Cátia Costa',
+    title: 'O CORPO E AS EPISTEMOLOGIAS EXUSÍACAS NAS ARTES DA CENA, Cátia Costa',
     description: 'Vivência teórico-prática a respeito de conhecimentos ligados ao Orixá Exú (Obá Oritá Metá). E sobretudo, algumas considerações sobre questões artísticas, espirituais e políticas que podem ser analisadas sobre a visão exusíaca. Como o teatro ou as artes da cena podem ser atravessados por um conhecimento ancestral negro-africano?',
     image: atividadec,
     type: 'Atividade',
