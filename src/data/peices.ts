@@ -64,7 +64,8 @@ export const pieces: Piece[] = [
     local: 'Teatro Popular Oscar Niemeyer',
     city: 'Rio de Janeiro',
     uf: 'RJ',
-    showInCarousel: true
+    showInCarousel: true,
+    classif: "12 anos anos"
   },
   {
     id: 2,
@@ -79,7 +80,7 @@ export const pieces: Piece[] = [
     uf: "RJ",
     companyName: "UNIRIO Teatro Musicado",
     showInCarousel: false,
-    classif: "14"
+    classif: "14 anos"
   },
   {
     id: 3,
@@ -94,7 +95,7 @@ export const pieces: Piece[] = [
     uf: "RJ",
     companyName: "Lua Branca Produções",
     showInCarousel: true,
-    classif: "16"
+    classif: "16 anos"
   },
   {
     id: 4,
@@ -109,7 +110,7 @@ export const pieces: Piece[] = [
     companyName: "Clayton Nascimento",
     uf: 'SP',
     showInCarousel: true,
-    classif: "14"
+    classif: "14 anos"
   },
   {
     id: 5,
@@ -123,8 +124,9 @@ export const pieces: Piece[] = [
     city: "Rio de Janeiro - RJ  São Paulo",
     uf: "SP",
     showInCarousel: true,
-    classif:"14"
-  },  {
+    classif: "14 anos"
+  },
+    {
     id: 35,
     title: 'Caruru e Samba das Yabás.',
     image: caruru,
@@ -166,7 +168,7 @@ export const pieces: Piece[] = [
     city: "Maceió",
     uf: "AL",
     companyName: "Grupo Duetu.s",
-    classif: "12"
+    classif: "12 anos"
   },
   {
     id: 8,
@@ -180,7 +182,7 @@ export const pieces: Piece[] = [
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "Núcleo de Dança para Atores",
-    classif:"14"
+    classif: "14 anos"
   },
   {
     id: 9,
@@ -194,7 +196,7 @@ description: "A cena propõe a invenção de uma ancestralidade artística a par
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "Rúbia Vaz",
-    classif:"12"
+    classif: "12 anos"
   },
   {
     id: 10,
@@ -208,7 +210,7 @@ description: "Quatro professores internados em um manicômio são levados à sal
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "Grupo Realce",
-    classif: "14"
+    classif: "14 anos"
   },
   {
     id: 11,
@@ -221,7 +223,7 @@ description: "Quatro professores internados em um manicômio são levados à sal
     local: "Theatro Municipal de Niterói",
     city: "Rio de Janeiro",
     uf: "RJ",
-    classif: "14"
+    classif: "14 anos"
   },
   {
     id: 12,
@@ -235,7 +237,7 @@ description:'Através de uma paródia à "auto ficção" a cena relata a tentati
     city: "São Paulo ",
     uf: "SP",
     companyName: "Coletivo É Só Isso",
-    classif: "16"
+    classif: "16 anos"
   },
   {
     id: 13,
@@ -249,7 +251,7 @@ description:'Através de uma paródia à "auto ficção" a cena relata a tentati
     city: "Niterói",
     uf: "RJ",
     companyName: "Cia Pluma",
-    classif:"14"
+    classif: "14 anos"
   },
   {
     id: 14,
@@ -263,7 +265,7 @@ description: "Em um prostíbulo no Rio, Bertha, ex-rainha da casa, enfraquecida 
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "Cia Espiral",
-    classif: "16"
+    classif: "16 anos"
   },
   {
     id: 15,
@@ -277,7 +279,7 @@ description: "Em um prostíbulo no Rio, Bertha, ex-rainha da casa, enfraquecida 
     city: "Niterói",
     uf: "RJ",
     companyName: "Reflexo da Terra",
-    classif: '12'
+    classif: '12 anos'
   },
   {
     id: 16,
@@ -290,7 +292,7 @@ description: "Zé, um pré-adolescente que se vê confuso e curioso ao explorar 
     local: "Theatro Municipal de Niterói",
     city: "Rio de Janeiro",
     uf: "RJ",
-    classif: "12"
+    classif: "12 anos"
   },
   {
     id: 17,
@@ -304,7 +306,7 @@ description: "Ao imaginar um futuro quase distópico devastado pelo aquecimento 
     city: "Nova Iguaçu",
     uf: "RJ",
     companyName: "Renca Coletivo de Teatro",
-    classif:"12"
+    classif: "12 anos"
   },
   {
     id: 18,
@@ -330,7 +332,7 @@ description: "Ao imaginar um futuro quase distópico devastado pelo aquecimento 
     city: "Rio de Janeiro",
     uf: "RJ",
     companyName: "Grupo Imaginário",
-    classif:"12"
+    classif: "12 anos"
   },
   {
     id: 20,
@@ -344,7 +346,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     city: "Cabo Frio",
     uf: "RJ",
     companyName: "Cia Vapor",
-    classif: "10"
+    classif: "10 anos"
   },
   //MOSTRA RUA
   {
@@ -476,7 +478,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     time: 14,
     local: 'Macquinho',
     e: 'https://docs.google.com/forms/d/e/1FAIpQLSecuvg-U-60403ANz573ivKugqPZZU-3bJA2iwz90mCmAwocg/viewform?usp=dialog',
-    classif: "14"
+    classif: "14 anos"
   },
   {
     id: 31,
@@ -499,7 +501,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     time: 10,
     local: 'Macquinho',
     e: 'https://docs.google.com/forms/d/e/1FAIpQLScMf-LRG22JX0ieH_lDZ91xlsUNup0jx5jwP6-QAVQvxNV_eQ/viewform?usp=dialog',
-    classif: "16"
+    classif: "16 anos"
   },
 
 
