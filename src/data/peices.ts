@@ -65,7 +65,7 @@ export const pieces: Piece[] = [
     city: 'Rio de Janeiro',
     uf: 'RJ',
     showInCarousel: true,
-    classif: "12 anos anos"
+    classif: "12 anos"
   },
   {
     id: 2,
