@@ -7,11 +7,18 @@ export const TextSimples = styled.div`
 
   p {
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     color: ${colors.cream};
     line-height: 1.6;
   }
-`
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 0.6rem;
+    }
+  }
+`;
+
 export const ImageEco = styled.div`
   flex: 0.5;
   text-align: center;
@@ -25,13 +32,13 @@ export const ImageEco = styled.div`
   }
 `
 export const TituloSimples = styled.h2`
-  font-size: 2.8rem;
+  font-size: 1rem;
   font-weight: bold;
   color: ${colors.yellow};
   text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 1.68rem;
+    font-size: 0.9;
   }
 `
 export const ContainerEco = styled.div`
