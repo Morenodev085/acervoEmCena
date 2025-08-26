@@ -521,7 +521,7 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
   //estudantil
   {
     id: 36,
-    title: "Selecionados Mostra Estudantil",
+    title: "Cenas Selecionadas",
 description: `Agradecemos as 144 inscrições recebidas para o Festival. <br/><br/>
 
 No link abaixo, segue a lista dos selecionados para participar da Mostra Estudantil do 18º Niterói em Cena – Festival Internacional de Teatro. <br/><br/>
