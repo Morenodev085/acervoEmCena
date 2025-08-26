@@ -8,13 +8,13 @@ const Buttons = () => {
         <ContainerSite>
             <ButtonArea>
                 <Link to='/longa'><Button ButtonColor={colors.green} >MOSTRA PEÇAS</Button></Link>
-                <Link to='/rua'><Button ButtonColor={colors.purple} >MOSTRA RUA</Button></Link>
-                <Link to='/curta'><Button ButtonColor={colors.pink}  >MOSTRA CENAS CURTAS</Button></Link>
+                <Link to='/rua'><Button ButtonColor={colors.pink} >MOSTRA RUA</Button></Link>
+                <Link to='/curta'><Button ButtonColor={colors.purple}  >MOSTRA CENAS CURTAS</Button></Link>
                 </ButtonArea>
                 <ButtonArea>
                 <Link to='/estudantil'><Button ButtonColor={colors.yellow}>MOSTRA ESTUDANTIL</Button></Link>
                 <Link to='/atividade'><Button ButtonColor={colors.brown} >ATIVIDADES FORMATIVAS</Button></Link>
-                <Link to='/rodadaDeNegocios'><Button ButtonColor={colors.cream} >RODADA DE NEGÓCIO</Button></Link>
+                <Link to='/rodadaDeNegocios'><Button ButtonColor={colors.cream} >RODADA DE NEGÓCIOS</Button></Link>
                 
                 
                 
