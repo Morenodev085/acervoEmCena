@@ -6,11 +6,11 @@ import {
   Desculpas,
   DivListtaMostra,
   DivTitulo,
-  TituloMostraPage
+  TituloMostraPage,
 } from "./styled";
 import CardPecaLista from "../../Componets/CardPeca";
 
-// Títulos correspondentes a cada tipo (rota)
+// Títulos por tipo (rota)
 const titulosPorTipo: Record<string, string> = {
   estudantil: "Mostra Estudantil",
   longa: "Mostra Peças",
@@ -27,15 +27,19 @@ const MostraPage = () => {
   const tipoNormalizado = type?.toLowerCase() || "";
   const tituloMostra = titulosPorTipo[tipoNormalizado] || "Tipo não encontrado";
 
-  // ✅ Define quantos itens por página com base no tipo
   const itensPorPagina = tipoNormalizado === "curta" ? 5 : 7;
 
-  // Filtra as peças do tipo, excluindo as que não devem aparecer
-  const pecasFiltradas = pieces.filter(
+  // Filtrar peças
+  let pecasFiltradas = pieces.filter(
     (peca) =>
       peca.type.toLowerCase() === tipoNormalizado &&
       peca.showInList !== true
   );
+
+  // Reverter ordem se for estudantil
+  if (tipoNormalizado === "estudantil") {
+    pecasFiltradas = [...pecasFiltradas].reverse();
+  }
 
   const totalPaginas = Math.ceil(pecasFiltradas.length / itensPorPagina);
   const indiceUltimoItem = paginaAtual * itensPorPagina;
@@ -59,14 +63,21 @@ const MostraPage = () => {
           pecasPaginaAtual.map((peca, index) => (
             <CardPecaLista
               key={peca.id}
-              peca={{ ...peca, img: peca.image || "" , classif: peca.classif || "Livre", }} 
-              reversed={index % 2 === 1}
+              peca={{
+                ...peca,
+                img: peca.image || "",
+                classif: peca.classif || "Livre",
+              }}
+              reversed={
+                tipoNormalizado === "estudantil"
+                  ? true // todos invertidos
+                  : index % 2 === 1 // alternados nos demais
+              }
             />
           ))
         ) : (
           <Desculpas>
             Programação da Mostra Estudantil será divulgada em breve.
-            {/* Ops, nenhum evento encontrado no momento. Mas não se preocupe — novos eventos serão atualizados em breve! */}
           </Desculpas>
         )}
 
