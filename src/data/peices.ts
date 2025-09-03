@@ -24,14 +24,14 @@ import guine from '../assets/fotosCurtas/CENASGuinnaroudosguinnes.jpg'
 import cura from '../assets/fotosCurtas/CENASCura.jpg'
 import entre from '../assets/fotosCurtas/CENASEntretempo.jpg'
 //rua
-import palhaco from '../assets/fotosPecas/cuidadobm.jpg'
+// import palhaco from '../assets/fotosPecas/cuidadobm.jpg'
 import inka from '../assets/fotosPecas/INKACLOWSHOWbm.jpeg'
 import cozinhar from '../assets/fotosPecas/CozinharCrianca.jpg'
 import girafa from '../assets/fotosPecas/girafa.jpg'
 
 //atividade
 import atividadeT from '../assets/atividadefoto/Foto Helena Marques.jpeg'
-import atividadeP from '../assets/atividadefoto/palhaco.jpg'
+// import atividadeP from '../assets/atividadefoto/palhaco.jpg'
 import atividadeJ from '../assets/atividadefoto/jogos.jpg'
 import atividadec from '../assets/atividadefoto/OCorpoEAs.jpg'
 
