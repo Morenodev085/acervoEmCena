@@ -350,20 +350,20 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     classif: "10 anos"
   },
   //MOSTRA RUA
-  {
-    id: 21,
-    title: 'Cuidado! Um palhaço mau pode arruinar sua vida',
-    type: 'Rua',
-    image: palhaco,
-    description: 'Num mundo cheio de contratempos, inocência, acidez, conformismo e rebeldia, este palhaço é um verdadeiro vingador dos adultos. Ele não é estúpido, nem ingênuo, nem fácil de digerir. Malabarismo, magia, equilíbrio e ciência dos balões são a desculpa. Deus, a política, a morte, as drogas, o poder, a falsa modéstia, o amor, os ideais e o conformismo são os motivos para rir. Sua missão neste mundo é despertar as almas inocentes. Um espetáculo que emociona, transforma e queima, cheio de risos, sorrisos e gargalhadas, mostra um palhaço autêntico, quebrando todos os códigos tradicionais dos palhaços, em sua luta para entreter sem estupidificar e sobreviver na tentativa.',
-    data: 20,
-    time: 11,
-    local: "Campo de São Bento",
-    city :"Argentina",
-    uf: " ",
-    companyName: "O Palhaço Chacovachi",
-    showInCarousel: true
-  },
+  // {
+  //   id: 21,
+  //   title: 'Cuidado! Um palhaço mau pode arruinar sua vida',
+  //   type: 'Rua',
+  //   image: palhaco,
+  //   description: 'Num mundo cheio de contratempos, inocência, acidez, conformismo e rebeldia, este palhaço é um verdadeiro vingador dos adultos. Ele não é estúpido, nem ingênuo, nem fácil de digerir. Malabarismo, magia, equilíbrio e ciência dos balões são a desculpa. Deus, a política, a morte, as drogas, o poder, a falsa modéstia, o amor, os ideais e o conformismo são os motivos para rir. Sua missão neste mundo é despertar as almas inocentes. Um espetáculo que emociona, transforma e queima, cheio de risos, sorrisos e gargalhadas, mostra um palhaço autêntico, quebrando todos os códigos tradicionais dos palhaços, em sua luta para entreter sem estupidificar e sobreviver na tentativa.',
+  //   data: 20,
+  //   time: 11,
+  //   local: "Campo de São Bento",
+  //   city :"Argentina",
+  //   uf: " ",
+  //   companyName: "O Palhaço Chacovachi",
+  //   showInCarousel: true
+  // },
   {
     id: 22,
     title: 'Inka Clown Show',
@@ -469,18 +469,18 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     local: 'Macquinho',
     e: "https://docs.google.com/forms/d/e/1FAIpQLSc1eb5jHIydUPpemfig5sH8bWyaRwPOasrxy78UK_5NzV3Qxg/viewform?usp=dialog"
   },
-  {
-    id: 30,
-    title: 'MANUAL E GUIA DO PALHAÇO DE RUA, Chacovachi ',
-    description: ' A oficina é direcionada aos artistas ou futuros artistas que queiram descobrir os segredos do palhaço de rua para aplicá-los nessa disciplina ou em qualquer outra. Direcionado ao trabalho individual em lugares não-convencionais esta oficina se compõe em três partes: treinamento, teoria e filosofia, postura corporal. ',
-    image: atividadeP,
-    type: 'Atividade',
-    data: 20,
-    time: 14,
-    local: 'Macquinho',
-    e: 'https://docs.google.com/forms/d/e/1FAIpQLSecuvg-U-60403ANz573ivKugqPZZU-3bJA2iwz90mCmAwocg/viewform?usp=dialog',
-    classif: "14 anos"
-  },
+  // {
+  //   id: 30,
+  //   title: 'MANUAL E GUIA DO PALHAÇO DE RUA, Chacovachi ',
+  //   description: ' A oficina é direcionada aos artistas ou futuros artistas que queiram descobrir os segredos do palhaço de rua para aplicá-los nessa disciplina ou em qualquer outra. Direcionado ao trabalho individual em lugares não-convencionais esta oficina se compõe em três partes: treinamento, teoria e filosofia, postura corporal. ',
+  //   image: atividadeP,
+  //   type: 'Atividade',
+  //   data: 20,
+  //   time: 14,
+  //   local: 'Macquinho',
+  //   e: 'https://docs.google.com/forms/d/e/1FAIpQLSecuvg-U-60403ANz573ivKugqPZZU-3bJA2iwz90mCmAwocg/viewform?usp=dialog',
+  //   classif: "14 anos"
+  // },
   {
     id: 31,
     title: 'BRECHT AGORA - PENSAMENTOS E JOGO, Marcos Henrique Rego',
