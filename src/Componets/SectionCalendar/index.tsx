@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { ContainerSite } from "../../styled"
 import { TiTuloSection, ContentWrapper, TextContent, ImageContent } from "./styled"
 
-import chacco from '../../assets/chaccoNariz.jpg'
+import chacco from '../../assets/Photo_ Ricardo Avelar_9.jpg'
 
 
 const SectionCalendar = () => {
