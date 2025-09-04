@@ -24,7 +24,7 @@ import guine from '../assets/fotosCurtas/CENASGuinnaroudosguinnes.jpg'
 import cura from '../assets/fotosCurtas/CENASCura.jpg'
 import entre from '../assets/fotosCurtas/CENASEntretempo.jpg'
 //rua
-// import palhaco from '../assets/fotosPecas/cuidadobm.jpg'
+import palhaco from '../assets/fotosPecas/Buñuelo.jpg'
 import inka from '../assets/fotosPecas/INKACLOWSHOWbm.jpeg'
 import cozinhar from '../assets/fotosPecas/CozinharCrianca.jpg'
 import girafa from '../assets/fotosPecas/girafa.jpg'
@@ -350,20 +350,20 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     classif: "10 anos"
   },
   //MOSTRA RUA
-  // {
-  //   id: 21,
-  //   title: 'Cuidado! Um palhaço mau pode arruinar sua vida',
-  //   type: 'Rua',
-  //   image: palhaco,
-  //   description: 'Num mundo cheio de contratempos, inocência, acidez, conformismo e rebeldia, este palhaço é um verdadeiro vingador dos adultos. Ele não é estúpido, nem ingênuo, nem fácil de digerir. Malabarismo, magia, equilíbrio e ciência dos balões são a desculpa. Deus, a política, a morte, as drogas, o poder, a falsa modéstia, o amor, os ideais e o conformismo são os motivos para rir. Sua missão neste mundo é despertar as almas inocentes. Um espetáculo que emociona, transforma e queima, cheio de risos, sorrisos e gargalhadas, mostra um palhaço autêntico, quebrando todos os códigos tradicionais dos palhaços, em sua luta para entreter sem estupidificar e sobreviver na tentativa.',
-  //   data: 20,
-  //   time: 11,
-  //   local: "Campo de São Bento",
-  //   city :"Argentina",
-  //   uf: " ",
-  //   companyName: "O Palhaço Chacovachi",
-  //   showInCarousel: true
-  // },
+  {
+    id: 21,
+    title: 'Buñuelo',
+    type: 'Rua',
+    image: palhaco ,
+    description: 'Buñuelo, um verdadeiro palhaço, nos surpreenderá com seus mágicos equilíbrios e ilusões desde o momento em que começar a preparar o palco para o grande espetáculo. Ele se deparará com situações inesperadas, que tentará superar com a ajuda do público. O espetáculo termina com uma orquestra ao vivo.',
+    data: 20,
+    time: 11,
+    local: "Campo de São Bento",
+    city :"Argentina",
+    uf: " ",
+    companyName: "Cosifango Circo",
+    showInCarousel: false
+  },
   {
     id: 22,
     title: 'Inka Clown Show',
