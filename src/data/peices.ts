@@ -36,7 +36,6 @@ import atividadeJ from '../assets/atividadefoto/jogos.jpg'
 import atividadec from '../assets/atividadefoto/OCorpoEAs.jpg'
 
 //Estudantil
-import EstudantilM from '../assets/mostraEstudantil.jpeg'
 
 
 export const pieces: Piece[] = [
@@ -467,7 +466,9 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     data: 19,
     time: 14,
     local: 'Macquinho',
-    e: "https://docs.google.com/forms/d/e/1FAIpQLSc1eb5jHIydUPpemfig5sH8bWyaRwPOasrxy78UK_5NzV3Qxg/viewform?usp=dialog"
+    e: "https://docs.google.com/forms/d/e/1FAIpQLSc1eb5jHIydUPpemfig5sH8bWyaRwPOasrxy78UK_5NzV3Qxg/viewform?usp=dialog",
+    showInList: false,
+
   },
   // {
   //   id: 30,
@@ -519,23 +520,6 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
 
 
   //estudantil
-  {
-    id: 36,
-    title: "Cenas Selecionadas",
-description: `Agradecemos as 144 inscrições recebidas para o Festival. <br/><br/>
-
-No link abaixo, segue a lista dos selecionados para participar da Mostra Estudantil do 18º Niterói em Cena – Festival Internacional de Teatro. <br/><br/>
-
-Para confirmar a participação, é obrigatória a presença na Reunião de Produção da Mostra, que será realizada de forma remota.`,
-
-    data: 28,
-    image: EstudantilM,
-    local: "Google Meet - O link da reunião será disponibilizado no grupo do WhatsApp da mostra.",
-    time: 21,
-    type: 'Estudantil',
-    showInList: false,
-    e: 'https://drive.google.com/file/d/1DCZkXBvD2lfVNbjLW5EqFZFchwiBC9-B/view',
-  }
 
   
 ]
