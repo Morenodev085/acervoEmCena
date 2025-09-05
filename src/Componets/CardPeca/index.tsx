@@ -65,7 +65,7 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
             <div className="flex items-center gap-2">
               <FaRegCalendarAlt />
               <span>
-                {peca.data} de {peca.type === "Estudantil" ? "agosto" : "setembro"}, às {horarioFormatado}
+                {peca.data} de setembro, às {horarioFormatado}
               </span>
             </div>
             <div className="flex items-center gap-2">

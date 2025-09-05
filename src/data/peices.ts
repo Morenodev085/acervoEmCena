@@ -126,7 +126,7 @@ export const pieces: Piece[] = [
     showInCarousel: true,
     classif: "14 anos"
   },
-    {
+  {
     id: 35,
     title: 'Caruru e Samba das Yabás.',
     image: caruru,
@@ -189,7 +189,7 @@ export const pieces: Piece[] = [
     title: 'Próxima à fronteira',
     type: 'Curta',
     image: fronteira,
-description: "A cena propõe a invenção de uma ancestralidade artística a partir da vida e obra de Ana Mendieta, entrelaçando autobiografia, fabulação e o comprometimento com os sonhos e práticas de cuidado através de ervas medicinais.",
+    description: "A cena propõe a invenção de uma ancestralidade artística a partir da vida e obra de Ana Mendieta, entrelaçando autobiografia, fabulação e o comprometimento com os sonhos e práticas de cuidado através de ervas medicinais.",
     data: 19,
     time: 20,
     local: "Theatro Municipal de Niterói",
@@ -203,7 +203,7 @@ description: "A cena propõe a invenção de uma ancestralidade artística a par
     title: 'Relatos de professores',
     type: 'Curta',
     image: relatos,
-description: "Quatro professores internados em um manicômio são levados à sala de psiquiatria, onde participarão de uma sessão de análise investigativa. Durante essa sessão, serão tiradas conclusões sobre os eventos narrados, gerando no público uma tensão entre o cômico e o dramático.",
+    description: "Quatro professores internados em um manicômio são levados à sala de psiquiatria, onde participarão de uma sessão de análise investigativa. Durante essa sessão, serão tiradas conclusões sobre os eventos narrados, gerando no público uma tensão entre o cômico e o dramático.",
     data: 19,
     time: 20,
     local: "Theatro Municipal de Niterói",
@@ -230,7 +230,7 @@ description: "Quatro professores internados em um manicômio são levados à sal
     title: 'Facada',
     type: 'Curta',
     image: facada,
-description:'Através de uma paródia à "auto ficção" a cena relata a tentativa de assassinato que o ator Mau Moreira sofreu. Os personagens que permeiam o incidente aparecem de forma caricata e "bufônica", dentro de uma perspectiva confusa do que pode ser uma experiência de quase morte.',
+    description: 'Através de uma paródia à "auto ficção" a cena relata a tentativa de assassinato que o ator Mau Moreira sofreu. Os personagens que permeiam o incidente aparecem de forma caricata e "bufônica", dentro de uma perspectiva confusa do que pode ser uma experiência de quase morte.',
     data: 20,
     time: 20,
     local: "Theatro Municipal de Niterói",
@@ -258,7 +258,7 @@ description:'Através de uma paródia à "auto ficção" a cena relata a tentati
     title: 'Quarto 105',
     type: 'Curta',
     image: quarto,
-description: "Em um prostíbulo no Rio, Bertha, ex-rainha da casa, enfraquecida e desiludida, enfrenta a dona do local. Um segredo perigoso vem à tona. Enquanto isso, uma prostituta recém chegada pode virar o jogo. Em meio a disputas de poder e sobrevivência, o direito de existir e permanecer é ameaçado.",
+    description: "Em um prostíbulo no Rio, Bertha, ex-rainha da casa, enfraquecida e desiludida, enfrenta a dona do local. Um segredo perigoso vem à tona. Enquanto isso, uma prostituta recém chegada pode virar o jogo. Em meio a disputas de poder e sobrevivência, o direito de existir e permanecer é ameaçado.",
     data: 20,
     time: 20,
     local: "Theatro Municipal de Niterói",
@@ -286,7 +286,7 @@ description: "Em um prostíbulo no Rio, Bertha, ex-rainha da casa, enfraquecida 
     title: 'José Não é Ninguém',
     type: 'Curta',
     image: jose,
-description: "Zé, um pré-adolescente que se vê confuso e curioso ao explorar sua identidade LGBTQIAPN+, cresce em um lar desestruturado e luta para entender como ser aceito na sociedade nos anos 2000. Cada descoberta traz consigo o encanto do primeiro amor, o peso do bullying e a dor do luto. Em meio a tantos desafios e questionamentos ele busca respostas em um mundo que muitas vezes parece não ter lugar para ele.",
+    description: "Zé, um pré-adolescente que se vê confuso e curioso ao explorar sua identidade LGBTQIAPN+, cresce em um lar desestruturado e luta para entender como ser aceito na sociedade nos anos 2000. Cada descoberta traz consigo o encanto do primeiro amor, o peso do bullying e a dor do luto. Em meio a tantos desafios e questionamentos ele busca respostas em um mundo que muitas vezes parece não ter lugar para ele.",
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
@@ -299,7 +299,7 @@ description: "Zé, um pré-adolescente que se vê confuso e curioso ao explorar 
     title: 'Aniversário Guanabara',
     type: 'Curta',
     image: guanabara,
-description: "Ao imaginar um futuro quase distópico devastado pelo aquecimento global, o espetáculo ambienta-se em um Rio de Janeiro marcado pela escassez de alimentos e por uma crise sem precedentes. Diante da inevitabilidade de fechar as portas, a rede de supermercados Guanabara opta por um último gesto e propõe a realização do último Aniversário Guanabara. Tal evento, antes tão comum, agora, sob estas circunstâncias, revela as atuais desigualdades que ainda permeiam o estado.",
+    description: "Ao imaginar um futuro quase distópico devastado pelo aquecimento global, o espetáculo ambienta-se em um Rio de Janeiro marcado pela escassez de alimentos e por uma crise sem precedentes. Diante da inevitabilidade de fechar as portas, a rede de supermercados Guanabara opta por um último gesto e propõe a realização do último Aniversário Guanabara. Tal evento, antes tão comum, agora, sob estas circunstâncias, revela as atuais desigualdades que ainda permeiam o estado.",
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
@@ -339,7 +339,7 @@ description: "Ao imaginar um futuro quase distópico devastado pelo aquecimento 
     title: 'Guinnârou, o rei dos guinnés',
     type: 'Curta',
     image: guine,
-description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve montar seu campo no território de uma criatura fantástica, chamada Guinnârou. Movido pela ambição, o homem desconsidera os avisos dos moradores do seu vilarejo sobre o perigo iminente.",
+    description: "Em algum lugar da África, um agricultor chamado Sabouyouma resolve montar seu campo no território de uma criatura fantástica, chamada Guinnârou. Movido pela ambição, o homem desconsidera os avisos dos moradores do seu vilarejo sobre o perigo iminente.",
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",
@@ -353,12 +353,12 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
     id: 21,
     title: 'Buñuelo',
     type: 'Rua',
-    image: palhaco ,
+    image: palhaco,
     description: 'Buñuelo, um verdadeiro palhaço, nos surpreenderá com seus mágicos equilíbrios e ilusões desde o momento em que começar a preparar o palco para o grande espetáculo. Ele se deparará com situações inesperadas, que tentará superar com a ajuda do público. O espetáculo termina com uma orquestra ao vivo.',
     data: 20,
     time: 11,
     local: "Campo de São Bento",
-    city :"Argentina",
+    city: "Argentina",
     uf: " ",
     companyName: "Cosifango Circo",
     showInCarousel: false
@@ -521,5 +521,752 @@ description:"Em algum lugar da África, um agricultor chamado Sabouyouma resolve
 
   //estudantil
 
-  
+  //primeiro dia 
+  {
+    id: 40,
+    title: "Minha mãe é uma peça",
+    description: "O Clube de Teatro CIEP 463 do CIEP 463 João Borges Barreto apresenta uma adaptação de uma cena do filme Minha Mãe é uma Peça 1, exibindo os principais personagens de texto de Paulo Gustavo, um convite ao riso. Elenco: Lucas Castilho Azevedo, Karen de Souza Chagas, Thaymara Barreto Rodrigues, Yngrid Ferreira de Andrade Lima e Henry Equipe de Criação,Diretor, Professora Giuliana Andréa Coelho Simão Barreto de Sousa. ",
+    companyName: "Clube de Teatro CIEP 463 ",
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 41,
+    title: "EU, JULIETA",
+    companyName: "TEATRO MUNICIPAL DE ITAGUAÍ",
+    description: `Em Eu, Julieta, uma atriz negra tenta o papel da heroína shakespeariana, mas é interrompida por não ter o "perfil". Ela então assume a cena, mesclando relato e ficção. Entre a dor e a arte, surge a pergunta: o que é realidade e o que é performance?
+  <br/> Direção: Eduardo Teffé
+  \n Atuação: Shay Martins
+  \n Texto: Eduardo Teffé e Shay Martins`,
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  {
+    id: 42,
+    title: "Rasgo",
+    companyName: "Centro de Formação Artística de Música, Dança e Teatro - Onda",
+    description: '"Rasgo" investiga as opressões com relatos de pessoas abusadas intercalados com partitura corporal inspirada na Dança-Teatro, com intenção de provocar a reflexão acerca do abuso sexual infantil e suas consequências que rasgam o tempo e os corpos. A cena do técnico em Artes Dramáticas da Escola Onda de Rio das Ostras, tem no elenco Emanuel, Luana Valentina e Nala Golfin.',
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "16 anos"
+  },
+  {
+    id: 43,
+    title: "Tina não mora mais aqui",
+    companyName: "Cia Pluma de Teatro",
+    description: `Entre a fome, o descaso e a cachaça, Tina luta para manter de pé seus quatro filhos e a si mesma. Mas quando o silêncio se torna insuportável, ela descobre na própria voz a arma para resistir. Um retrato visceral da mulher negra que transforma dor em grito e ausência em força.
+\nFicha técnica
+\nAutor: Daniel Motta
+Direção: Daniel Motta
+Figurino: Coletivo
+Elenco: Carol Fonseca,  Guilherme Guimarães, Àster, Emris, Diego Hikari, Doug Mach
+`,
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 44,
+    title: "Calaboca",
+    companyName: "Os Ciclomáticos DNA",
+    description: `Dois políticos se perdem na serra do Calaboca e, ao buscar a antiga estrada de ferro, mergulham em um território onde lendas, silêncios e medos antigos se confundem com os próprios fantasmas.
+
+Ficha Técnica
+
+Texto e Direção: Igor Mattos
+Elenco: Hugo Andrade e Leonardo Esteves
+Iluminação: Juliana Amorim
+Figurino: Rosa dos Anjos
+Maquiagem: Getulio Nascimento
+Orientação e Supervisão: Ribamar Ribeiro
+Operação de Som: Igor Mattos e Laura Saretta 
+Produção Executiva: Igor Mattos
+`,
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "14 anos"
+  },
+  {
+    id: 45,
+    title: "Bando do Fim do Mundo",
+    description: `"Bando do Fim do Mundo" retrata um grupo de crianças marginalizadas que
+compartilham suas existências em um beco. Entre a dor da fome e a dureza da
+sobrevivência, elas reinventam a alegria em pequenos gestos de afeto e cumplicidade. Nas
+vielas, percorrem a vida como quem resiste ao esquecimento. Mas, em meio à celebração
+da existência, uma delas se perde — tomada pela fome que dissolve fronteiras entre corpo,
+sonho e realidade.
+
+Ficha técnica:
+Supervisão: Lore
+Orientação Musical: Camilla Monteiro
+Dramaturgia: Kael Perez e Davi Mota
+Elenco: Allana Santos, Davi Mota, Elle Tonelli, Kael Perez e Paolla Gomes
+Cenário e Figurino: Coletivo
+Iluminação: Ygor Ataliba
+` ,
+    companyName: "Oficina de Teatro Gabriel Engel",
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: '12 anos'
+  },
+  {
+    id: 46,
+    title: "Operação do Tio Onofre",
+    companyName: "Colégio Marly Cury - Oficina Teatro em Movimento",
+    description: `Treze crianças em cena apresentam a história de Talita, uma menina que adora brincar com os pais dando nomes de pessoas aos objetos da casa. O que ninguém poderia imaginar é que essa simples brincadeira acabaria se tornando a chave para salvá-la em um momento de grande perigo e tensão.  
+
+Profª Carmen Kawahara
+Autora: Tatiana Belinky
+Música: Fortuna e Hélio Zinkind
+`,
+    type: 'Estudantil',
+    data: 16,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+
+  //segundo dia manha 
+  {
+    id: 47,
+    title: "A COR DAS CORES",
+    companyName: "Educar com Estímulo/ CCA",
+    description: `Inspirada em Ziraldo. A COR DAS CORES é uma história de inclusão, energia , beleza e coletividade.
+Texto e Direção: Fernanda Brum
+Produção: Educar com Estímulo, CCA e Rede of Connections
+Sonoplastia e iluminação-Medyna
+Elenco:Bruno Pereira, Dani Abdalla, Fê Santos, Felipe Bitencourt, Filipe Caldeira, Lidia Abraham, Sofia Margarit.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 48,
+    title: "A vida de-lílios e eu",
+    companyName: "Preparação Corporal de atores do centro cultural Henrique Lage",
+    description: `Um personagem vive drama, não consegue escrever sobre a vida. Sua expressão revela que ele está há dias tentando fazer aquilo, acompanhado apenas de seu cigarro e seu café amargo. Até que um telefone toca e uma ligação inusitada pode mudar sua vida para sempre.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "12 anos",
+  },
+  {
+    id: 49,
+    title: "Favela - Eu Só quero é ser feliz",
+    companyName: "Centro de Dança e Lutas PróArtes",
+    description: `A cena revela a força e a beleza de um povo que transformou dor em resistência e simplicidade em poesia. No palco, luta, união e esperança se encontram em celebração da cultura, da dança e da música que nascem na periferia e ecoam para o mundo.`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos",
+  },
+  {
+    id: 50,
+    title: "O cozinheiro e a professora.",
+    companyName: "Laboratório Brecht - Faculdade de Educação da Universidade Federal Fluminense",
+    description: `Um cozinheiro, uma professora de matemática e Carlos, o anjo desta história, nos mostram o que é e como se prepara um crime-desastre ambiental, no Brasil do século XXI.
+
+Ficha técnica
+
+Responsáveis: Kênia Miranda e José Rodrigues
+Dramaturgia: José Rodrigues
+Elenco: Alexandre Velden (Carlos), Anthony Lessa (Cozinheiro) e Barbara Braga (Professora).
+Músico: Leonardo Martins Rodrigues.
+Produção: Eduarda Araújo, Thaiz Senna, Mariana Rezende.
+Direção: coletiva.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 51,
+    title: "Olhos que não veem, Máscaras que caem",
+    companyName: "Colégio Estadual Almirante Tamandaré",
+    description: `Uma peça que explora a luta contra a depressão e a ansiedade, criticando a medicalização excessiva e ressaltando a importância da rede de apoio. Através de uma experiência teatral sensorial, a peça convida a plateia a refletir sobre a saúde mental de forma humanizada.`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 52,
+    title: "Não acabou, fiz meus defeitos virarem paixão.",
+    companyName: "Curso Livre Dimas Daniel",
+    description: `Ao observar a natureza e seus ciclos, o personagem começa a refletir sobre o processo de metamorfose. O corpo que está preso em uma identidade que não o preenche, até se libertar e enxergar suas asas!
+Poesia dirigida e escrita por Vittor Falcão. `,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  //segundo dia tarde
+  {
+    id: 53,
+    title: "CORPO POLÍTICO",
+    companyName: "OFICINA DE TEATRO NITERÓI EM CENA - COLETIVO TRANSPARENTE",
+    description: `
+Escórias sociais em cena, transformando corpo e arte em armas de resistência. Uma esquete que amplifica vozes LGBTQIAP+ e afirma a potência dos corpos como territórios de luta e transformação.
+
+Direção - Coletivo TransParente
+
+Elenco - Dária Clara - João Belena - Theo Rezende - Raris Ágatha - MMiranda - Tata Antunes - Gus Sorrab - Jun Shimada - Yare Mëllo - Miriam Barbieri - Pietra Chiron - Mikaella Mika - Anne - Julio Bello - Alberto de Avys - Flavio Lucas - Felipe  Claro - Victória Costa - Thaiane Cristina - Julio Gervásio - Eduarda Araújo
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  {
+    id: 54,
+    title: "Ridículos",
+    companyName: "C.E. Cel. Francisco Lima",
+    description: `E se vivêssemos em um mundo onde todos que gostem de ler e escrever fossem considerados "Ridículos ".`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 55,
+    title: "Burro Rochedo",
+    companyName: "Escola de Teatro Aderbal Freire Filho",
+    description: `Nos anos 50, em Maricá, a coleta de lixo era feita em carroças puxada por burros. O folclórico Rochedo foi o mais popular, tendo, inclusive, sido expressivamente votado para vereador. Essa é sua história e suas manias.  Com Vê Barbosa e Delfino. `,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 56,
+    title: "E no fim das contas",
+    companyName: "Cia.de Teatro Metamorforse",
+    description: `A peça de teatro, intitulada "E no fim das Contas", apresenta uma narrativa que se desdobra em dois atos distintos, explorando temas como individualismo, envelhecimento e o caos do cotidiano urbano. A narrativa da cena  mostra o etarismo,preconceito e a intolerância contra pessoas em idade avançada. O estereótipo de que a idade é um empecilho causa sofrimento à pessoa idosa e consequente afastamento do convívio social em face dessa cruel discriminação que nega a idade e não identifica o envelhecimento como um privilégio.
+Envelhecer é uma conquista e um direito da humanidade.
+Direção/Idealização/Texto:Jammy Said
+Atrizes: Jammy Said,Walesca Nascimento,Bárbara Marcelly e Sandra Dória 
+Sonorização:Marcos Alfa
+Iluminação:Flavia
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 57,
+    title: "A.A.U - Almas Anônimas do Umbral ",
+    companyName: "Oficina Social de Teatro (OST)",
+    description: `Um grupo de apoio fora do comum, onde as pessoas usam do humor para contar sobre os seus problemas fatais. 
+
+Elenco:  Bianca de Paula, Gabriel Rabello, Júlia Ramos, Letícia Fiusa, Luna Cecília, Maria Clara Galdino, Mariana Martins, Priscila Allic, Rebeca Bragança e Thiago Freitas.
+
+Texto: Gabriel Rabello, Júlia Ramos, Letícia Fiusa, Mariana Martins, Rebeca Bragança e Thalita Pereira.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "14 anos"
+  },
+  {
+    id: 58,
+    title: "Olha Ela Leopoldina",
+    companyName: "Escola de Teatro CG2 Arte",
+    description: ` Três amigas, ao pesquisar sobre a Independência do Brasil, descobrem a força de Leopoldina.
+Dramaturgia e direção: prof. Giselle Santyago
+Elenco: Fabi Lara, Hevellin Moreno, Clara Rios, Analu Amarante e Iago Franco
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+
+  // dia 3 manha 
+  {
+    id: 59,
+    title: "Saudade Subistantivo Feminino",
+    companyName: "Oficina de Teatro Gabriel Engel ",
+    description: `Após um acidente, Carol entra em coma e revive memórias com a irmã e a avó falecidas, precisando seguir adiante.
+Orientação.: Babi Mazzo
+Texto: Sophia Figueira
+Direção: Sophia Figueira Assist.: Julio Marcos
+Elenco: Lena Andrade, Marisol Rodrigues, Sophia Figueira, Thata Dias
+Iluminação: Henrie Araújo`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  {
+    id: 60,
+    title: "Cora – A menina que bordava as palavras",
+    companyName: "Colégio Estadual Desembargador Ferreira Pinto",
+    description: `A peça retrata a emocionante trajetória de Cora Coralina, desde sua
+infância em Goiás até tornar-se uma das vozes mais autênticas da literatura brasileira.
+Entre colchas de retalhos e potes de doce, Ana — menina sensível e sonhadora —
+descobre sua paixão pelas palavras, enfrentando os limites impostos a uma mulher de
+seu tempo.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+
+  },
+  {
+    id: 61,
+    title: "Icamiabas",
+    companyName: "Grupo de teatro Jovens Urbanos",
+    description: `No coração da selva havia mulheres de coração e alma forte. Mulheres com um poder tão forte, que ousavam ser donas de sua própria vontade.
+ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS, MILY VICTÓRIA, TAVINHO SALES, ROBERTA FERREIRA, THIAGO SANTOS E TINA CORRÊA.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "12 anos"
+  },
+  {
+    id: 62,
+    title: "Palhaçada Reversa",
+    companyName: "Becs Model ",
+    description: `Palhaçada Reversa – Uma divertida e emocionante história que une juventude e velhice em cena, trazendo humor e reflexão. Produção Becs Model, direção de Rayanne Marinho, com os atores Robe e João Bueltermann.`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 63,
+    title: "De todos os rostos da multidão, eu vi o seu",
+    companyName: "Oficina de teatro Niterói em Cena GDN",
+    description: `Na Cidade Esquecida todos passam e ninguém fica. A Rodoviária Sem Manutenção é o ponto de desencontro desses passageiros. Vez ou outra o acaso os coloca de frente com o passado e, dessa colisão, surgem memórias que podem ser verdadeiras ou não.`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  {
+    id: 64,
+    title: "Recorte de Harold Pinter ",
+    companyName: "Tenda Cultural Paraíso ",
+    description: `Dois encontros que Pinter mostra o absurdo do cotidiano. A Entrevista de um livreiro que mergulha em paranoia. O Candidato, um homem triturado por perguntas. Tenda Cultural Paraíso. Com: Andy Zuri Sales/César Doria/Fátima Tavares/Felipe Reed/Katia Khomenko/Márcia Paraiso/Direção: Sabrina Paraíso`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "12 anos"
+  },
+  {
+    id: 65,
+    title: "A Gaiola",
+    companyName: "Escola Oga Mitá",
+    description: `Teatro-fórum. Duas jovens cidadãs lutam para enfrentar problemas causados às aves e à Mata Atlântica. Devido ao curto tempo não será possível abrirmos para as intervenções da plateia`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "12 anos"
+  },
+  {
+    id: 66,
+    title: "Dois homens e um segredo",
+    companyName: "Instituto Artístico Brasileiro",
+    description: `O Instituto Artístico Brasileiro que, há quase 2 décadas, fomenta arte no Rio de Janeiro apresenta a cena Dois Homens e Um Segredo, com Lucas Vidal e Pedro Guapyassu, sob direção de Yasmin Neves e direção geral de Fabiana Aveiro. Venha descobrir o nosso segredo!`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  {
+    id: 67,
+    title: "Cantora Flor ( 20 anos de carreira)",
+    companyName: "Miguel Nader produções artísticas Ltda.",
+    description: `Cantora Flor faz esse ano, 20 anos de carreira e comemora em um programa de tv com uma entrevista contando um pouco da sua história e canta para seus fãs .
+  Autora: Dielma Flor 
+Direção: Miguel Nader 
+Elenco: Dielma Flor
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 68,
+    title: "Bom dia! Bom dia! Bom dia!",
+    companyName: "Oficina de Teatro Niterói em Cena - Barreto",
+    description: `Um homem comum é tomado por um imperativo compulsivo em sua vida: ser bom e fazer o bem. Não suportando em não exercer sua bondade, se obriga a dizer sim para qualquer ser humano em necessidade. 
+
+Elenco: Akino, Brendon Holanda, Francine Madeje, Juli Ribeiro e Rayssa Henrique. 
+Direção: Rodrigo Lontra.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+
+  },
+
+  //dia 3 tarde
+  {
+    id: 69,
+    title: "O Rio",
+    companyName: "Oficina de teatro Niterói em Cena - Helena Marques",
+    description: `A cena mergulha na metáfora do rio como força da vida: correntezas que arrastam, lembranças que desaparecem, buscas que nunca se completam. Entre o trágico e o cômico, o grupo atravessa afogamentos, silêncios e reencontros, até chegar ao mar — lugar onde a perda se transforma em continuidade e todos afirmam, juntos, a necessidade de seguir.
+
+Dramaturgia e direção: Helena Marques 
+Assistente de direção: Douglas Xavier 
+Elenco:
+- Adriana Mattos
+- Alessandra de Oliveira
+- Amanda jutuca
+- Ana Carolina
+- Ana Clara Rufino
+- Beatriz de Oliveira Alves
+- Bernardo Alexandre
+- Bianca Braga Andrade de Oliveira
+- Camila Thomaz dos Santos Gomes
+- Cibelle Dinair Luna Gonçalves da Silva
+- Cristian Calazans Cruz da Conceição
+- Elen Tavares da Silva
+- Fernanda Mara Cordeiro
+- Flávia Trindade Cardozo
+- Flaviane ferreira de souza
+- Glasiele Lopes de Carvalho Ribeiro
+- Graziela Venerável
+- Izabella Alves de Almeida
+- Jociane Corrêa Baptista
+- Letícia Pereira Jural
+- Livia Nogueira Rodrigues
+- Lucia Diuana 
+- Luiza Rezende Andrade
+- Luiza Sales Diniz
+- Marcelle de Oliveira Costa
+- Maria Eduarda Braga Terra
+- Maria Eduarda Justino dos Santos
+- Maria Eduarda Merat de Tolla
+- Mariana Cândido Honório de Lima
+- Mariana Izabel Pimentel
+- Rachel Nasser
+- Rafael de Souza Freitas
+- Rafael Ecard Roque Silva
+- Thayna Teixeira Farias
+- Viviane dos Santos Gonçalves Cruz
+- Vivianne Bianque de Carvalho
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 70,
+    title: "Isso existe!",
+    companyName: "Oficina de teatro Niterói em Cena - Helena Marques",
+    description: `Um coro de memórias se entrelaça em cena para perguntar: o que é “isso” que sentimos, mas não sabemos nomear? Entre lembranças pessoais e coletivas – uma viagem, um parto difícil, um golpe – emergem fragmentos de histórias que, ao se sobreporem, revelam um mosaico de afetos e experiências.
+Dramaturgia E Direção: Helena Marques 
+Assistente De Direção: Douglas Xavier 
+Elenco:
+- Ana Lucia De Aranda Marinho
+- Ana Regina Seixas De Azevedo Moreira
+- Anamaria Macedo Da Silva Moreira
+- Andreia Cristina Teles Izabel De Alvarenga
+- Claudia Cristina Calazans Da Cruz Chelque
+- Cristiano Dutra Linhares
+- Danielle Oliveira Da Silva
+- Dilza Barcellos De Souza
+- Edilene De Aguiar Thomé Frotté
+- Eneida Maria Feitosa Góes
+- Francisca Da Conceição
+- Hilda De Assis Marques
+- José Ronaldo Domingos De Aranda
+- Lúcia Maria Ferreira Da Silva
+- Márcia Consuelo Paiva De Oliveira
+- Marcia Fernandes Veiga
+- Maria Das Graças Dos Santos
+- Mariza Da Glória Silva De Souza
+- Naira Regina Pavao De Morais
+- Neide Luiza Dos Santos Sant'ana De Souza
+- Nicolas Alexandria Pinheiro
+- Patrícia Leal Sodré
+- Ricardo Demathei Robson
+- Rosane De Mattos Rodrigues
+- Selma Alentejo De Souza
+- Selma Gonçalves Fonseca
+- Silvia Maria Batista Dos Santos
+- Silvia Nélida Ferreyra
+- Simone Marques Ornelas
+- Solange Campos De Oliveira Marreiro
+- Sonia Maria De Melo Matos
+- Telda Tânis Pimentel Da Silva
+- Vera Lucia De Oliveira Dos Santos
+- Virginia Palhano De Alcantara
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+
+  },
+  {
+    id: 71,
+    title: "Viva a Alegria de viver!",
+    companyName: "Teatro ao alcance de todos",
+    description: `Gerinha, (interpretada por Hana Ramalho) quer se divertir e sair da solidão. Rodrigo, (interpretado por Fábio Brasil) é inconsequente, porém sortudo!. Paula, (interpretada por Anna Cláudia Campos) malha na academia. Os três vão à praia... O restante vocês assistirão no dia da apresentação.
+
+
+Ficha técnica: Teatro ao alcance de todos/Hana Ramalho
+Roteiro: Hana Ramalho 
+Música: Sobre as ondas e a ponte 
+Compositora: Hana Ramalho 
+Produção musical: DSC (Dr. Silvana &Cia)
+Elenco: Hana Ramalho, Fabio Brasil, Anna Cláudia Campos 
+Iluminação e som: Cicero Pestana, Dr Silvana &Cia
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "12 anos"
+  },
+  {
+    id: 72,
+    title: "Os Três Porquinhos e um Lobo Bem Legal",
+    companyName: "Centro Educacional Magalhães Vianna",
+    description: `Os Três Porquinhos e um Lobo Bem Legal”, divertida releitura do clássico que ensina valores de união e amizade. No elenco: Pedro Lucas José, João Miguel Santos, Anna Beatriz Leal e Vitória Nascimento. Direção:Aline Sanches / Cia Aquarela Anima `,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+
+  },
+  {
+    id: 73,
+    title: "Por que teatro?",
+    companyName: "Oficina de Teatro Niterói em Cena - Colégio Itapuca",
+    description: `Alunos do Curso de Teatro do Niterói Em Cena no Colégio Itapuca (Ana Carolina, Angélica, Aylla, Camile, Carla, Davi, Efêmero, Isaque, Karol, Luisa, Manuela, Nalu, Nicole. Pedro e Pietra) se perguntam: Por que Teatro? Razões, desejos, brincadeiras… Melodrama, comédia… O que fazer? Se divertir!!!
+FICHA TÉCNICA:
+Texto: Marcos Ácher com colaboração do elenco e trechos de GERAÇÃO TRIANON, de Anamaria Nunes
+Direção: Marcos Ácher
+Figurino: O grupo
+Elenco:
+Ana Carolina Dias
+Ana Luisa de Oliveira
+Angélica Verne
+Aylla Fontenele
+Camile Pereira
+Carla Cristina Terra
+Davi Sarlo
+Efêmero
+Isaque Emerich
+Karol Machado
+Luisa Bianco
+Manuela Nacif
+Nicole Teixeira
+Pedro Leonardo
+Pietra Machado
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  {
+    id: 74,
+    title: "Onde vocês estão?",
+    companyName: "Curso de Teatro Carol Araujo",
+    description: `O Curso de Teatro Carol Araujo apresenta a cena "Onde vocês estão?"
+Em um palco vazio, um pai, uma mãe e quatro jovens buscam respostas sobre o desaparecimento de seus entes queridos durante a ditadura militar. Em versos, eles denunciam o silêncio do Estado e traçam paralelos com omissões em dias atuais. 
+
+
+Ficha técnica:
+Autor: Lucas Nunes 
+Direção: Carol Araujo
+Assistente de direção: Jorge Gomes
+Direção de movimento: Maria Carol Leguedê
+Figurino: Coletivo
+Produção: Curso de Teatro Carol Araujo
+Elenco: 
+Camilla Alcântara, Felipe Concepção , Guilherme Figueiredo , Juli Ribeiro, Mel Maia, Nathan Velasco 
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+  {
+    id: 75,
+    title: "Elas não usam gravata",
+    companyName: "Teatro na Zona Norte ",
+    description: `Num país marcado pelo desequilíbrio — onde seis trabalham e um lucra —, um grupo de mulheres tece, com linha e coragem, a trama da resistência. Operárias de uma fábrica de tecidos, elas se recusam a costurar silêncios. Querem salário justo, jornada digna, voz ativa. E enfrentam não só os patrões, mas também os muros invisíveis que tentam limitá-las: em casa, no chão da fábrica, na cidade que insiste em esquecer.
+
+
+Inspirado livremente em Eles Não Usam Black Tie, o espetáculo traz à cena a luta feminina por direitos trabalhistas, dignidade e igualdade. Entre piquetes, reuniões clandestinas e conflitos familiares, a peça costura a história de quem não baixa a cabeça — e também não usa gravata. Uma criação coletiva do Teatro na Zona Norte
+
+
+Elenco:
+Anna Julia Carvalho 
+Lara Cândido 
+Yasmim Pio
+Mel Cândido 
+Mafer Tavares
+Maria Eduarda Guedes
+Giovana dimas
+Mariana Nilo
+Ana Clara da Silva
+Gabi  Valentim
+Mirella Barreto
+Arthur
+Leonardo 
+Sarah
+
+
+Direção: Graciana Valladares e Lenise Cardoso
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 76,
+    title: "Minha Comédia Favorita",
+    companyName: "EPA - Espaço de Pesquisas Artísticas",
+    description: `As contradições da política brasileira ganham forma em uma narrativa cômica inspirada no Teatro do Absurdo. O riso, nascido da indignação, revela que a política nacional muitas vezes soa como piada, mas traduz a insatisfação real da sociedade. Realização: EPA – Espaço de Pesquisas Artísticas.
+
+Ficha Técnica:
+Texto e direção: Inácio Navarro 
+Visagismo: Maya Langer 
+Elenco: Gabriel São Thiago, Inácio Navarro, Tata Figueiredo, Maya Langer e Tomás Navarro Professores: Fernando Dias e Sarah Christina
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+
+  },
+  {
+    id: 77,
+    title: "Queijo e Goiabada ",
+    companyName: "Escola de Artes Municipal Diretora Luiza Leal Mendes",
+    description: `Queijo e Goiabada reinventa Romeu e Julieta com humor e melodrama. 
+Elenco: Aniké Balogun, Eduardo Faggion, Helena Faggion, Mayara Trotte, Miguel Trotte, Rafaela Peixoto e Vinícius Mundstein. 
+Direção: Anna Fernanda Corrêa. 
+Realização: Escola de Artes Municipal Diretora Luiza Leal Mendes / SPA. 
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+    id: 78,
+    title: "Bastidores",
+    companyName: "Papo Reto Teatro - Instituto Meta Educação ",
+    description: `Nos bastidores, uma jovem artista enfrenta provocações e vozes internas que revelam as contradições de uma geração em busca de sucesso a qualquer custo. Com humor ácido, a cena expõe o dilema entre acreditar na própria potência ou ceder à sociedade que só valoriza fama e números.
+
+Ficha técnica :
+ 
+Direção e iluminação Luis Antonio Fortes
+Texto - Ellen Zolanski
+Elenco - Ellen Zolasnki, Jujuba, Paulo Firmino, Luiz Silva e Daiana Serafim
+Figurino - Coletivo
+Trilha sonora - Paulo Firmino e Jujuba
+Elenco - Ellen Zolasnki, Jujuba, Paulo Firmino, Luiz Silva e Daiana Serafim
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "14 anos"
+  },
+  {
+    id: 79,
+    title: "Copo d'Água",
+    companyName: "Estúdio Meyerhold RJ",
+    description: `Jairo se vê transtornado, por causa de um copo que está na sua cozinha. São memórias que pesam no silêncio enquanto ele busca sentido no fluxo da vida tentando não transbordar. A peça mergulha em uma jornada visceral de perda, redenção e conexão tendo como protagonista um simples copo d’água.
+
+Ficha técnica: 
+Supervisão artística / Co Direção:  Francisco Hashiguchi
+Iluminação: Francisco Hashiguchi / Marcelo Sabat
+Dramaturgia: Kewen Coutinho
+Direção: Kewen Coutinho
+Atuação: Kewen Coutinho
+Sonoplastia: Kewen Coutinho
+Figurino: Kewen Coutinho
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
 ]

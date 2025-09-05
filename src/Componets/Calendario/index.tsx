@@ -44,6 +44,7 @@ const Calendario = () => {
                     <TextoDia>Dia {dia} de Setembro</TextoDia>
                     <CardRow>
                         {(pecasPorDia[dia] || [])
+                            .filter(piece => piece.showInList !== false)
                             .sort((a, b) => parseHora(a.time) - parseHora(b.time))
                             .map((piece) => (
                                 <CardCalendario

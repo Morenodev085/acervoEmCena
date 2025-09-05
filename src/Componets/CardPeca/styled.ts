@@ -67,6 +67,7 @@ export const CardTitulo = styled.h3`
 export const CardDescricao = styled.p`
   font-size: 1rem;
   line-height: 1.5;
+  white-space: pre-line;
 `;
 
 export const CardFooter = styled.div`
