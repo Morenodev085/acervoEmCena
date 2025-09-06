@@ -36,7 +36,56 @@ import atividadeJ from '../assets/atividadefoto/jogos.jpg'
 import atividadec from '../assets/atividadefoto/OCorpoEAs.jpg'
 
 //Estudantil
-
+// dia 1
+import BandoDoFim from '../assets/estudantil/primeiroDia/Bando do Fim do Mundo.jpeg'
+import CalaBoca from '../assets/estudantil/primeiroDia/Calaboca.png'
+import EuJulieta from '../assets/estudantil/primeiroDia/Eu Julieta.jpeg'
+import Operacacao from '../assets/estudantil/primeiroDia/OPERAÇÃO DO TIO ONOFRE  _CORRETA_2025.png'
+import MaePeca from '../assets/estudantil/primeiroDia/Minha mãe é uma peça.jpg'
+import Tina from '../assets/estudantil/primeiroDia/TinaNaoMoraMaisAqui.jpeg'
+//dia2
+import Acor from '../assets/estudantil/segundoDiaManha/A cor das cores.png'
+import AVida from '../assets/estudantil/segundoDiaManha/A vida de-lílios e eu.jpeg'
+import Favela from '../assets/estudantil/segundoDiaManha/Favela - Eu Só quero é ser feliz.jpg'
+import NaoAcabou from '../assets/estudantil/segundoDiaManha/Não acabou, fiz meus defeitos virarem paixão..png'
+import OCozinheiro from '../assets/estudantil/segundoDiaManha/O cozinheiro e a professora..png'
+import Olhos from '../assets/estudantil/segundoDiaManha/Olhos que não veem, Máscaras que caem.png'
+//dia2 tarde
+import Almas from '../assets/estudantil/segundoDiaTarde/A.A.U - Almas Anônimas do Umbral.jpg'
+import BurroRochedo from '../assets/estudantil/segundoDiaTarde/Burro Rochedo.jpg'
+import corpoPolitico from '../assets/estudantil/segundoDiaTarde/Corpo Político A cena.jpg'
+import FimDasContas from '../assets/estudantil/segundoDiaTarde/E no fim das contas.jpg'
+import Leopoldina from '../assets/estudantil/segundoDiaTarde/Olha Ela Leopoldina.png'
+import Ridiculos from '../assets/estudantil/segundoDiaTarde/Ridiculos.jpg'
+// dia3 manha
+import SaudadeSubs from '../assets/estudantil/terceiroDiaManha/SAUDADE SUBSTANTIVO FEMININO .png'
+import RecorteHarold from '../assets/estudantil/terceiroDiaManha/RECORTE DE HAROLD PINTER.jpg'
+import PalhacadaReversa from '../assets/estudantil/terceiroDiaManha/Palhaçada Reversa.jpeg'
+import icamiabas from '../assets/estudantil/terceiroDiaManha/Icamiabas.jpg'
+import DoisHomens from '../assets/estudantil/terceiroDiaManha/Dois homens e um segredo.jpeg'
+import DetodosOs from '../assets/estudantil/terceiroDiaManha/De todos os rostos da multidao.png'
+import CantoraFlor from '../assets/estudantil/terceiroDiaManha/Cantora Flor ( 20 anos de carreira) .jpg'
+import BomDia from '../assets/estudantil/terceiroDiaManha/BOmDia.jpeg'
+import AteQuando from '../assets/estudantil/terceiroDiaManha/Até quando_ .jpeg'
+import Arcano from '../assets/estudantil/terceiroDiaManha/Arcanos.png'
+import aindaEstamos from '../assets/estudantil/terceiroDiaManha/Ainda estamos na Estrada OU A Terra é uma Matrioska.jpg'
+import Gaiola from '../assets/estudantil/terceiroDiaManha/A Gaiola.jpg'
+//dia3 Tarde
+import Batidores from '../assets/estudantil/terceiroDiaTarde/Bastidores.jpeg'
+import NaoSei from '../assets/estudantil/terceiroDiaTarde/1000497728.jpg'
+import Copo from '../assets/estudantil/terceiroDiaTarde/Copo dAgua.png'
+import ElasNaoUsam from '../assets/estudantil/terceiroDiaTarde/Elas não usam gravata.jpg'
+import Gatilho from '../assets/estudantil/terceiroDiaTarde/Gatilho.png'
+import IssoExiste from '../assets/estudantil/terceiroDiaTarde/Isso Existe!.jpeg'
+import JoaoSuaPonte from '../assets/estudantil/terceiroDiaTarde/João - Sua Ponte e Sua Saudade..jpg'
+import ComediaFavorita from '../assets/estudantil/terceiroDiaTarde/Minha Comédia Favorita.jpg'
+import Rio from '../assets/estudantil/terceiroDiaTarde/O Rio.jpeg'
+import OSilencio from '../assets/estudantil/terceiroDiaTarde/O silêncio que elas gritam.jpeg'
+import OlhaPraElas from '../assets/estudantil/terceiroDiaTarde/OLHA PRA ELAS.jpeg'
+import OndeVoces from '../assets/estudantil/terceiroDiaTarde/Onde vocês estão_.jpg'
+import OstresPorcos from '../assets/estudantil/terceiroDiaTarde/Os Três Porquinhos e um Lobo Bem Legal.png'
+import Teatro from '../assets/estudantil/terceiroDiaTarde/POR QUE TEATRO.png'
+import Queijo from '../assets/estudantil/terceiroDiaTarde/Queijo e Goiabada .jpeg'
 
 export const pieces: Piece[] = [
   {
@@ -525,6 +574,7 @@ export const pieces: Piece[] = [
   {
     id: 40,
     title: "Minha mãe é uma peça",
+    image: MaePeca,
     description: "O Clube de Teatro CIEP 463 do CIEP 463 João Borges Barreto apresenta uma adaptação de uma cena do filme Minha Mãe é uma Peça 1, exibindo os principais personagens de texto de Paulo Gustavo, um convite ao riso. Elenco: Lucas Castilho Azevedo, Karen de Souza Chagas, Thaymara Barreto Rodrigues, Yngrid Ferreira de Andrade Lima e Henry Equipe de Criação,Diretor, Professora Giuliana Andréa Coelho Simão Barreto de Sousa. ",
     companyName: "Clube de Teatro CIEP 463 ",
     type: 'Estudantil',
@@ -536,9 +586,10 @@ export const pieces: Piece[] = [
   {
     id: 41,
     title: "EU, JULIETA",
+    image: EuJulieta ,
     companyName: "TEATRO MUNICIPAL DE ITAGUAÍ",
     description: `Em Eu, Julieta, uma atriz negra tenta o papel da heroína shakespeariana, mas é interrompida por não ter o "perfil". Ela então assume a cena, mesclando relato e ficção. Entre a dor e a arte, surge a pergunta: o que é realidade e o que é performance?
-  <br/> Direção: Eduardo Teffé
+  Direção: Eduardo Teffé
   \n Atuação: Shay Martins
   \n Texto: Eduardo Teffé e Shay Martins`,
     type: 'Estudantil',
@@ -563,6 +614,7 @@ export const pieces: Piece[] = [
   {
     id: 43,
     title: "Tina não mora mais aqui",
+    image: Tina ,
     companyName: "Cia Pluma de Teatro",
     description: `Entre a fome, o descaso e a cachaça, Tina luta para manter de pé seus quatro filhos e a si mesma. Mas quando o silêncio se torna insuportável, ela descobre na própria voz a arma para resistir. Um retrato visceral da mulher negra que transforma dor em grito e ausência em força.
 \nFicha técnica
@@ -580,6 +632,7 @@ Elenco: Carol Fonseca,  Guilherme Guimarães, Àster, Emris, Diego Hikari, Doug 
   {
     id: 44,
     title: "Calaboca",
+    image: CalaBoca,
     companyName: "Os Ciclomáticos DNA",
     description: `Dois políticos se perdem na serra do Calaboca e, ao buscar a antiga estrada de ferro, mergulham em um território onde lendas, silêncios e medos antigos se confundem com os próprios fantasmas.
 
@@ -604,6 +657,7 @@ Produção Executiva: Igor Mattos
   {
     id: 45,
     title: "Bando do Fim do Mundo",
+    image:BandoDoFim ,
     description: `"Bando do Fim do Mundo" retrata um grupo de crianças marginalizadas que
 compartilham suas existências em um beco. Entre a dor da fome e a dureza da
 sobrevivência, elas reinventam a alegria em pequenos gestos de afeto e cumplicidade. Nas
@@ -630,6 +684,7 @@ Iluminação: Ygor Ataliba
   {
     id: 46,
     title: "Operação do Tio Onofre",
+        image:Operacacao ,
     companyName: "Colégio Marly Cury - Oficina Teatro em Movimento",
     description: `Treze crianças em cena apresentam a história de Talita, uma menina que adora brincar com os pais dando nomes de pessoas aos objetos da casa. O que ninguém poderia imaginar é que essa simples brincadeira acabaria se tornando a chave para salvá-la em um momento de grande perigo e tensão.  
 
@@ -648,6 +703,7 @@ Música: Fortuna e Hélio Zinkind
   {
     id: 47,
     title: "A COR DAS CORES",
+    image: Acor ,
     companyName: "Educar com Estímulo/ CCA",
     description: `Inspirada em Ziraldo. A COR DAS CORES é uma história de inclusão, energia , beleza e coletividade.
 Texto e Direção: Fernanda Brum
@@ -664,9 +720,9 @@ Elenco:Bruno Pereira, Dani Abdalla, Fê Santos, Felipe Bitencourt, Filipe Caldei
   {
     id: 48,
     title: "A vida de-lílios e eu",
+    image: AVida ,
     companyName: "Preparação Corporal de atores do centro cultural Henrique Lage",
-    description: `Um personagem vive drama, não consegue escrever sobre a vida. Sua expressão revela que ele está há dias tentando fazer aquilo, acompanhado apenas de seu cigarro e seu café amargo. Até que um telefone toca e uma ligação inusitada pode mudar sua vida para sempre.
-`,
+    description: `Um personagem vive drama, não consegue escrever sobre a vida. Sua expressão revela que ele está há dias tentando fazer aquilo, acompanhado apenas de seu cigarro e seu café amargo. Até que um telefone toca e uma ligação inusitada pode mudar sua vida para sempre.`,
     type: 'Estudantil',
     data: 17,
     time: 11,
@@ -677,6 +733,7 @@ Elenco:Bruno Pereira, Dani Abdalla, Fê Santos, Felipe Bitencourt, Filipe Caldei
   {
     id: 49,
     title: "Favela - Eu Só quero é ser feliz",
+    image: Favela,
     companyName: "Centro de Dança e Lutas PróArtes",
     description: `A cena revela a força e a beleza de um povo que transformou dor em resistência e simplicidade em poesia. No palco, luta, união e esperança se encontram em celebração da cultura, da dança e da música que nascem na periferia e ecoam para o mundo.`,
     type: 'Estudantil',
@@ -689,6 +746,7 @@ Elenco:Bruno Pereira, Dani Abdalla, Fê Santos, Felipe Bitencourt, Filipe Caldei
   {
     id: 50,
     title: "O cozinheiro e a professora.",
+    image: OCozinheiro ,
     companyName: "Laboratório Brecht - Faculdade de Educação da Universidade Federal Fluminense",
     description: `Um cozinheiro, uma professora de matemática e Carlos, o anjo desta história, nos mostram o que é e como se prepara um crime-desastre ambiental, no Brasil do século XXI.
 
@@ -710,6 +768,7 @@ Direção: coletiva.
   {
     id: 51,
     title: "Olhos que não veem, Máscaras que caem",
+    image: Olhos,
     companyName: "Colégio Estadual Almirante Tamandaré",
     description: `Uma peça que explora a luta contra a depressão e a ansiedade, criticando a medicalização excessiva e ressaltando a importância da rede de apoio. Através de uma experiência teatral sensorial, a peça convida a plateia a refletir sobre a saúde mental de forma humanizada.`,
     type: 'Estudantil',
@@ -721,13 +780,14 @@ Direção: coletiva.
   {
     id: 52,
     title: "Não acabou, fiz meus defeitos virarem paixão.",
+    image: NaoAcabou,
     companyName: "Curso Livre Dimas Daniel",
     description: `Ao observar a natureza e seus ciclos, o personagem começa a refletir sobre o processo de metamorfose. O corpo que está preso em uma identidade que não o preenche, até se libertar e enxergar suas asas!
 Poesia dirigida e escrita por Vittor Falcão. `,
     type: 'Estudantil',
     data: 17,
     time: 11,
-    local: "Sala Nelson Pereira dos Santos",
+    local: "Sala Nelson Pereirados Santos",
     showInList: false,
     classif: "10 anos"
   },
@@ -735,6 +795,7 @@ Poesia dirigida e escrita por Vittor Falcão. `,
   {
     id: 53,
     title: "CORPO POLÍTICO",
+    image: corpoPolitico,
     companyName: "OFICINA DE TEATRO NITERÓI EM CENA - COLETIVO TRANSPARENTE",
     description: `
 Escórias sociais em cena, transformando corpo e arte em armas de resistência. Uma esquete que amplifica vozes LGBTQIAP+ e afirma a potência dos corpos como territórios de luta e transformação.
@@ -753,6 +814,7 @@ Elenco - Dária Clara - João Belena - Theo Rezende - Raris Ágatha - MMiranda -
   {
     id: 54,
     title: "Ridículos",
+    image: Ridiculos,
     companyName: "C.E. Cel. Francisco Lima",
     description: `E se vivêssemos em um mundo onde todos que gostem de ler e escrever fossem considerados "Ridículos ".`,
     type: 'Estudantil',
@@ -764,6 +826,7 @@ Elenco - Dária Clara - João Belena - Theo Rezende - Raris Ágatha - MMiranda -
   {
     id: 55,
     title: "Burro Rochedo",
+    image: BurroRochedo,
     companyName: "Escola de Teatro Aderbal Freire Filho",
     description: `Nos anos 50, em Maricá, a coleta de lixo era feita em carroças puxada por burros. O folclórico Rochedo foi o mais popular, tendo, inclusive, sido expressivamente votado para vereador. Essa é sua história e suas manias.  Com Vê Barbosa e Delfino. `,
     type: 'Estudantil',
@@ -775,6 +838,7 @@ Elenco - Dária Clara - João Belena - Theo Rezende - Raris Ágatha - MMiranda -
   {
     id: 56,
     title: "E no fim das contas",
+    image: FimDasContas,
     companyName: "Cia.de Teatro Metamorforse",
     description: `A peça de teatro, intitulada "E no fim das Contas", apresenta uma narrativa que se desdobra em dois atos distintos, explorando temas como individualismo, envelhecimento e o caos do cotidiano urbano. A narrativa da cena  mostra o etarismo,preconceito e a intolerância contra pessoas em idade avançada. O estereótipo de que a idade é um empecilho causa sofrimento à pessoa idosa e consequente afastamento do convívio social em face dessa cruel discriminação que nega a idade e não identifica o envelhecimento como um privilégio.
 Envelhecer é uma conquista e um direito da humanidade.
@@ -792,6 +856,7 @@ Iluminação:Flavia
   {
     id: 57,
     title: "A.A.U - Almas Anônimas do Umbral ",
+    image: Almas ,
     companyName: "Oficina Social de Teatro (OST)",
     description: `Um grupo de apoio fora do comum, onde as pessoas usam do humor para contar sobre os seus problemas fatais. 
 
@@ -809,6 +874,7 @@ Texto: Gabriel Rabello, Júlia Ramos, Letícia Fiusa, Mariana Martins, Rebeca Br
   {
     id: 58,
     title: "Olha Ela Leopoldina",
+    image: Leopoldina, 
     companyName: "Escola de Teatro CG2 Arte",
     description: ` Três amigas, ao pesquisar sobre a Independência do Brasil, descobrem a força de Leopoldina.
 Dramaturgia e direção: prof. Giselle Santyago
@@ -826,6 +892,7 @@ Elenco: Fabi Lara, Hevellin Moreno, Clara Rios, Analu Amarante e Iago Franco
   {
     id: 59,
     title: "Saudade Subistantivo Feminino",
+    image: SaudadeSubs,
     companyName: "Oficina de Teatro Gabriel Engel ",
     description: `Após um acidente, Carol entra em coma e revive memórias com a irmã e a avó falecidas, precisando seguir adiante.
 Orientação.: Babi Mazzo
@@ -843,6 +910,7 @@ Iluminação: Henrie Araújo`,
   {
     id: 60,
     title: "Cora – A menina que bordava as palavras",
+
     companyName: "Colégio Estadual Desembargador Ferreira Pinto",
     description: `A peça retrata a emocionante trajetória de Cora Coralina, desde sua
 infância em Goiás até tornar-se uma das vozes mais autênticas da literatura brasileira.
@@ -860,6 +928,7 @@ seu tempo.
   {
     id: 61,
     title: "Icamiabas",
+    image: icamiabas,
     companyName: "Grupo de teatro Jovens Urbanos",
     description: `No coração da selva havia mulheres de coração e alma forte. Mulheres com um poder tão forte, que ousavam ser donas de sua própria vontade.
 ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS, MILY VICTÓRIA, TAVINHO SALES, ROBERTA FERREIRA, THIAGO SANTOS E TINA CORRÊA.
@@ -874,6 +943,7 @@ ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS
   {
     id: 62,
     title: "Palhaçada Reversa",
+    image: PalhacadaReversa ,
     companyName: "Becs Model ",
     description: `Palhaçada Reversa – Uma divertida e emocionante história que une juventude e velhice em cena, trazendo humor e reflexão. Produção Becs Model, direção de Rayanne Marinho, com os atores Robe e João Bueltermann.`,
     type: 'Estudantil',
@@ -885,6 +955,7 @@ ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS
   {
     id: 63,
     title: "De todos os rostos da multidão, eu vi o seu",
+    image: DetodosOs,
     companyName: "Oficina de teatro Niterói em Cena GDN",
     description: `Na Cidade Esquecida todos passam e ninguém fica. A Rodoviária Sem Manutenção é o ponto de desencontro desses passageiros. Vez ou outra o acaso os coloca de frente com o passado e, dessa colisão, surgem memórias que podem ser verdadeiras ou não.`,
     type: 'Estudantil',
@@ -897,6 +968,7 @@ ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS
   {
     id: 64,
     title: "Recorte de Harold Pinter ",
+    image: RecorteHarold ,
     companyName: "Tenda Cultural Paraíso ",
     description: `Dois encontros que Pinter mostra o absurdo do cotidiano. A Entrevista de um livreiro que mergulha em paranoia. O Candidato, um homem triturado por perguntas. Tenda Cultural Paraíso. Com: Andy Zuri Sales/César Doria/Fátima Tavares/Felipe Reed/Katia Khomenko/Márcia Paraiso/Direção: Sabrina Paraíso`,
     type: 'Estudantil',
@@ -909,6 +981,7 @@ ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS
   {
     id: 65,
     title: "A Gaiola",
+    image: Gaiola ,
     companyName: "Escola Oga Mitá",
     description: `Teatro-fórum. Duas jovens cidadãs lutam para enfrentar problemas causados às aves e à Mata Atlântica. Devido ao curto tempo não será possível abrirmos para as intervenções da plateia`,
     type: 'Estudantil',
@@ -921,6 +994,7 @@ ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS
   {
     id: 66,
     title: "Dois homens e um segredo",
+    image: DoisHomens,
     companyName: "Instituto Artístico Brasileiro",
     description: `O Instituto Artístico Brasileiro que, há quase 2 décadas, fomenta arte no Rio de Janeiro apresenta a cena Dois Homens e Um Segredo, com Lucas Vidal e Pedro Guapyassu, sob direção de Yasmin Neves e direção geral de Fabiana Aveiro. Venha descobrir o nosso segredo!`,
     type: 'Estudantil',
@@ -933,6 +1007,7 @@ ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS
   {
     id: 67,
     title: "Cantora Flor ( 20 anos de carreira)",
+    image: CantoraFlor,
     companyName: "Miguel Nader produções artísticas Ltda.",
     description: `Cantora Flor faz esse ano, 20 anos de carreira e comemora em um programa de tv com uma entrevista contando um pouco da sua história e canta para seus fãs .
   Autora: Dielma Flor 
@@ -948,6 +1023,7 @@ Elenco: Dielma Flor
   {
     id: 68,
     title: "Bom dia! Bom dia! Bom dia!",
+    image:BomDia ,
     companyName: "Oficina de Teatro Niterói em Cena - Barreto",
     description: `Um homem comum é tomado por um imperativo compulsivo em sua vida: ser bom e fazer o bem. Não suportando em não exercer sua bondade, se obriga a dizer sim para qualquer ser humano em necessidade. 
 
@@ -961,10 +1037,95 @@ Direção: Rodrigo Lontra.
     showInList: false,
 
   },
+  {
+      id: 69,
+    title: "Até Quando?",
+    image:AteQuando ,
+    companyName: "CEPT Leonel de Moura Brizola",
+    description: `No palco, seis atrizes denunciam a desigualdade e a violência estrutural que atravessam corpos, histórias e territórios. entre silêncios, gestos e músicas, a cena expõe marcas do racismo e da exclusão social. a luta por dignidade vira grito coletivo: até quando?
+
+Ficha Técnica:
+
+Elenco: Anna Luz, Geovana Rocha, Giovanna Meira, Júlia Beatriz, Sophia Gomes, Raphaely Rodrigues.
+
+Dramaturgia: Criação Coletiva.
+
+Direção: Bel Treze.
+
+Direção De Movimento E Preparação Corporal: Bel Treze.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "10 anos"
+  },
+    {
+      id: 70,
+    title: "Ainda estamos na Estrada OU A Terra é uma Matrioska",
+    image:aindaEstamos ,
+    companyName: "Núcleo de Arte Leblon",
+    description: `Em busca de sua Terra, o Povo da Estrada parte em uma jornada pelo mundo, e por sua própria identidade e raízes. Superando dificuldades como o cansaço e o preconceito, dançam a vida para suportar e re-existir!
+
+Texto e direção de Bruno Salgueiro, com as alunas/atrizes do Núcleo de Arte Leblon.
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+  {
+      id: 71,
+    title: "Arcanos",
+    image:Arcano ,
+    companyName: "Toca da Alice apresenta ",
+    description: `“Arcanos” é uma travessia cênica onde violão, voz e corpo se encontram. Poemas vivos, inspirados no tarô, ganham carne e som. Magia, música e palavra se entrelaçam, revelando destinos possíveis em um ritual poético-musical.
+
+
+Ficha técnica:
+Autor : Camila Mah 
+Direção: Camila Mah e Sophidyah 
+Elenco: Camila Mah 
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "14 anos",
+  },
+  {
+      id: 72,
+    title: "Debaixo D'água Você Vira Peixe",
+    companyName: "Oficina de Teatro Niterói em Cena - Barreto",
+    description: `Inspirada em um poema que retrata o mergulho simbólico como resistência ao trauma cotidiano. Em fragmentos de dor, cansaço e violência, corpos-pedra se revezam até o momento ritual de purificação. Como um batismo às avessas: não se entra na água para nascer, mas se retira dela o que impede de viver.
+
+Ficha Técnica:
+
+Direção: coletiva
+Dramaturgia: Arô Araújo e Mariana Albuquerque
+Poema: Arô Araújo
+Música: Vittor Falcão
+Produção: Laís Campos
+Elenco: 
+Arô Araújo
+Daniel Viana
+Mariana Albuquerque
+Vittor Falcão
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 11,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+
+  },
 
   //dia 3 tarde
   {
-    id: 69,
+    id: 73,
     title: "O Rio",
     companyName: "Oficina de teatro Niterói em Cena - Helena Marques",
     description: `A cena mergulha na metáfora do rio como força da vida: correntezas que arrastam, lembranças que desaparecem, buscas que nunca se completam. Entre o trágico e o cômico, o grupo atravessa afogamentos, silêncios e reencontros, até chegar ao mar — lugar onde a perda se transforma em continuidade e todos afirmam, juntos, a necessidade de seguir.
@@ -1016,7 +1177,7 @@ Elenco:
     showInList: false,
   },
   {
-    id: 70,
+    id: 74,
     title: "Isso existe!",
     companyName: "Oficina de teatro Niterói em Cena - Helena Marques",
     description: `Um coro de memórias se entrelaça em cena para perguntar: o que é “isso” que sentimos, mas não sabemos nomear? Entre lembranças pessoais e coletivas – uma viagem, um parto difícil, um golpe – emergem fragmentos de histórias que, ao se sobreporem, revelam um mosaico de afetos e experiências.
@@ -1066,7 +1227,7 @@ Elenco:
 
   },
   {
-    id: 71,
+    id: 75,
     title: "Viva a Alegria de viver!",
     companyName: "Teatro ao alcance de todos",
     description: `Gerinha, (interpretada por Hana Ramalho) quer se divertir e sair da solidão. Rodrigo, (interpretado por Fábio Brasil) é inconsequente, porém sortudo!. Paula, (interpretada por Anna Cláudia Campos) malha na academia. Os três vão à praia... O restante vocês assistirão no dia da apresentação.
@@ -1088,7 +1249,7 @@ Iluminação e som: Cicero Pestana, Dr Silvana &Cia
     classif: "12 anos"
   },
   {
-    id: 72,
+    id: 76,
     title: "Os Três Porquinhos e um Lobo Bem Legal",
     companyName: "Centro Educacional Magalhães Vianna",
     description: `Os Três Porquinhos e um Lobo Bem Legal”, divertida releitura do clássico que ensina valores de união e amizade. No elenco: Pedro Lucas José, João Miguel Santos, Anna Beatriz Leal e Vitória Nascimento. Direção:Aline Sanches / Cia Aquarela Anima `,
@@ -1100,7 +1261,7 @@ Iluminação e som: Cicero Pestana, Dr Silvana &Cia
 
   },
   {
-    id: 73,
+    id: 77,
     title: "Por que teatro?",
     companyName: "Oficina de Teatro Niterói em Cena - Colégio Itapuca",
     description: `Alunos do Curso de Teatro do Niterói Em Cena no Colégio Itapuca (Ana Carolina, Angélica, Aylla, Camile, Carla, Davi, Efêmero, Isaque, Karol, Luisa, Manuela, Nalu, Nicole. Pedro e Pietra) se perguntam: Por que Teatro? Razões, desejos, brincadeiras… Melodrama, comédia… O que fazer? Se divertir!!!
@@ -1133,7 +1294,7 @@ Pietra Machado
     classif: "10 anos"
   },
   {
-    id: 74,
+    id: 78,
     title: "Onde vocês estão?",
     companyName: "Curso de Teatro Carol Araujo",
     description: `O Curso de Teatro Carol Araujo apresenta a cena "Onde vocês estão?"
@@ -1158,7 +1319,7 @@ Camilla Alcântara, Felipe Concepção , Guilherme Figueiredo , Juli Ribeiro, Me
     classif: "10 anos"
   },
   {
-    id: 75,
+    id: 79,
     title: "Elas não usam gravata",
     companyName: "Teatro na Zona Norte ",
     description: `Num país marcado pelo desequilíbrio — onde seis trabalham e um lucra —, um grupo de mulheres tece, com linha e coragem, a trama da resistência. Operárias de uma fábrica de tecidos, elas se recusam a costurar silêncios. Querem salário justo, jornada digna, voz ativa. E enfrentam não só os patrões, mas também os muros invisíveis que tentam limitá-las: em casa, no chão da fábrica, na cidade que insiste em esquecer.
@@ -1193,7 +1354,7 @@ Direção: Graciana Valladares e Lenise Cardoso
     showInList: false,
   },
   {
-    id: 76,
+    id: 80,
     title: "Minha Comédia Favorita",
     companyName: "EPA - Espaço de Pesquisas Artísticas",
     description: `As contradições da política brasileira ganham forma em uma narrativa cômica inspirada no Teatro do Absurdo. O riso, nascido da indignação, revela que a política nacional muitas vezes soa como piada, mas traduz a insatisfação real da sociedade. Realização: EPA – Espaço de Pesquisas Artísticas.
@@ -1211,7 +1372,7 @@ Elenco: Gabriel São Thiago, Inácio Navarro, Tata Figueiredo, Maya Langer e Tom
 
   },
   {
-    id: 77,
+    id: 81,
     title: "Queijo e Goiabada ",
     companyName: "Escola de Artes Municipal Diretora Luiza Leal Mendes",
     description: `Queijo e Goiabada reinventa Romeu e Julieta com humor e melodrama. 
@@ -1226,13 +1387,13 @@ Realização: Escola de Artes Municipal Diretora Luiza Leal Mendes / SPA.
     showInList: false,
   },
   {
-    id: 78,
+    id: 82,
     title: "Bastidores",
     companyName: "Papo Reto Teatro - Instituto Meta Educação ",
     description: `Nos bastidores, uma jovem artista enfrenta provocações e vozes internas que revelam as contradições de uma geração em busca de sucesso a qualquer custo. Com humor ácido, a cena expõe o dilema entre acreditar na própria potência ou ceder à sociedade que só valoriza fama e números.
 
 Ficha técnica :
- 
+
 Direção e iluminação Luis Antonio Fortes
 Texto - Ellen Zolanski
 Elenco - Ellen Zolasnki, Jujuba, Paulo Firmino, Luiz Silva e Daiana Serafim
@@ -1248,7 +1409,7 @@ Elenco - Ellen Zolasnki, Jujuba, Paulo Firmino, Luiz Silva e Daiana Serafim
     classif: "14 anos"
   },
   {
-    id: 79,
+    id: 83,
     title: "Copo d'Água",
     companyName: "Estúdio Meyerhold RJ",
     description: `Jairo se vê transtornado, por causa de um copo que está na sua cozinha. São memórias que pesam no silêncio enquanto ele busca sentido no fluxo da vida tentando não transbordar. A peça mergulha em uma jornada visceral de perda, redenção e conexão tendo como protagonista um simples copo d’água.
@@ -1260,8 +1421,8 @@ Dramaturgia: Kewen Coutinho
 Direção: Kewen Coutinho
 Atuação: Kewen Coutinho
 Sonoplastia: Kewen Coutinho
-Figurino: Kewen Coutinho
-`,
+Figurino: Kewen Coutinho`
+,
     type: 'Estudantil',
     data: 17,
     time: 14,
