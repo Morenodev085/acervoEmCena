@@ -31,7 +31,7 @@ import girafa from '../assets/fotosPecas/girafa.jpg'
 
 //atividade
 import atividadeT from '../assets/atividadefoto/Foto Helena Marques.jpeg'
-// import atividadeP from '../assets/atividadefoto/palhaco.jpg'
+import atividadeP from '../assets/atividadefoto/Foto Martha.jpg'
 import atividadeJ from '../assets/atividadefoto/jogos.jpg'
 import atividadec from '../assets/atividadefoto/OCorpoEAs.jpg'
 
@@ -519,18 +519,18 @@ export const pieces: Piece[] = [
     showInList: false,
 
   },
-  // {
-  //   id: 30,
-  //   title: 'MANUAL E GUIA DO PALHAÇO DE RUA, Chacovachi ',
-  //   description: ' A oficina é direcionada aos artistas ou futuros artistas que queiram descobrir os segredos do palhaço de rua para aplicá-los nessa disciplina ou em qualquer outra. Direcionado ao trabalho individual em lugares não-convencionais esta oficina se compõe em três partes: treinamento, teoria e filosofia, postura corporal. ',
-  //   image: atividadeP,
-  //   type: 'Atividade',
-  //   data: 20,
-  //   time: 14,
-  //   local: 'Macquinho',
-  //   e: 'https://docs.google.com/forms/d/e/1FAIpQLSecuvg-U-60403ANz573ivKugqPZZU-3bJA2iwz90mCmAwocg/viewform?usp=dialog',
-  //   classif: "14 anos"
-  // },
+  {
+    id: 30,
+    title: ' PONTES DO HUMOR (com Martha Paiva - Cia do Solo)',
+    description: 'A oficina "Pontes do Humor", é uma investigação sobre o cômico que nos habita, através dos princípios da linguagem da palhaçaria, com suas ferramentas de humor e jogos que nos impulsionam para descobertas inusitadas. Através do nariz vermelho atravessamos os caminhos de forma mais leve e autêntica.',
+    image: atividadeP,
+    type: 'Atividade',
+    data: 20,
+    time: 14,
+    local: 'Macquinho',
+    e: 'https://docs.google.com/forms/d/e/1FAIpQLSc98bKapZcAfc1zGpS3YrB3zkl9sggZF-agjHdR5ab2KtIuVQ/viewform?usp=dialog',
+    classif: "18 anos"
+  },
   {
     id: 31,
     title: 'BRECHT AGORA - PENSAMENTOS E JOGO, Marcos Henrique Rego',
@@ -1127,6 +1127,7 @@ Vittor Falcão
   {
     id: 73,
     title: "O Rio",
+    image: Rio,
     companyName: "Oficina de teatro Niterói em Cena - Helena Marques",
     description: `A cena mergulha na metáfora do rio como força da vida: correntezas que arrastam, lembranças que desaparecem, buscas que nunca se completam. Entre o trágico e o cômico, o grupo atravessa afogamentos, silêncios e reencontros, até chegar ao mar — lugar onde a perda se transforma em continuidade e todos afirmam, juntos, a necessidade de seguir.
 
@@ -1179,6 +1180,7 @@ Elenco:
   {
     id: 74,
     title: "Isso existe!",
+    image: IssoExiste,
     companyName: "Oficina de teatro Niterói em Cena - Helena Marques",
     description: `Um coro de memórias se entrelaça em cena para perguntar: o que é “isso” que sentimos, mas não sabemos nomear? Entre lembranças pessoais e coletivas – uma viagem, um parto difícil, um golpe – emergem fragmentos de histórias que, ao se sobreporem, revelam um mosaico de afetos e experiências.
 Dramaturgia E Direção: Helena Marques 
@@ -1251,6 +1253,7 @@ Iluminação e som: Cicero Pestana, Dr Silvana &Cia
   {
     id: 76,
     title: "Os Três Porquinhos e um Lobo Bem Legal",
+    image:OstresPorcos ,
     companyName: "Centro Educacional Magalhães Vianna",
     description: `Os Três Porquinhos e um Lobo Bem Legal”, divertida releitura do clássico que ensina valores de união e amizade. No elenco: Pedro Lucas José, João Miguel Santos, Anna Beatriz Leal e Vitória Nascimento. Direção:Aline Sanches / Cia Aquarela Anima `,
     type: 'Estudantil',
@@ -1263,6 +1266,7 @@ Iluminação e som: Cicero Pestana, Dr Silvana &Cia
   {
     id: 77,
     title: "Por que teatro?",
+    image: Teatro ,
     companyName: "Oficina de Teatro Niterói em Cena - Colégio Itapuca",
     description: `Alunos do Curso de Teatro do Niterói Em Cena no Colégio Itapuca (Ana Carolina, Angélica, Aylla, Camile, Carla, Davi, Efêmero, Isaque, Karol, Luisa, Manuela, Nalu, Nicole. Pedro e Pietra) se perguntam: Por que Teatro? Razões, desejos, brincadeiras… Melodrama, comédia… O que fazer? Se divertir!!!
 FICHA TÉCNICA:
@@ -1296,6 +1300,7 @@ Pietra Machado
   {
     id: 78,
     title: "Onde vocês estão?",
+    image: OndeVoces,
     companyName: "Curso de Teatro Carol Araujo",
     description: `O Curso de Teatro Carol Araujo apresenta a cena "Onde vocês estão?"
 Em um palco vazio, um pai, uma mãe e quatro jovens buscam respostas sobre o desaparecimento de seus entes queridos durante a ditadura militar. Em versos, eles denunciam o silêncio do Estado e traçam paralelos com omissões em dias atuais. 
@@ -1321,6 +1326,7 @@ Camilla Alcântara, Felipe Concepção , Guilherme Figueiredo , Juli Ribeiro, Me
   {
     id: 79,
     title: "Elas não usam gravata",
+    image:ElasNaoUsam ,
     companyName: "Teatro na Zona Norte ",
     description: `Num país marcado pelo desequilíbrio — onde seis trabalham e um lucra —, um grupo de mulheres tece, com linha e coragem, a trama da resistência. Operárias de uma fábrica de tecidos, elas se recusam a costurar silêncios. Querem salário justo, jornada digna, voz ativa. E enfrentam não só os patrões, mas também os muros invisíveis que tentam limitá-las: em casa, no chão da fábrica, na cidade que insiste em esquecer.
 
@@ -1356,6 +1362,7 @@ Direção: Graciana Valladares e Lenise Cardoso
   {
     id: 80,
     title: "Minha Comédia Favorita",
+    image: ComediaFavorita ,
     companyName: "EPA - Espaço de Pesquisas Artísticas",
     description: `As contradições da política brasileira ganham forma em uma narrativa cômica inspirada no Teatro do Absurdo. O riso, nascido da indignação, revela que a política nacional muitas vezes soa como piada, mas traduz a insatisfação real da sociedade. Realização: EPA – Espaço de Pesquisas Artísticas.
 
@@ -1374,6 +1381,7 @@ Elenco: Gabriel São Thiago, Inácio Navarro, Tata Figueiredo, Maya Langer e Tom
   {
     id: 81,
     title: "Queijo e Goiabada ",
+    image: Queijo,
     companyName: "Escola de Artes Municipal Diretora Luiza Leal Mendes",
     description: `Queijo e Goiabada reinventa Romeu e Julieta com humor e melodrama. 
 Elenco: Aniké Balogun, Eduardo Faggion, Helena Faggion, Mayara Trotte, Miguel Trotte, Rafaela Peixoto e Vinícius Mundstein. 
@@ -1389,6 +1397,7 @@ Realização: Escola de Artes Municipal Diretora Luiza Leal Mendes / SPA.
   {
     id: 82,
     title: "Bastidores",
+    image: Batidores,
     companyName: "Papo Reto Teatro - Instituto Meta Educação ",
     description: `Nos bastidores, uma jovem artista enfrenta provocações e vozes internas que revelam as contradições de uma geração em busca de sucesso a qualquer custo. Com humor ácido, a cena expõe o dilema entre acreditar na própria potência ou ceder à sociedade que só valoriza fama e números.
 
@@ -1411,6 +1420,7 @@ Elenco - Ellen Zolasnki, Jujuba, Paulo Firmino, Luiz Silva e Daiana Serafim
   {
     id: 83,
     title: "Copo d'Água",
+    image: Copo,
     companyName: "Estúdio Meyerhold RJ",
     description: `Jairo se vê transtornado, por causa de um copo que está na sua cozinha. São memórias que pesam no silêncio enquanto ele busca sentido no fluxo da vida tentando não transbordar. A peça mergulha em uma jornada visceral de perda, redenção e conexão tendo como protagonista um simples copo d’água.
 
@@ -1429,5 +1439,91 @@ Figurino: Kewen Coutinho`
     local: "Sala Nelson Pereira dos Santos",
     showInList: false,
     classif: "10 anos"
+  },  
+  {
+    id: 84,
+    title: "Gatilho",
+    image: Gatilho ,
+    companyName: "Produtora Pukavy ",
+    description: `Três amigos, uma mesa de bar e uma piada velha. Está aí a receita para desencadear muitos gatilhos, e um belo prejuízo com sessões extras de terapia.
+
+
+Ficha Técnica:
+Autor/Direção: Rafael Vasconcellos
+Elenco: Bruno Martins, Camila Mah, Pedro Borges
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "14 anos"
+  },
+    {
+    id: 85,
+    title: "HOMELÉT",
+    image: NaoSei,
+    companyName: "Said produções",
+    description: `Ator decadente e canastrão, tenta a muito tempo apresentar a sua adaptação da clássica cena " to be or not to be", do espetáculo " Hamlet" de William Shakespeare, mas é em vão, pois estressado é impaciente, briga por qualquer motivo, que possa o desconcentrar, inclusive brigando com a platéia.
+
+
+Ficha Técnica:
+
+
+Texto: Jay Said 
+Direção: Dora Santana 
+Maquiagem, figurino, cenografia e contra regra: Jay Said 
+Roteiro musical: Jay Said e Dora Santana 
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+  },
+    {
+    id: 86,
+    title: "Olha Pra Elas",
+    image: OlhaPraElas ,
+    companyName: "Escola Sesc de Artes Dramáticas ",
+    description: `Nos últimos dias de prisão, Adelaide encontra em Nina e Zuleide o afeto que resiste ao abandono. Inspirada no documentário homônimo, Olha pra Elas é um grito por memória, amor e justiça, dando voz às mulheres encarceradas. Cena da Escola Sesc de Artes Dramáticas, profª responsável Simone Beghinni.
+
+
+Ficha Técnica
+
+Texto: Natália Vitória
+Direção: Luciana Lopes
+Elenco: Natália Vitória, Lua Portugal, Lizza Lian
+Iluminação: Robson Total
+Sonorização: Nilton Santos
+Direção De Movimento: Rafo Avelino
+Figurino: Ingrid Cristina
+Cenografia: Ane Heinen
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
+    classif: "14 anos"
+  },
+    {
+    id: 87,
+    title: "João - Sua Ponte e Sua Saudade",
+    image: JoaoSuaPonte,
+    companyName: "Academia de Artes do Humano",
+    description: `Um griot narra a comovente história de João, um antigo rei africano arrancado de sua terra natal, João é trazido à força para o Brasil onde é escravizado. Em sua dor, ele chora incessantemente numa ponte, inundando-a com suas lágrimas de saudade por sua amada. Com o tempo, a ponte se torna conhecida como Ponte da Saudade, e João é lembrado como João Saudade, uma lenda que ecoa os sentimentos de separação e amor perdidos.
+
+Ficha Técnica:
+
+
+Texto e direção: Gracy Klem 
+Atualização: Arthur Pedrro
+`,
+    type: 'Estudantil',
+    data: 17,
+    time: 14,
+    local: "Sala Nelson Pereira dos Santos",
+    showInList: false,
   },
 ]
