@@ -58,6 +58,19 @@ export const CardInfoWrapper = styled.div`
   gap: 0.75rem;
   color: ${colors.cream};
 `;
+export const LinhaEntreExtremos = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  border-radius: 8px;
+
+
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: ${colors.cream};
+`;
 
 export const CardTitulo = styled.h3`
   font-size: 1.6rem;

@@ -37,9 +37,10 @@ const MostraPage = () => {
   );
 
   // Reverter ordem se for estudantil
-  if (tipoNormalizado === "estudantil") {
-    pecasFiltradas = [...pecasFiltradas].reverse();
-  }
+if (tipoNormalizado === "estudantil") {
+  pecasFiltradas = [...pecasFiltradas].sort((a, b) => a.data - b.data);
+}
+
 
   const totalPaginas = Math.ceil(pecasFiltradas.length / itensPorPagina);
   const indiceUltimoItem = paginaAtual * itensPorPagina;
@@ -65,13 +66,12 @@ const MostraPage = () => {
               key={peca.id}
               peca={{
                 ...peca,
+                uf: peca.uf || "",
+                city: peca.city || "",
                 img: peca.image || "",
                 classif: peca.classif || "Livre",
               }}
-              reversed={
-                tipoNormalizado === "estudantil"
-                  ? true // todos invertidos
-                  : index % 2 === 1 // alternados nos demais
+              reversed={ index % 2 === 1 // alternados nos demais
               }
             />
           ))

@@ -8,6 +8,7 @@ import {
   CardFooter,
   BotaoInscricao,
   InfoGroup,
+  LinhaEntreExtremos,
 } from "./styled";
 import { FaMapMarkerAlt, FaRegCalendarAlt } from "react-icons/fa";
 import type { PieceType } from "../../data/types";
@@ -24,6 +25,9 @@ export interface Peca {
   img: string;
   e?: string; // link de inscrição (opcional)
   classif: string;
+  companyName?: string
+  uf: string
+  city: string
 }
 
 // Props do componente
@@ -38,19 +42,22 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
 
   return (
     <CardContainer reversed={reversed} pieceType={peca.type}>
-<CardImageWrapper>
-  {peca.img ? (
-    <img
-      src={peca.img}
-      alt={`Imagem da peça ${peca.title}`}
-      loading="lazy"
-    />
-  ) : null}
-</CardImageWrapper>
+      <CardImageWrapper>
+        {peca.img ? (
+          <img
+            src={peca.img}
+            alt={`Imagem da peça ${peca.title}`}
+            loading="lazy"
+          />
+        ) : null}
+      </CardImageWrapper>
 
       <CardInfoWrapper>
         <CardTitulo>{peca.title}</CardTitulo>
-
+        <LinhaEntreExtremos>
+          <p>{peca.companyName}</p>
+          {peca.uf && peca.city ? <p> {peca.city} - {peca.uf}</p> : null}
+        </LinhaEntreExtremos>
         {/* 🔽 Renderizando HTML na descrição */}
         <CardDescricao
           dangerouslySetInnerHTML={{ __html: peca.description }}
@@ -69,11 +76,11 @@ const CardPecaLista: FC<CardPecaListaProps> = ({ peca, reversed = false }) => {
               </span>
             </div>
             <div className="flex items-center gap-2">
-<span>
-  {peca.type === "Estudantil"
-    ? ""
-    : `Classificação Indicativa: ${classificacao}`}
-</span>
+              <span>
+                {peca.type === "Estudantil"
+                  ? ""
+                  : `Classificação Indicativa: ${classificacao}`}
+              </span>
             </div>
           </InfoGroup>
 
