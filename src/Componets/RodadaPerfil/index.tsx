@@ -8,9 +8,11 @@ import {
   RodadaImage,
   FullWidthButton,
   CenteredContainer,
+  RodadaImageP,
+  DivImagem,
 } from "./styled";
 
-import rodada1 from "../../assets/atividadefoto/rodada1.jpg";
+import rodada1 from "../../assets/rodada.jpeg";
 import rodada2 from "../../assets/atividadefoto/rodada2.jpg";
 import { Link } from "react-router-dom";
 
@@ -24,20 +26,22 @@ const RodadaBody = () => {
           <RodadaTextWrapper>
             <TextRodada>
               A RODADA DE NEGÓCIOS do 18° Niterói em Cena - Festival Internacional de Teatro é um espaço exclusivo para conectar produtores, artistas, curadores de festivais, programadores de centros culturais, diretores de teatros e gestores culturais com o objetivo de fortalecer a circulação de projetos culturais de Artes Cênicas, estabelecer parcerias estratégicas e proporcionar novas oportunidades de trabalho.
-              <br /><br />Durante o evento, os participantes terão a oportunidade de:
             </TextRodada>
+            <DivImagem >
+              <RodadaImageP src={rodada1} alt="Rodada 1" />
+            </DivImagem>
             <TextRodada>
+              <br /><br />Durante o evento, os participantes terão a oportunidade de:
               <br />- Apresentar e discutir projetos culturais com programadores de festivais e diretores de equipamentos culturais, visando ampliar a visibilidade e o alcance das iniciativas artísticas; <br /><br />
               - Explorar novas possibilidades de difusão e apoio para espetáculos, iniciativas de formação e outras ações culturais, criando oportunidades para o crescimento e a sustentabilidade dos projetos; <br /> <br />
               - Estabelecer colaborações e parcerias que possam garantir a circulação de projetos em diferentes contextos e mercados; <br /> <br />
               - Debater formas inovadoras de financiamento e apoio, que contribuam para a viabilização e expansão de projetos culturais de forma sustentável.
             </TextRodada>
           </RodadaTextWrapper>
-          <RodadaImage src={rodada1} alt="Rodada 1" />
         </RodadaItem>
-            <TextRodada>
-              Este é um ambiente estratégico e a oportunidade ideal para quem busca ampliar sua rede de contatos e estabelecer parcerias comerciais capazes de impulsionar a circulação de produtos culturais, fomentar o desenvolvimento de propostas artísticas já em andamento e estimular soluções inovadoras para os setores de Teatro, Dança e Circo. Para tal, dividimos os interessados em participar do evento em duas categorias:.
-            </TextRodada>
+        <TextRodada>
+          Este é um ambiente estratégico e a oportunidade ideal para quem busca ampliar sua rede de contatos e estabelecer parcerias comerciais capazes de impulsionar a circulação de produtos culturais, fomentar o desenvolvimento de propostas artísticas já em andamento e estimular soluções inovadoras para os setores de Teatro, Dança e Circo. Para tal, dividimos os interessados em participar do evento em duas categorias:.
+        </TextRodada>
         <RodadaItem reverse>
           <RodadaTextWrapper>
             <TextRodada><br />
@@ -59,7 +63,7 @@ const RodadaBody = () => {
         </RodadaItem>
         <TextRodada>
 
-          <br/>Todo artista de Teatro, Dança ou Circo pode participar da Rodada de Negócios, mesmo aqueles que não integrarão a programação da 18ª edição do Niterói em Cena. Não há limitação territorial para a inscrição, no entanto, a Rodada de Negócios é presencial e não haverá possibilidade de participação online.
+          <br />Todo artista de Teatro, Dança ou Circo pode participar da Rodada de Negócios, mesmo aqueles que não integrarão a programação da 18ª edição do Niterói em Cena. Não há limitação territorial para a inscrição, no entanto, a Rodada de Negócios é presencial e não haverá possibilidade de participação online.
           A Rodada de Negócios foi pensada para ser um espaço eficiente e dinâmico, promovendo o encontro direto entre quem faz a arte e quem investe ou potencializa seu alcance no mercado cultural.
         </TextRodada>
         <CenteredContainer>

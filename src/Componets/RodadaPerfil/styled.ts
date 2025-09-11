@@ -51,8 +51,27 @@ export const RodadaImage = styled.img`
   @media (max-width: 768px) {
     width: 100%;  /* no mobile, imagem ocupa toda largura */
     margin-bottom: 16px;
+
   }
 `;
+export const RodadaImageP = styled.img`
+  width: 1024px; /* Largura fixa no desktop */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-top: 24px;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%; /* Agora sim, ocupa toda a largura no mobile */
+    margin-bottom: 16px;
+    height: 100%;
+  }
+`;
+export const DivImagem = styled.div`
+display: flex;
+justify-content: center;
+`
 
 
 
