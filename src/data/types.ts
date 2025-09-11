@@ -34,3 +34,9 @@ export const colorMap: Record<PieceType, string> = {
   Atividade: colors.cream,
   Encerramento: colors.cream
 };
+
+export type Presenca = {
+  nome: string,
+  img: string,
+  descricao: string,
+};
