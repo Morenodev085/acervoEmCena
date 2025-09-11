@@ -8,26 +8,26 @@ export const presencas: Presenca[] = [
     descricao:"Teatro Popular Oscar Niemeyer",
     img:Dardana,
 },
-{
-    nome: "",
-    descricao:"",
-    img: ,
-},
-{
-    nome: "Beatriz Brandão",
-    descricao:"Comitê de Cultura RJ (MinC)",
-    img: ,
-},
-{
-    nome: "Cynthia Margareth",
-    descricao:"",
-    img: ,
-},
+// {
+//     nome: "",
+//     descricao:"",
+//     img: ,
+// },
+// {
+//     nome: "Beatriz Brandão",
+//     descricao:"Comitê de Cultura RJ (MinC)",
+//     img: ,
+// },
+// {
+//     nome: "Cynthia Margareth",
+//     descricao:"",
+//     img: ,
+// },
 ]
 
 
-{
-    nome: "",
-    descricao:"",
-    img: ,
-},
+// {
+//     nome: "",
+//     descricao:"",
+//     img: ,
+// },
