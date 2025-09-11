@@ -66,6 +66,7 @@ import NaoAcabou from '../assets/estudantil/segundoDiaManha/Não acabou, fiz meu
 import OCozinheiro from '../assets/estudantil/segundoDiaManha/O cozinheiro e a professora..png'
 import Olhos from '../assets/estudantil/segundoDiaManha/Olhos que não veem, Máscaras que caem.png'
 //dia2 tarde
+import Ode from '../assets/estudantil/segundoDiaTarde/Ode ao burgues.jpeg'
 import Viva from '../assets/estudantil/segundoDiaTarde/Viva a Alegria de viver.jpg'
 import FibraOtica from '../assets/estudantil/segundoDiaTarde/Fibra Optica.jpg'
 import ACasa from '../assets/estudantil/segundoDiaTarde/A Casa de Bernarda Alba.jpeg'
@@ -2139,6 +2140,25 @@ Fabiana Barreira
 `,
   type: 'Estudantil',
   data: 16,
+  time: 14,
+  local: "Sala Nelson Pereira dos Santos",
+  showInList: false,
+},
+{
+  id: 110,
+  title: "Ode ao burguês ",
+  image: Ode,
+  companyName: "Arte na Avenida ",
+  description: `Cansado de ser invisibilizado pela sociedade, um andarilho em sofrimento psíquico ergue a voz em palavras cortantes e cruéis, ecoando os versos de Mário de Andrade como um desabafo engasgado. A cena é um desabafo, sem máscaras de humor, onde raiva e angústia se fundem na denúncia contra a burguesia. Um corpo, um poema e a urgência de ser visto e ouvido.
+
+Ficha Técnica: 
+
+Autor: Mário de Andrade 
+Direção: Nalu Trindade 
+Elenco: Anderson Oliveira 
+`,
+  type: 'Estudantil',
+  data: 17,
   time: 14,
   local: "Sala Nelson Pereira dos Santos",
   showInList: false,
