@@ -55,7 +55,7 @@ export const RodadaImage = styled.img`
   }
 `;
 export const RodadaImageP = styled.img`
-  width: 1024px; /* Largura fixa no desktop */
+  width: 764px; /* Largura fixa no desktop */
   height: auto;
   border-radius: 8px;
   object-fit: cover;

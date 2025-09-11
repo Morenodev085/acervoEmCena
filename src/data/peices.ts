@@ -37,6 +37,7 @@ import atividadec from '../assets/atividadefoto/OCorpoEAs.jpg'
 
 //Estudantil
 // dia 1
+import Confia from '../assets/estudantil/primeiroDia/Confia em Mim.jpg'
 import BandoDoFim from '../assets/estudantil/primeiroDia/Bando do Fim do Mundo.jpeg'
 import CalaBoca from '../assets/estudantil/primeiroDia/Calaboca.png'
 import EuJulieta from '../assets/estudantil/primeiroDia/Eu Julieta.jpeg'
@@ -50,6 +51,7 @@ import Territorios from '../assets/estudantil/primeiroDia/Territorios .jpg'
 import Abobrinha from '../assets/estudantil/primeiroDia/Abobrinha.jpg'
 import Bolas from '../assets/estudantil/primeiroDia/Bola de meia Bola de gude.jpg'
 //dia2
+import Ambulante from '../assets/estudantil/segundoDiaTarde/Ambulantes.jpg'
 import AEstacao from '../assets/estudantil/segundoDiaTarde/A Estação dos Contos e Encontros.jpg'
 import Energia from '../assets/estudantil/segundoDiaManha/energia.jpg'
 import libertacao from '../assets/estudantil/segundoDiaManha/Libertacao da alma.jpeg'
@@ -64,6 +66,7 @@ import NaoAcabou from '../assets/estudantil/segundoDiaManha/Não acabou, fiz meu
 import OCozinheiro from '../assets/estudantil/segundoDiaManha/O cozinheiro e a professora..png'
 import Olhos from '../assets/estudantil/segundoDiaManha/Olhos que não veem, Máscaras que caem.png'
 //dia2 tarde
+import Viva from '../assets/estudantil/segundoDiaTarde/Viva a Alegria de viver.jpg'
 import FibraOtica from '../assets/estudantil/segundoDiaTarde/Fibra Optica.jpg'
 import ACasa from '../assets/estudantil/segundoDiaTarde/A Casa de Bernarda Alba.jpeg'
 import Ariano from '../assets/estudantil/segundoDiaTarde/Ariano.jpeg'
@@ -79,6 +82,9 @@ import FimDasContas from '../assets/estudantil/segundoDiaTarde/E no fim das cont
 import Leopoldina from '../assets/estudantil/segundoDiaTarde/Olha Ela Leopoldina.png'
 import Ridiculos from '../assets/estudantil/segundoDiaTarde/Ridiculos.jpg'
 // dia3 manha
+import Radio from '../assets/estudantil/terceiroDiaManha/NiteroiRadioAtiva..jpg'
+import Debaixo from '../assets/estudantil/terceiroDiaManha/DEBAIXO DAGUA VOCÊ VIRA PEIXE.png'
+import Cora from '../assets/estudantil/terceiroDiaManha/Cora – A Menina.jpeg'
 import SaudadeSubs from '../assets/estudantil/terceiroDiaManha/SAUDADE SUBSTANTIVO FEMININO .png'
 import RecorteHarold from '../assets/estudantil/terceiroDiaManha/RECORTE DE HAROLD PINTER.jpg'
 import PalhacadaReversa from '../assets/estudantil/terceiroDiaManha/Palhaçada Reversa.jpeg'
@@ -743,8 +749,20 @@ Elenco:Bruno Pereira, Dani Abdalla, Fê Santos, Felipe Bitencourt, Filipe Caldei
     id: 48,
     title: "A vida de-lílios e eu",
     image: AVida,
-    companyName: "Preparação Corporal de atores do centro cultural Henrique Lage",
-    description: `Um personagem vive drama, não consegue escrever sobre a vida. Sua expressão revela que ele está há dias tentando fazer aquilo, acompanhado apenas de seu cigarro e seu café amargo. Até que um telefone toca e uma ligação inusitada pode mudar sua vida para sempre.`,
+    companyName: "Preparação Corporal de atores do centro cultural Henrique Lage1",
+    description: `Um personagem vive drama, não consegue escrever sobre a vida. Sua expressão revela que ele está há dias tentando fazer aquilo, acompanhado apenas de seu cigarro e seu café amargo. 
+    Até que um telefone toca e uma ligação inusitada pode mudar sua vida para sempre.
+    
+    Texto, atuação e cenografia: Marcos Alfa. 
+    Direção e direção de movimento: Soyane Vargas. 
+    Escola: Preparação corporal de atores do centro cultural Henrique Lage. 
+
+    incluir ficha técnica da cena Bola de meia, bola de gude, terça a tarde
+
+    Texto e atuação: Robson 
+    Direção: Marcos Alfa
+
+    `,
     type: 'Estudantil',
     data: 17,
     time: 11,
@@ -838,7 +856,28 @@ Elenco - Dária Clara - João Belena - Theo Rezende - Raris Ágatha - MMiranda -
     title: "Ridículos",
     image: Ridiculos,
     companyName: "C.E. Cel. Francisco Lima",
-    description: `E se vivêssemos em um mundo onde todos que gostem de ler e escrever fossem considerados "Ridículos ".`,
+    description: `E se vivêssemos em um mundo onde todos que gostem de ler e escrever fossem considerados "Ridículos ".
+    
+    Adaptação e Direção: Fernando Mattos 
+Iluminação: Kauã Shortão
+Elenco: 
+Bárbara Rodrigues 
+Beatriz Souza
+Brayan Fernandes
+ Brenda Fernandes
+ Caio Faria
+ Caio Victor
+ Cathy Furtado
+ Davi Gonçalves
+ Davi Lima
+ Diogo Vinicius
+ Emilly Gama
+  Emilly Martins
+ Giovanna Araújo
+ Kauã Cézar 
+ Manuela Serrado
+
+    `,
     type: 'Estudantil',
     data: 17,
     time: 14,
@@ -849,7 +888,7 @@ Elenco - Dária Clara - João Belena - Theo Rezende - Raris Ágatha - MMiranda -
     id: 55,
     title: "Burro Rochedo",
     image: BurroRochedo,
-    companyName: "Escola de Teatro Aderbal Freire Filho",
+    companyName: "Escola de Formação Teatral Aderbal Freire-Filho",
     description: `Nos anos 50, em Maricá, a coleta de lixo era feita em carroças puxada por burros. O folclórico Rochedo foi o mais popular, tendo, inclusive, sido expressivamente votado para vereador. Essa é sua história e suas manias.  Com Vê Barbosa e Delfino. `,
     type: 'Estudantil',
     data: 17,
@@ -932,13 +971,26 @@ Iluminação: Henrie Araújo`,
   {
     id: 60,
     title: "Cora – A menina que bordava as palavras",
-
+    image: Cora,
     companyName: "Colégio Estadual Desembargador Ferreira Pinto",
     description: `A peça retrata a emocionante trajetória de Cora Coralina, desde sua
 infância em Goiás até tornar-se uma das vozes mais autênticas da literatura brasileira.
 Entre colchas de retalhos e potes de doce, Ana — menina sensível e sonhadora —
 descobre sua paixão pelas palavras, enfrentando os limites impostos a uma mulher de
 seu tempo.
+
+Elenco: Ana Sophia
+Evelyn Cláudia
+Geovana Santos
+Giovanna Gomes
+Isabelle Wargas
+
+Ficha técnica:
+Dramaturgia: Andréa Ramos
+Direção: Andrea Ramos e Sofia Ramos
+Composição musical: Tiago Costa
+Fotografia e visagismo: Júlia Magalhães
+
 `,
     type: 'Estudantil',
     data: 18,
@@ -979,7 +1031,21 @@ ANA SANTOS, ANE LIRA, GAB MARTINS, LALÁ SILVA, LUQUINHAS TEIXEIRA, MANÚ CAMPOS
     title: "De todos os rostos da multidão, eu vi o seu",
     image: DetodosOs,
     companyName: "Oficina de teatro Niterói em Cena GDN",
-    description: `Na Cidade Esquecida todos passam e ninguém fica. A Rodoviária Sem Manutenção é o ponto de desencontro desses passageiros. Vez ou outra o acaso os coloca de frente com o passado e, dessa colisão, surgem memórias que podem ser verdadeiras ou não.`,
+    description: `Na Cidade Esquecida todos passam e ninguém fica. A Rodoviária Sem Manutenção é o ponto de desencontro desses passageiros.
+    Vez ou outra o acaso os coloca de frente com o passado e, dessa colisão, surgem memórias que podem ser verdadeiras ou não.
+    
+    Ficha Técnica:
+Idealização: Cia Móvel de Teatro
+Co-realização: Cia Móvel de Teatro, Grupo Diversidade Niterói (GDN) e Niterói em Cena.
+Direção: Daniel Leuback e Raphael Pompeu
+Elenco: André Castro; Éshiley Daphiny; Gabe;  João Belena; Jon Cruz; Jotah Paulino; Lohana Barbosa; Madu Terra; MMiranda; Nicole Rocha; Rosilda Nobre; Tatty Lopes e Whesley Diniz.
+Direção de movimento: Daniel Leuback e Raphael Pompeu
+Dramaturgia original: Helena Hamam
+Trilha sonora: Raphael Pompeu
+Iluminação: Daniel Leuback
+Figurino: Madu Terra e Cia Móvel de Teatro
+
+    `,
     type: 'Estudantil',
     data: 18,
     time: 11,
@@ -1068,13 +1134,11 @@ Direção: Rodrigo Lontra.
 
 Ficha Técnica:
 
-Elenco: Anna Luz, Geovana Rocha, Giovanna Meira, Júlia Beatriz, Sophia Gomes, Raphaely Rodrigues.
-
+Elenco: Anna Luz, Geovana Rocha, Giovanna Meira, Júlia Beatriz, Sophia Alves, Raphaely Rodrigues.
 Dramaturgia: Criação Coletiva.
-
 Direção: Bel Treze.
-
 Direção De Movimento E Preparação Corporal: Bel Treze.
+
 `,
     type: 'Estudantil',
     data: 18,
@@ -1121,7 +1185,8 @@ Elenco: Camila Mah
   {
     id: 72,
     title: "Debaixo D'água Você Vira Peixe",
-    companyName: "Oficina de Teatro Niterói em Cena - Barreto",
+    image: Debaixo,
+    companyName: "Vira Peixe",
     description: `Inspirada em um poema que retrata o mergulho simbólico como resistência ao trauma cotidiano. Em fragmentos de dor, cansaço e violência, corpos-pedra se revezam até o momento ritual de purificação. Como um batismo às avessas: não se entra na água para nascer, mas se retira dela o que impede de viver.
 
 Ficha Técnica:
@@ -1253,6 +1318,7 @@ Elenco:
   {
     id: 75,
     title: "Viva a Alegria de viver!",
+    image: Viva,
     companyName: "Teatro ao alcance de todos",
     description: `Gerinha, (interpretada por Hana Ramalho) quer se divertir e sair da solidão. Rodrigo, (interpretado por Fábio Brasil) é inconsequente, porém sortudo!. Paula, (interpretada por Anna Cláudia Campos) malha na academia. Os três vão à praia... O restante vocês assistirão no dia da apresentação.
 
@@ -1266,7 +1332,7 @@ Elenco: Hana Ramalho, Fabio Brasil, Anna Cláudia Campos
 Iluminação e som: Cicero Pestana, Dr Silvana &Cia
 `,
     type: 'Estudantil',
-    data: 18,
+    data: 17,
     time: 14,
     local: "Sala Nelson Pereira dos Santos",
     showInList: false,
@@ -1332,11 +1398,11 @@ Ficha técnica:
 Autor: Lucas Nunes 
 Direção: Carol Araujo
 Assistente de direção: Jorge Gomes
-Direção de movimento: Maria Carol Leguedê
 Figurino: Coletivo
 Produção: Curso de Teatro Carol Araujo
 Elenco: 
 Camilla Alcântara, Felipe Concepção , Guilherme Figueiredo , Juli Ribeiro, Mel Maia, Nathan Velasco 
+
 `,
     type: 'Estudantil',
     data: 18,
@@ -1520,7 +1586,8 @@ Iluminação: Robson Total
 Sonorização: Nilton Santos
 Direção De Movimento: Rafo Avelino
 Figurino: Ingrid Cristina
-Cenografia: Ane Heinen
+Cenografia: Lua Portugal
+
 `,
     type: 'Estudantil',
     data: 18,
@@ -1560,10 +1627,10 @@ Atualização: Arthur Pedrro
 Ficha técnica:
 
 Texto: Chris Montes
-Produção: Chris Montes / Simone Monita
+Produção: Chris Montes
 Direção: Chris Montes
-Operador de Áudio: Marco Alfa
-Operador de Som: Marco Alfa
+Operador de iluminação: Marco Alfa
+Operador de Som: Izak Aroka
 Trilha Musical: Antônio Dias
 
 Elenco:
@@ -1573,8 +1640,8 @@ Fernão Zobaran
 Simone Monita
 Leticia Jural
 Robin Kazeker
-Thiago Freitas
-Izak Aroka
+André Castro
+
 
 `,
     type: 'Estudantil',
@@ -1695,7 +1762,7 @@ Elenco: Foxy Montebello
     description: `Um grupo de amigos cansado de se esconderem através  do risos .. resolvem gritar. Aquilo que os assombram a anos! 
 
 
-Elenco: Christian Tranin, Gabriel Andrade, Izamara, duda Lopes, Regina Lopes, Emídio Soares, Fábio Antunes e Negrathay 
+Elenco: Christian Tranin, Gabriel Andrade, Izamara, duda Lopes, Regina Lopes, Emídio Soares, Fábio Antunes e Negrathay, Miguel Cabral Bezerra
 `,
     type: 'Estudantil',
     data: 17,
@@ -1753,13 +1820,25 @@ Músicos: Nicolas Alexandre ,Gustavo Duarte
     title: "Verdade Tardia",
     image: Verdades,
     companyName: "Espaço cultural Efraim",
-    description: `Uma noite comum se torna o palco de uma verdade que muda tudo. Thaisa prepara o
-jantar, Marcos chega agitado, carregando um peso maior que o dia de trabalho. O silêncio entre eles cresce até que explode: ele confessa ser gay.
+    description: `Marcos revela ser gay e a sala se torna campo de guerra. Vitória sente tudo ruir, mas encara a realidade de olhos abertos. Mesmo em pedaços, entende que não foi a culpada — e que jamais deveria ter carregado esse peso.
 
-Ficha técnica
-Autor: Fran Monteiro
-Direção: Fran Monteiro
-Elenco: Vitoria Lopes e Fernando West-Allen
+Incluir ficha técnica na cena Fibra Óptica, quarta a tarde:
+
+Dramaturgia:
+Bárbara Braga
+
+Direção:
+Jordan Cardoso
+
+Elenco:
+Bárbara Mota
+Clara Ribeiro
+Deborah Mota
+Françoise Torquatro
+Isabelli Guimarães
+Leide Carias
+Leticia Carias
+
 `,
     type: 'Estudantil',
     data: 17,
@@ -1895,11 +1974,13 @@ Beatriz Bacellar
 Bruna Severo
 Fernanda Medeiros
 Fernando Corteze
+Helena Milcent
 Lua Rodrigues
 Maria Fernanda Guerreiro
 Rafael Da Cunha
 
 Direção: Priscilla Borring
+
 `,
     type: 'Estudantil',
     data: 17,
@@ -1967,7 +2048,24 @@ Elenco: Adrielle Assis, Carla Linares, Felipe Sanches.
     title: "A Estação dos Contos e Encontros",
     image: AEstacao,
     companyName: "Oficina de Teatro Niterói em Cena - Santa Bárbara",
-    description: `Baseado nas histórias vividas pelo próprio elenco, os atores tentam viajar, mas descobrem que é quase impossível passar pela estação. Os contos contam situações inusitadas, cômicas, e até dramáticas ao tentarem viajar pegando ônibus, aviões, trens ou navios, vivendo situações no embarque, revelando que todo mundo tem alguma história para contar.`,
+    description: `Baseado nas histórias vividas pelo próprio elenco, os atores tentam viajar, mas descobrem que é quase impossível passar pela estação. Os contos contam situações inusitadas, cômicas, e até dramáticas ao tentarem viajar pegando ônibus, aviões, trens ou navios, vivendo situações no embarque, revelando que todo mundo tem alguma história para contar.
+    
+    Ficha Técnica:
+
+Criação: Coletiva
+Direção: Sylvio Moura
+Elenco:                                
+Claudia Senos               
+Elza Feliciano            
+Erinea Costa                 
+Gabriela Celestrino         
+Guaraciara Galdino De Souza         
+Natália da Silva Souza                 
+Sueli Bob Ferreira               
+Vera Lucia Moura Miranda        
+Marcia Cristina Fonseca   
+
+    `,
     type: 'Estudantil',
     data: 17,
     time: 14,
@@ -1987,6 +2085,64 @@ Elenco: Adrielle Assis, Carla Linares, Felipe Sanches.
     showInList: false,
     classif: "14 anos"
   },
+  {
+  id: 109,
+  title: "Niterói Rádio-Ativa",
+  image: Radio,
+  companyName: "Oficina de Teatro Niterói em cena Theatro Municipal de Niterói - Raul Vidal",
+  description: `Com inspiração no rádio teatro, o grupo leva à cena recortes do texto O Homem da Cabeça de Papelão do autor João do Rio, escritos na primeira metade do século XX. Contextualizando situações do passado com os dias atuais. 
+
+Direção: Jacqueline Lobo 
+Elenco: Cosme Muniz,  Fátima Mello  , Ismael Queiroz , Jacy Moreira , Jhonatan Torres, Jhonatas Amorim,  Marília Mendonça , Murilo Mattos, Priscila Camargo , Ray Arcanja, Rita de Cassia  do Espírito Santo , Roseli Santos ,  Sarah Lobo, Telma Barros,  Vinícius Oliveira,
+`,
+  type: 'Estudantil',
+  data: 18,
+  time: 11,
+  local: "Sala Nelson Pereira dos Santos",
+  showInList: false,
+},
+{
+  id: 109,
+  title: "Ambulantes",
+  image: Ambulante,
+  companyName: "Oficina de Teatro Niterói em Cena - Fonseca ",
+  description: `A cena aborda a dura realidade dos ambulantes no Brasil, com cenas impactantes inspiradas em casos reais. Música, poesia e narrativa dramatizam a violência institucional sofrida por trabalhadores nas ruas do Rio de Janeiro e Niterói.
+
+
+Direção: Notreve Monteiro
+Elenco: Alissandra, Myrela, Thereza e Tuka.
+`,
+  type: 'Estudantil',
+  data: 17,
+  time: 11,
+  local: "Sala Nelson Pereira dos Santos",
+  showInList: false,
+},
+{
+  id: 110,
+  title: "Confia em mim",
+  image: Confia,
+  companyName: "Oficina de Teatro Livre",
+  description: `Confia em mim, é um protesto contra o preconceito racial, religioso, lgbtquia, feminicídio...e principalmente as falsas promessas políticas que ouvimos todas as eleições...
+
+
+Elenco:
+
+
+Alessandria Mello (professora e diretora)
+
+
+Alessandria Mello 
+Jhonatan Torres 
+Myrinha Ximenes 
+Fabiana Barreira
+`,
+  type: 'Estudantil',
+  data: 16,
+  time: 14,
+  local: "Sala Nelson Pereira dos Santos",
+  showInList: false,
+},
 ]
 
 

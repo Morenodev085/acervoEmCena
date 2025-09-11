@@ -12,7 +12,9 @@ import {
   DivImagem,
 } from "./styled";
 
-import rodada1 from "../../assets/rodada.jpeg";
+
+import rodada3 from "../../assets/imagemTest.jpeg"
+// import rodada1 from "../../assets/rodada.jpeg";
 import rodada2 from "../../assets/atividadefoto/rodada2.jpg";
 import { Link } from "react-router-dom";
 
@@ -28,7 +30,7 @@ const RodadaBody = () => {
               A RODADA DE NEGÓCIOS do 18° Niterói em Cena - Festival Internacional de Teatro é um espaço exclusivo para conectar produtores, artistas, curadores de festivais, programadores de centros culturais, diretores de teatros e gestores culturais com o objetivo de fortalecer a circulação de projetos culturais de Artes Cênicas, estabelecer parcerias estratégicas e proporcionar novas oportunidades de trabalho.
             </TextRodada>
             <DivImagem >
-              <RodadaImageP src={rodada1} alt="Rodada 1" />
+              <RodadaImageP src={rodada3} alt="Rodada 1" />
             </DivImagem>
             <TextRodada>
               <br /><br />Durante o evento, os participantes terão a oportunidade de:
