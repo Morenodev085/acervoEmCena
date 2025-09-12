@@ -60,6 +60,7 @@ color: #000;
 font-weight: bold;
 font-size: 1.40rem;
 color: ${colors.cream};
+text-align: center;
 
 @media (max-width: 768px) {
     font-size: 1.25rem;

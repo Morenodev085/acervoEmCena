@@ -73,6 +73,27 @@ export const presencas: Presenca[] = [
     descricao:"Mostra ASLUCIANAS",
     // img: ,
 },
+{
+    nome: "Mariana Jaco",
+    descricao:"Circuito Carioca de Arte de Rua",
+    // img: ,
+},
+{
+    nome: "Leonardo Carnevale",
+    descricao:"CBTIJ/ASSITEJ Brasil",
+    // img: ,
+},
+{
+    nome: "Anila da Silveira",
+    descricao:`Festar Araruama 
+    Comitê de Cultura da região dos Lagos` ,
+    // img: ,
+},
+{
+    nome: "Luiza Elena Iulianello",
+    descricao:"MoviRio Festival",
+    // img: ,
+},
 ]
 
 
