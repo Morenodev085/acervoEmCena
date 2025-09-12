@@ -757,12 +757,6 @@ Elenco:Bruno Pereira, Dani Abdalla, Fê Santos, Felipe Bitencourt, Filipe Caldei
     Texto, atuação e cenografia: Marcos Alfa. 
     Direção e direção de movimento: Soyane Vargas. 
     Escola: Preparação corporal de atores do centro cultural Henrique Lage. 
-
-    incluir ficha técnica da cena Bola de meia, bola de gude, terça a tarde
-
-    Texto e atuação: Robson 
-    Direção: Marcos Alfa
-
     `,
     type: 'Estudantil',
     data: 17,
