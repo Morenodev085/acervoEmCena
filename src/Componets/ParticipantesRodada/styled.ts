@@ -13,10 +13,22 @@ margin-top: 24px;
   }
 
 `
+
+
+export const ListaCards = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+`;
+
 export const CardCorpo = styled.div`
 height: 320px;
 width: 220px;
-background-color: ${colors.cream};
+background-color: ${colors.black};
 border-radius: 4px;
 display: flex;
 flex-direction: column;
@@ -34,7 +46,7 @@ export const ImgRodadaCard = styled.img`
     height: 180px;
     width: 180px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 4px solid ${colors.cream};
   object-fit: cover;
   margin-top: 8px;
 
@@ -46,7 +58,9 @@ export const ImgRodadaCard = styled.img`
 export const NomeCardRodada = styled.h4`
 color: #000;
 font-weight: bold;
-font-size: 1.50rem;
+font-size: 1.40rem;
+color: ${colors.cream};
+
 @media (max-width: 768px) {
     font-size: 1.25rem;
 
@@ -54,9 +68,10 @@ font-size: 1.50rem;
 `
 
 export const DescricaoCardRodada = styled.p`
-color: ${colors.black};
+color: ${colors.grey};
 margin-top: 8px;
 font-size: 0.90rem;
+text-align: center;
 @media (max-width: 768px){
     font-size: 0.75rem;
 

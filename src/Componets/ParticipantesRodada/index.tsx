@@ -1,6 +1,6 @@
 import { ContainerSite } from "../../styled"
 import { presencas } from "../../data/presenca"
-import { CardCorpo, DescricaoCardRodada, ImgRodadaCard, NomeCardRodada, TitutloRodad } from "./styled"
+import { CardCorpo, DescricaoCardRodada, ImgRodadaCard, ListaCards, NomeCardRodada, TitutloRodad } from "./styled"
 
 
 export interface Presencas {
@@ -11,9 +11,9 @@ export interface Presencas {
 const ListaParte = () => {
     return (
         <ContainerSite>
-            <TitutloRodad>Demandantes confirmados:</TitutloRodad>
+            <TitutloRodad>Compradores confirmados:</TitutloRodad>
             <div>
-                <ul>
+                <ListaCards>
                     {presencas.map((pessoa, index) => (
                         <li key={index}>
                             <CardCorpo>
@@ -23,7 +23,7 @@ const ListaParte = () => {
                             </CardCorpo>
                         </li>
                     ))}
-                </ul>
+                </ListaCards>
             </div>
         </ContainerSite>
     )

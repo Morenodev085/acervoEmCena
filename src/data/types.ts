@@ -37,6 +37,6 @@ export const colorMap: Record<PieceType, string> = {
 
 export type Presenca = {
   nome: string,
-  img: string,
+  img?: string,
   descricao: string,
 };
