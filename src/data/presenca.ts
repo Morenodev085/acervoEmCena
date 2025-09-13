@@ -15,7 +15,7 @@ import Rodolfo from '../assets/perfil/Rodolfo Medeiros - FEESPE - Festival de Es
 import Luciana from '../assets/perfil/LUCIANA EZARANI - MOSTRA ASLUCIANAS.jpeg'
 import Mariana from '../assets/perfil/Marilda Ormy - Diretora do Theatro Municipal de Niterói jpg.jpg'
 import Anila from '../assets/perfil/Anala.jpeg'
-import Luiza from '../assets/perfil/Dardana.jpeg'
+// import Luiza from '../assets/perfil/Dardana.jpeg'
 // import  from '../assets/perfil/'
 
 
