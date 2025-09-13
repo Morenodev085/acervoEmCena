@@ -8,12 +8,10 @@ import {
   RodadaImage,
   FullWidthButton,
   CenteredContainer,
-  RodadaImageP,
-  DivImagem,
+
 } from "./styled";
 
 
-import rodada3 from "../../assets/imagemTest.jpeg"
 // import rodada1 from "../../assets/rodada.jpeg";
 import rodada2 from "../../assets/atividadefoto/rodada2.jpg";
 import { Link } from "react-router-dom";
