@@ -15,7 +15,11 @@ import Rodolfo from '../assets/perfil/Rodolfo Medeiros - FEESPE - Festival de Es
 import Luciana from '../assets/perfil/LUCIANA EZARANI - MOSTRA ASLUCIANAS.jpeg'
 import Mariana from '../assets/perfil/Marilda Ormy - Diretora do Theatro Municipal de Niterói jpg.jpg'
 import Anila from '../assets/perfil/Anala.jpeg'
-// import Luiza from '../assets/perfil/Dardana.jpeg'
+import Luiza from '../assets/perfil/luiza.jpeg'
+import Victor from '../assets/perfil/victor.jpeg'
+import Vini from '../assets/perfil/vini.jpeg'
+import Vinicus from '../assets/perfil/Vinicius.jpeg'
+// import  from '../assets/perfil/'
 // import  from '../assets/perfil/'
 
 
@@ -101,11 +105,27 @@ export const presencas: Presenca[] = [
     Comitê de Cultura da região dos Lagos` ,
     img: Anila,
 },
-// {
-//     nome: "Luiza Elena Iulianello",
-//     descricao:"MoviRio Festival",
-//     img: Luiza,
-// },
+{
+    nome: "Luiza Iulianello",
+    descricao:`MoviRio Festival  Festival de Dança do Rio de Janeiro.`,
+    img: Luiza,
+},
+{
+    nome: "Vinicius Daumas",
+    descricao:"Festival Internacional de Circo",
+    img: Vinicus ,
+},
+{
+    nome: "Victor Ciattei",
+    descricao:`FENDANIT
+FESTIVAL NACIONAL DE DANÇA DE NITERÓI`,
+    img: Victor ,
+},
+{
+    nome: "Vini Cristóvão",
+    descricao:"Tiradentes em Cena",
+    img: Vini ,
+},
 ]
 
 
