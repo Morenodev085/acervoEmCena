@@ -20,7 +20,7 @@ import Victor from '../assets/perfil/victor.jpeg'
 import Vini from '../assets/perfil/vini.jpeg'
 import Vinicus from '../assets/perfil/Vinicius.jpeg'
 import Patrick from '../assets/perfil/Patrick.jpg'
-import Tania from '../assets/perfil/Tânia Pires Abrão - FESTLIP.jpg'
+import Tania from '../assets/perfil/TaniaPires.jpeg'
 // import  from '../assets/perfil/'
 
 
