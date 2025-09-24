@@ -325,9 +325,9 @@ export const pieces: Piece[] = [
     data: 20,
     time: 20,
     local: "Theatro Municipal de Niterói",
-    city: "Niterói",
+    city: "São Gonçalo",
     uf: "RJ",
-    companyName: "Cia Pluma",
+    companyName: "Trupe Silva de teatro",
     classif: "14 anos"
   },
   {
@@ -390,7 +390,7 @@ export const pieces: Piece[] = [
     title: 'Entretempo',
     type: 'Curta',
     image: entre,
-    description: "om canções originais, a cena acompanha Beto e Elisa revivendo, entre memórias embaralhadas, um amor marcado pelo acaso e pelo tempo. A cena transita entre passado e presente para refletir sobre encontros, transformações e o que permanece na lembrança de uma história.",
+    description: "Com canções originais, a cena acompanha Beto e Elisa revivendo, entre memórias embaralhadas, um amor marcado pelo acaso e pelo tempo. A cena transita entre passado e presente para refletir sobre encontros, transformações e o que permanece na lembrança de uma história.",
     data: 21,
     time: 20,
     local: "Theatro Municipal de Niterói",

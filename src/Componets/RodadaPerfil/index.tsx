@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 const RodadaBody = () => {
   return (
     <ContainerSite>
-      <TituloRodada>Rodada de Negócio</TituloRodada>
+      <TituloRodada>Rodada de Negócios</TituloRodada>
 
       <ContainerRodada>
         <RodadaItem>

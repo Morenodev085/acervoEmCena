@@ -20,6 +20,7 @@ import Victor from '../assets/perfil/victor.jpeg'
 import Vini from '../assets/perfil/vini.jpeg'
 import Vinicus from '../assets/perfil/Vinicius.jpeg'
 import Patrick from '../assets/perfil/Patrick.jpg'
+import Tania from '../assets/perfil/Tânia Pires Abrão - FESTLIP.jpg'
 // import  from '../assets/perfil/'
 
 
@@ -85,8 +86,8 @@ export const presencas: Presenca[] = [
         img: Yonara,
     },
     {
-        nome: "Leandro Santana",
-        descricao: "Queimado Encena",
+        nome: "Leandro Santanna",
+        descricao: "Queimados Encena",
         img: LeonardoS,
     },
     {
@@ -132,6 +133,11 @@ FESTIVAL NACIONAL DE DANÇA DE NITERÓI`,
         descricao: "Tiradentes em Cena",
         img: Vini,
     },
+    {
+    nome: "Tânia Abrão",
+    descricao:"Festival Internacional das Artes da Língua Portuguesa - FESTLIP",
+    img: Tania,
+},
 ]
 
 
